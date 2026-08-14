@@ -1,0 +1,15 @@
+universe: 4424 schools (fixed by schools.csv)
+gpa_uc_den       1994-2025  cells=18429
+admnot: artifacts outside (0,5) blanked: 0
+gpa_uc_admnot    1994-2025  cells=3781
+gpa_ucsel_app    1994-2025  cells=29395
+gpa_ucsel_adm    1994-2025  cells=18254
+gpa_ucsel_den    1994-2025  cells=20005
+gpa_ucsel_enr    1994-2025  cells=8127
+gpa_ucsel_gap    1994-2025  cells=18957
+uc_gpa_range     1994-2025  cells=20016
+uc_apps_per_app  1994-2025  cells=28985
+--- checks ---
+admnot blend identity holds on 200 sampled cells (1e-9)
+UW denied < admitted in 100.0% of comparable cells (n=18444)
+range non-negative: OK
