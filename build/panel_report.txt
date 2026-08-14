@@ -1,0 +1,53 @@
+caaspp cross-check 2015: OK (2065 schools, max diff 0.000)
+caaspp cross-check 2016: OK (2102 schools, max diff 0.000)
+caaspp cross-check 2017: OK (2083 schools, max diff 0.005)
+caaspp cross-check 2018: OK (2104 schools, max diff 0.005)
+caaspp cross-check 2019: OK (2148 schools, max diff 0.005)
+caaspp cross-check 2021: OK (1319 schools, max diff 0.005)
+caaspp cross-check 2022: OK (2144 schools, max diff 0.005)
+caaspp cross-check 2023: OK (2193 schools, max diff 0.005)
+caaspp cross-check 2024: OK (1637 schools, max diff 0.005)
+caaspp cross-check 2025: OK (1648 schools, max diff 0.005)
+A-G years: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+act21 years: 1999-2020
+UC GPA: 32942 rows; cds-year cells with >1 CEEB merged: 87
+UC admit GPA: 31652 cells, 1994-2025
+UC enrollee GPA: 20918 cells, 1994-2025
+CSU GPA school-years: 4144; schools/yr: {2021: 783, 2022: 814, 2023: 848, 2024: 862, 2025: 837}
+CSU GPA 1yr: years [2021, 2022, 2023, 2024], cells 3307
+CSU placement: cells math 5179, years [2021, 2022, 2023, 2024, 2025]
+ELWR: 17781 cells, 1994-2025
+uc_ret1: 20020 cells, 1999-2024
+uc_grad4: 17267 cells, 1999-2021
+uc_grad6: 15493 cells, 1999-2019
+universe: 4424 schools
+gpa_csu      2021-2025  cells=   4144  per-year min/max = 783/862
+gpa_uc       1994-2025  cells=  32833  per-year min/max = 700/1366
+caaspp       2015-2025  cells=  19443  per-year min/max = 1319/2193
+caaspp_math  2015-2025  cells=  18996  per-year min/max = 1253/2138
+caaspp_ela   2015-2025  cells=  19339  per-year min/max = 1307/2180
+ag           2017-2025  cells=  19618  per-year min/max = 2142/2217
+star         2003-2013  cells=  23342  per-year min/max = 1886/2246
+star_math    2003-2013  cells=  20062  per-year min/max = 1476/1958
+cahsee       2002-2015  cells=  34676  per-year min/max = 2056/2656
+cahsee_math  2002-2015  cells=  34676  per-year min/max = 2056/2656
+ap           1999-2020  cells=  21637  per-year min/max = 657/1202
+ap3          1999-2020  cells=  21639  per-year min/max = 657/1202
+caaspp_l4    2015-2025  cells=  19443  per-year min/max = 1319/2193
+caaspp_dfs   2015-2025  cells=  19443  per-year min/max = 1319/2193
+sat1600      1999-2005  cells=   6025  per-year min/max = 824/915
+sat2400      2006-2016  cells=  12368  per-year min/max = 954/1254
+sat_bench    2017-2018  cells=   2579  per-year min/max = 1277/1302
+act_avg      1999-2013  cells=  12448  per-year min/max = 632/1141
+act21        1999-2020  cells=  19731  per-year min/max = 632/1141
+gpa_uc_adm   1994-2025  cells=  31652  per-year min/max = 681/1316
+gpa_uc_enr   1994-2025  cells=  20918  per-year min/max = 469/841
+gpa_csu1     2021-2024  cells=   3307  per-year min/max = 783/862
+csu_math_ready 2021-2025  cells=   5179  per-year min/max = 998/1064
+csu_wc_ready 2021-2025  cells=   5179  per-year min/max = 998/1064
+elwr         1994-2025  cells=  17781  per-year min/max = 219/773
+uc_ret1      1999-2024  cells=  20020  per-year min/max = 576/930
+uc_grad4     1999-2021  cells=  17267  per-year min/max = 576/899
+uc_grad6     1999-2019  cells=  15493  per-year min/max = 576/883
+total cells: 499238
+wrote panel.js: 3.46 MB
