@@ -1,6 +1,6 @@
 # California high schools: measures of academic proficiency, 1994-2025
 
-A school-level panel of **4,424 California public high schools** across **37 measures
+A school-level panel of **4,424 California public high schools** across **45 measures
 and 32 years**, assembled entirely from public records, plus an interactive visualizer.
 
 **The visualizer** (`index.html`) is a self-contained page - open it in any browser, no
@@ -17,13 +17,16 @@ spreadsheet.
 | file | what it is |
 |---|---|
 | `index.html` | the interactive visualizer (all data embedded; works offline) |
-| `data/panel_long.csv` | tidy long form - one row per school x year x measure (665,187 rows): `cds14, year, measure, value` |
-| `data/panel_wide.csv` | one row per school x year (65,569 rows), one column per measure |
-| `data/schools.csv` | school directory: `cds14`, display name, county, approximate students per grade |
+| `data/panel_long.csv` | tidy long form - one row per school x year x measure (810,764 rows): `cds14, year, measure, value` |
+| `data/panel_wide.csv` | one row per school x year (71,485 rows), one column per measure |
+| `data/schools.csv` | school directory: `cds14`, display name, county, approximate students per grade, charter flag |
 | `data/measures.csv` | the measure dictionary: label, unit, years covered, description, source - **read this first** |
 | `build/build_panel.py` | the script that built the original 28-measure panel (source files listed in its header) |
 | `build/extend_panel_uc_pools.py` | the script that added the nine UC applicant-pool measures (denied, non-enrolling, selective-campus pools, spread, applications per applicant) |
 | `build/splice_new_measures.py` | merges the nine new measures into the CSVs and the visualizer |
+| `build/extend_panel_school_context.py` | builds the eight school-context measures (student need, LCFF+, disadvantaged and English-learner shares, under-represented share, neighborhood income, charter, size) |
+| `build/splice_context_measures.py` | merges those into the CSVs and the visualizer |
+| `build/context_report.txt` | coverage and checks for the school-context measures |
 | `build/extend_report.txt` | coverage and checks for the nine added measures |
 | `build/panel_report.txt` | per-measure coverage and the cross-checks run at build time |
 
@@ -69,12 +72,21 @@ Diego) - and three derived readings: the admit-minus-denied GPA gap at those
 campuses, the full spread between a school's highest and lowest observed pool
 average, and the average number of campuses each applicant applied to.
 
+**School context.** What kind of school it is rather than how it did: the state's
+unduplicated pupil percentage (student need) and UC's LCFF+ designation, the
+socioeconomically-disadvantaged and English-learner shares of grade 11, the
+under-represented minority share of the student body, the median household income of
+the school's census tract, charter status, and school size. These are deliberately
+kept OFF the two axes of the visualizer - they can color the dots and a residual can
+be compared against them, but they are not achievement measures and putting them on
+an axis would invite reading them as one. In the CSVs they are ordinary columns.
+
 **College outcomes.** What happened to the school's graduates after they enrolled: CSU GPA
 one year in, math and writing readiness at CSU entry (the complement is the share needing
 supported instruction, formerly "remediation"), UC's Entry Level Writing Requirement,
 and UC retention and four/six-year graduation by entering class.
 
-## Reading the panel honestly - seven things to know
+## Reading the panel honestly - eight things to know
 
 1. **A missing value means the source published nothing** (small-cell suppression, a school
    not yet open or already closed, or a series that does not cover that year). Nothing is
@@ -102,6 +114,10 @@ and UC retention and four/six-year graduation by entering class.
    non-enrolling pool mixes students lured elsewhere with students UC placed at a
    campus they did not want. Pools under 10 students are hidden. Read these as
    descriptions of pools, not judgments of students.
+8. **Neighborhood is not student body.** `ctx_tract_inc` describes the census tract the
+   school building sits in. Magnets, commuters and attendance boundaries pull that apart
+   from who actually attends - sometimes drastically. The need measures (`ctx_upp`,
+   `ctx_sed`) are measured on the students; the tract measure is not.
 
 ## Sources
 
@@ -112,5 +128,8 @@ admissions-by-school and outcomes data (denied-pool and non-enrolling-pool avera
 derived by exact moment subtraction from the published figures); CSU freshman GPAs, first-year GPAs, and entry
 placement are from CSU's Student Origins dashboards and high-school dashboard. Schools are
 matched across the UC (CEEB) and state (CDS) identifier systems with a hand-verified
-crosswalk. `build/build_panel.py` documents the exact input files and every aggregation
+crosswalk. School context comes from the state's CUPC need collection, the enrollment counts
+published alongside CAASPP, the CDE enrollment-by-race files, the CDE public school
+directory, and American Community Survey tract estimates. Each build script documents
+the exact input files and every aggregation
 rule; `build/panel_report.txt` records coverage and the cross-checks run at build time.

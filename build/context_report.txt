@@ -1,0 +1,25 @@
+universe: 4424 schools
+ctx_upp          2017-2025  cells= 25232  per-year min/max 2598/2839
+LCFF+ flag disagrees with UPP >= 75 on 1 of 29122 school-years
+ctx_lcff         2017-2025  cells= 25232  per-year min/max 2598/2839
+ctx_sed          2016-2025  cells= 20047  per-year min/max 1862/2528
+ctx_el           2016-2025  cells= 20047  per-year min/max 1862/2528
+ctx_urg          2014-2025  cells= 29549  per-year min/max 2422/2497
+ctx_tract_inc    2015-2025  cells= 25470  per-year min/max 2516/2579
+ctx_charter      CONSTANT      schools=2957
+ctx_size         CONSTANT      schools=3694
+--- checks ---
+  UPP 2017: n=2598 median=69.8 mean=64.4
+  UPP 2021: n=2827 median=68.2 mean=64.0
+  UPP 2025: n=2821 median=75.1 mean=68.5
+  URG 2015: n=2438 median=65.0 mean=61.6
+  URG 2020: n=2492 median=66.7 mean=62.8
+  URG 2025: n=2460 median=69.5 mean=65.0
+  LCFF+ 2017: 43.4% of 2598 schools designated
+  LCFF+ 2025: 50.5% of 2821 schools designated
+  charter: 20.3% of 2957 schools
+  Berkeley High    URG2025=34.28 UPP2025=27.13 SED2025=25.8
+  Compton High     URG2025=98.56 UPP2025=85.79 SED2025=93.8
+  Lowell High      URG2025=19.56 UPP2025=43.76 SED2025=41.4
+  Mission High     URG2025=4.91 UPP2025=20.35 SED2025=18.8
+  Piedmont High    URG2025=12.28 UPP2025=4.09 SED2025=5.1
