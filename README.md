@@ -1,6 +1,6 @@
 # California high schools: measures of academic proficiency, 1994-2025
 
-A school-level panel of **4,424 California public high schools** across **45 measures
+A school-level panel of **4,424 California public high schools** across **54 measures
 and 32 years**, assembled entirely from public records, plus an interactive visualizer.
 
 **The visualizer** (`index.html`) is a self-contained page - open it in any browser, no
@@ -17,8 +17,8 @@ spreadsheet.
 | file | what it is |
 |---|---|
 | `index.html` | the interactive visualizer (all data embedded; works offline) |
-| `data/panel_long.csv` | tidy long form - one row per school x year x measure (810,764 rows): `cds14, year, measure, value` |
-| `data/panel_wide.csv` | one row per school x year (71,485 rows), one column per measure |
+| `data/panel_long.csv` | tidy long form - one row per school x year x measure (850,422 rows): `cds14, year, measure, value` |
+| `data/panel_wide.csv` | one row per school x year (71,866 rows), one column per measure |
 | `data/schools.csv` | school directory: `cds14`, display name, county, approximate students per grade, charter flag |
 | `data/measures.csv` | the measure dictionary: label, unit, years covered, description, source - **read this first** |
 | `build/build_panel.py` | the script that built the original 28-measure panel (source files listed in its header) |
@@ -27,6 +27,10 @@ spreadsheet.
 | `build/extend_panel_school_context.py` | builds the eight school-context measures (student need, LCFF+, disadvantaged and English-learner shares, under-represented share, neighborhood income, charter, size) |
 | `build/splice_context_measures.py` | merges those into the CSVs and the visualizer |
 | `build/context_report.txt` | coverage and checks for the school-context measures |
+| `build/extend_panel_csu_asd_nmsf.py` | builds the seven measures from CSU's archived 1995-2017 school reports and the two National Merit semifinalist measures; `schoolmatch.py` is its name-and-city school matcher |
+| `build/parse_nmsf.py` | turns NMSC's California semifinalist press-release PDFs into a school x year count table |
+| `build/splice_asd_nmsf_measures.py` | merges those nine measures into the CSVs and the visualizer (data, menus, footnote) |
+| `build/asd_nmsf_report.txt` | coverage, every non-exact school match, and the checks for those nine measures; `match_csu_asd.csv` and `match_nmsf.csv` list every school label and where it landed |
 | `build/extend_report.txt` | coverage and checks for the nine added measures |
 | `build/panel_report.txt` | per-measure coverage and the cross-checks run at build time |
 
@@ -64,7 +68,8 @@ Two families, spelled out fully in `data/measures.csv`:
 its predecessors STAR/CST (2003-13) and CAHSEE (2002-15); course-taking - A-G completion
 (2017-25); self-selected college-entrance tests - AP (1999-2020), SAT (1999-2016 in two
 non-comparable scale eras, benchmarks 2017-18), ACT (1999-2020); and average high-school
-GPAs of the school's UC applicant pools (1994-2025) and CSU entering freshmen (2021-25).
+GPAs of the school's UC applicant pools (1994-2025) and CSU entering freshmen (2021-25,
+and 1995-2000 from CSU's archived reports); and National Merit semifinalists (2016-22).
 The UC GPA family now covers seven pools - applicants, admits, denied applicants,
 admits who enrolled elsewhere, and enrollees systemwide, plus the applicant/admit/
 denied/enrollee pools at the three most selective campuses (Berkeley, UCLA, San
@@ -86,6 +91,25 @@ one year in, math and writing readiness at CSU entry (the complement is the shar
 supported instruction, formerly "remediation"), UC's Entry Level Writing Requirement,
 and UC retention and four/six-year graduation by entering class.
 
+**CSU's archived school reports, 1995-2017.** Before its current dashboards, CSU published
+a report for every California high school on asd.calstate.edu; the pages were recovered
+from the Internet Archive. They give, for the school's regularly admitted first-time
+freshmen: the count (`csu_asd_ftf`), average high-school GPA (`gpa_csu_asd`) and SAT
+(`sat_csu_asd`, 1600 scale), the share not needing remedial math or English at entry
+(`csu_math_ready_asd`, `csu_wc_ready_asd` - the ELM/EPT-era ancestors of the readiness
+measures), one-year continuation (`csu_ret1_asd`) and first-year CSU GPA (`gpa_csu1_asd`).
+Coverage is uneven: nearly every school for fall 1995-97, the placement measures through
+2001 and again in 2005, and only a few dozen schools in 2006-17. Schools are joined by
+CSU's school code (the first six digits of the CDS school code) with a name check, and by
+name and city where the code is not CDS-derived; see `build/asd_nmsf_report.txt`.
+
+**National Merit semifinalists** (`nmsf`, `nmsf_rate`), counted from NMSC's California
+press-release lists for the classes of 2016, 2018, 2020 and 2022 - the four lists on
+hand. A school with grade-11 CAASPP results that year and no listing is recorded as zero,
+so the zeros are real. The rate divides by the school's approximate students per grade.
+The class of 2022 took its PSAT in October 2020, when many public schools were closed.
+NMSC cautions that semifinalist counts honor students and do not measure schools.
+
 ## Reading the panel honestly - eight things to know
 
 1. **A missing value means the source published nothing** (small-cell suppression, a school
@@ -102,7 +126,9 @@ and UC retention and four/six-year graduation by entering class.
 5. **Known soft spots**: CAASPP participation in 2021 was far below normal; CAHSEE is a low
    bar and compresses differences among strong schools; `gpa_csu1` is built from cells the
    source rounds to one decimal; AP school-years with under 20 exams and CSU-readiness
-   school-years with under 10 enrollees are excluded as too noisy.
+   school-years with under 10 enrollees are excluded as too noisy. The archived CSU
+   measures (`*_asd`) hide pools under 10 students too, and their later years rest on a
+   few dozen schools; `nmsf` for the class of 2022 reflects a pandemic-year PSAT.
 6. **College outcomes are conditional on enrollment.** `uc_grad4` describes the school's
    students who enrolled at UC - a selected group whose size and composition differ by
    school and year.
@@ -126,7 +152,9 @@ from the California Department of Education; average GPAs of UC applicants, admi
 enrollees, ELWR rates, and retention/graduation by high school are from UC's
 admissions-by-school and outcomes data (denied-pool and non-enrolling-pool averages
 derived by exact moment subtraction from the published figures); CSU freshman GPAs, first-year GPAs, and entry
-placement are from CSU's Student Origins dashboards and high-school dashboard. Schools are
+placement are from CSU's Student Origins dashboards and high-school dashboard; the 1995-2017
+CSU figures are from CSU's Analytic Studies school reports as archived by the Internet
+Archive; National Merit semifinalist counts are from NMSC's press releases. Schools are
 matched across the UC (CEEB) and state (CDS) identifier systems with a hand-verified
 crosswalk. School context comes from the state's CUPC need collection, the enrollment counts
 published alongside CAASPP, the CDE enrollment-by-race files, the CDE public school

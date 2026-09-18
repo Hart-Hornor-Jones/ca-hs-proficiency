@@ -1,0 +1,1393 @@
+csu_code,csu_school,csu_city,n_years,ftf_sum,cds14,tier,matched_name,name_ratio
+013001,Amador Valley Adult (Pleasanton),Pleasanton,3,26.0,,no_candidates,,
+013005,Newark Memorial High School,Newark,6,267.0,01612340130054,code+name,Newark Memorial High,1.0
+013006,American High,Fremont,7,211.0,01611760130062,code+name,American High,1.0
+013009,Foothill High,Pleasanton,5,194.0,01751010130096,code+name,Foothill High (Alameda),1.0
+013017,Emiliano Zapata Street Academy,Oakland,1,6.0,01612590130179,code+name,Street Academy (Alter.),0.64
+013022,Alameda High,Alameda,8,351.0,01611190130229,code+name,Alameda High,1.0
+013045,Albany High,Albany,7,126.0,01611270130450,code+name,Albany High,1.0
+013057,LIFE Academy,,1,5.0,01612590130575,code+name,LIFE Academy,1.0
+013058,Amador High,Pleasanton,7,403.0,01751010130583,code+name,Amador Valley High,0.76
+013084,Arroyo High,San Lorenzo,7,232.0,01613090130849,code+name,Arroyo High (Alameda),1.0
+013117,Berkeley High,Berkeley,7,336.0,01611430131177,code+name,Berkeley High,1.0
+013209,Castlemont Senior High,Oakland,7,75.0,01612590132092,code+name,Castlemont Senior High,1.0
+013222,Castro Valley High,Castro Valley,7,343.0,01611500132225,code+name,Castro Valley High,1.0
+013270,Dublin High,Dublin,7,175.0,01750930132704,code+name,Dublin High,1.0
+013274,Emery High,Emeryville,1,5.0,01611680132746,code+name,Emery Secondary,0.48
+013287,Encinal High,Alameda,8,149.0,01611190132878,code+name,Encinal High,1.0
+013313,Fremont Senior High,Oakland,7,117.0,01612590133132,code+name,Fremont Senior High,1.0
+013339,Granada High,Livermore,8,262.0,01612000133397,code+name,Granada High (Alameda),1.0
+013362,Hayward High,Hayward,7,250.0,01611920133629,code+name,Hayward High,1.0
+013427,Irvington High,Fremont,6,218.0,01611760134270,code+name,Irvington High,1.0
+013445,John F. Kennedy High,Fremont,8,221.0,01611760134452,code+name,Kennedy (John F.) High (Alameda),0.77
+013452,Lincoln High,,1,5.0,01612910134528,code+name,Lincoln High (Continuation),1.0
+013453,Livermore High,Livermore,7,207.0,01612000134536,code+name,Livermore High,1.0
+013463,Logan-James Adult High,,1,7.0,,code_name_conflict(0.00 School 01612420134635),,
+013466,James Logan High,Union City,8,920.0,01612420134668,code+name,James Logan High,1.0
+013479,McClymonds Senior High,Oakland,2,23.0,01612590134791,code+name,McClymonds Senior High,1.0
+013524,Mission San Jose High,Fremont,6,351.0,01611760135244,code+name,Mission San Jose High,1.0
+013531,Mt. Eden High,Hayward,7,331.0,01611920135319,code+name,Mt. Eden High,1.0
+013541,Newark Adult High School,Newark,1,8.0,01612340135418,city_tokens,Newark Adult,
+013590,Oakland Senior High,Oakland,7,333.0,01612590135905,code+name,Oakland High,1.0
+013605,Oakland Technical Senior High,Oakland,6,133.0,01612590136051,code+name,Oakland Technical High,1.0
+013651,Piedmont Senior High,Piedmont,7,80.0,01612750136515,code+name,Piedmont High,1.0
+013758,San Leandro High,San Leandro,7,350.0,01612910137588,code+name,San Leandro High,1.0
+013781,San Lorenzo High,San Lorenzo,5,132.0,01613090137810,code+name,San Lorenzo High,1.0
+013794,Skyline High School,Oakland,8,396.0,01612590137943,code+name,Skyline High,1.0
+013833,Tennyson High,Hayward,8,202.0,01611920138339,code+name,Tennyson High,1.0
+013869,Washington High,Fremont,7,283.0,01611760138693,code+name,Washington High (Alameda),1.0
+014014,Maybeck High,,1,5.0,,no_city,,
+014024,Chinese Christian School,San Leandro,5,67.0,,private_hint,,
+014026,Fremont Christian Junior-Senior High,Fremont,5,48.0,,code_name_conflict(0.00 School 10739650140269),,
+014028,Arrowsmith Academy,,1,8.0,,no_city,,
+014037,Redwood Christian High School,Castro Valley,5,55.0,,private_hint,,
+014140,Bishop O'Dowd High-Cath.,Oakland,6,307.0,,private_hint,,
+014317,Valley Christian High,,3,22.0,,private_hint,,
+014414,Holy Names High,Oakland,5,72.0,,private_hint,,
+014528,Moreau High-Cath.,Hayward,7,544.0,,private_hint,,
+014550,Patten Academy,,2,13.0,,no_city,,
+014557,St. Joseph's Notre Dame High-Cath.,Alameda,8,230.0,,private_hint,,
+014700,St. Elizabeth High,Oakland,6,73.0,,private_hint,,
+014715,St. Joseph High,Alameda,6,44.0,,private_hint,,
+014735,St. Mary's Coll. High,Berkeley,6,129.0,,private_hint,,
+014744,Beacon High School,Oakland,1,5.0,,ambiguous(0.70 Fremont Senior High | Fremont High),,
+033075,Amador County High,Jackson,6,84.0,03739810330753,code+name,Amador High,0.76
+033475,Argonaut High,Jackson,5,65.0,03739810334755,code+name,Argonaut High,1.0
+043082,Biggs High,Biggs,6,42.0,04614080430827,code+name,Biggs High,1.0
+043167,Chico Senior High,Chico,5,286.0,04614240431676,code+name,Chico High,1.0
+043320,Durham High,Durham,7,76.0,04614320433201,code+name,Durham High,1.0
+043395,Gridley High,Gridley,7,75.0,04755070433953,code+name,Gridley High,1.0
+043480,Las Plumas High,Oroville,7,119.0,04615150434803,code+name,Las Plumas High,1.0
+043560,Oroville High,Oroville,7,126.0,04615150435602,code+name,Oroville High,1.0
+043735,Paradise Senior High,Paradise,7,220.0,04615310437350,code+name,Paradise Senior High,1.0
+043755,Pleasant Valley Senior High,Chico,7,418.0,04614240437558,code+name,Pleasant Valley High,1.0
+043756,Prospect High,Oroville,1,6.0,04615150437566,code+name,Prospect High (Continuation) (Butte),1.0
+044029,Champion Christian School,,2,19.0,,private_hint,,
+053150,Calaveras Junior-Senior High,San Andreas,7,100.0,05615640531509,code+name,Calaveras High,0.8
+053250,Bret Harte Union High,Altaville,8,146.0,05615560532507,code+name,Bret Harte Union High,1.0
+063125,Colusa High,Colusa,6,58.0,06615980631259,code+name,Colusa High,1.0
+063475,Maxwell High,Maxwell,2,14.0,06616060634758,code+name,Maxwell High,1.0
+063525,Pierce High,Arbuckle,8,71.0,06616140635250,code+name,Pierce High,1.0
+073004,North Gate High School,Walnut Creek,8,354.0,07617540730044,code+name,Northgate High,0.97
+073005,California High School,San Ramon,7,410.0,07618040730051,code+name,California High (Contra Costa),1.0
+073028,Acalanes High,Lafayette,7,198.0,07616300730283,code+name,Acalanes High,1.0
+073029,Middle College High School,,1,9.0,07617960730291,code+name,Middle College High (Contra Costa),1.0
+073032,Vista High,Richmond,1,7.0,07617960730325,code+name,Vista High (Alternative),1.0
+073045,Freedom High,,3,52.0,07617210730457,code+name,Freedom High (Contra Costa),1.0
+073046,Deer Valley High,,3,155.0,07616480730465,code+name,Deer Valley High,1.0
+073054,Alhambra Senior High,Martinez,6,136.0,07617390730549,code+name,Alhambra Senior High,1.0
+073059,Hercules High,,1,30.0,07617960730598,code+name,Hercules High,1.0
+073086,Antioch High,Antioch,7,233.0,07616480730861,code+name,Antioch High,1.0
+073112,Campolindo High,Moraga,7,175.0,07616300731125,code+name,Campolindo High,1.0
+073138,Clayton Valley High,Concord,8,311.0,07617540731380,code+name,Clayton Valley High,1.0
+073164,College Park High,Pleasant Hill,8,262.0,07617540731646,code+name,College Park High,1.0
+073183,Concord High,,7,146.0,07617540731836,code+name,Concord High,1.0
+073216,De Anza Senior High,Richmond,7,124.0,07617960732164,code+name,De Anza Senior High,1.0
+073294,El Cerrito Senior High,El Cerrito,7,216.0,07617960732941,code+name,El Cerrito Senior High,1.0
+073365,Kennedy High,Richmond,7,55.0,07617960733659,code+name,Kennedy High,1.0
+073372,Las Lomas High,Walnut Creek,7,230.0,07616300733725,code+name,Las Lomas High,1.0
+073398,Liberty High,Brentwood,7,200.0,07617210733980,code+name,Liberty High (Contra Costa),1.0
+073424,Miramonte High,Orinda,8,187.0,07616300734244,code+name,Miramonte High,1.0
+073436,Monte Vista High,Danville,8,499.0,07618040734368,code+name,Monte Vista High (Contra Costa),1.0
+073456,Mt. Diablo High,Concord,5,60.0,07617540734566,code+name,Mt. Diablo High,1.0
+073531,Pinole Valley High,Pinole,7,262.0,07617960735316,code+name,Pinole Valley High,1.0
+073540,Riverside High School,Pittsburg,7,91.0,,code_name_conflict(0.43 Pittsburg Senior High),,
+073547,Pittsburg Senior High Sch-South Campus,Pittsburg,3,21.0,,no_candidates,,
+073590,Richmond High,Richmond,8,85.0,07617960735902,code+name,Richmond High,1.0
+073650,San Ramon High,Danville,7,401.0,07618040736504,code+name,San Ramon Valley High,0.8
+073702,John Swett High,Crockett,6,52.0,07616970737023,code+name,John Swett High,1.0
+073780,Ygnacio Valley High,Concord,7,206.0,07617540737809,code+name,Ygnacio Valley High,1.0
+074034,Berean Christian High School,,3,16.0,,private_hint,,
+074094,Athenian High,Danville,3,16.0,,ambiguous(0.41 Monte Vista High (Contra Costa) | San Ramon Valley High),,
+074118,Carondelet High-Cath.,Concord,8,323.0,,private_hint,,
+074238,Delasalle High-Cath.,Concord,6,230.0,,private_hint,,
+074635,Salesian High,Richmond,7,135.0,,private_hint,,
+083300,Del Norte High,Crescent City,7,156.0,08618200833004,code+name,Del Norte High (Del Norte),1.0
+093002,South Lake Tahoe Continuation,South Lake Tahoe,3,22.0,,no_candidates,,
+093007,Golden Sierra High School,Garden Valey,8,97.0,,code_name_conflict(0.25 Gsjshs),,
+093008,Oak Ridge High,El Dorado Hills,7,326.0,09618530930081,code+name,Oak Ridge High,1.0
+093016,Union Mine High,,1,31.0,09618530930164,code+name,Union Mine High,1.0
+093275,El Dorado High,Placerville,7,176.0,09618530932756,code+name,El Dorado High (El Dorado),1.0
+093630,Ponderosa High,Shingle Springs,7,253.0,09618530936302,code+name,Ponderosa High,1.0
+093780,South Tahoe High,,8,138.0,09619030937805,code+name,South Tahoe High,1.0
+103012,Firebaugh High,Firebaugh,6,96.0,10738091030121,code+name,Firebaugh High,1.0
+103019,Clovis West High School,Fresno,7,766.0,10621171030196,code+name,Clovis West High,1.0
+103027,Bullard High,Fresno,7,529.0,10621661030279,code+name,Bullard High,1.0
+103029,Duncan Polytechnical High School,Fresno,6,158.0,10621661030295,code+name,Duncan (Erma) Polytechnical Hi,0.96
+103049,Mendota High,,7,62.0,10751271030493,code+name,Mendota High,1.0
+103050,Buchanan High School,Clovis,7,523.0,10621171030501,code+name,Buchanan High,1.0
+103053,Caruthers High,Caruthers,8,99.0,10620751030535,code+name,Caruthers High (Fresno) [1],1.0
+103062,Central High East Campus,,1,77.0,10739651030626,code+name,Central High East Campus,1.0
+103067,Sunnyside High,,1,73.0,10621661030675,code+name,Sunnyside High,1.0
+103068,Clovis East High,,1,92.0,10621171030683,code+name,Clovis East High,1.0
+103079,Central High,Fresno,7,245.0,10739651030790,code+name,Central High (Fresno),1.0
+103080,University High,,1,13.0,10752751030808,code+name,University High (Fresno) [2],1.0
+103105,Clovis High,Clovis,7,675.0,10621171031053,code+name,Clovis High,1.0
+103137,Coalinga High,Coalinga,6,68.0,10621251031376,code+name,Coalinga High,1.0
+103189,Edison High,Fresno,7,324.0,10621661031897,code+name,Edison High (Fresno),1.0
+103215,Fowler High,Fowler,8,131.0,10621581032150,code+name,Fowler High,1.0
+103250,Fresno High,Fresno,8,212.0,10621661032507,code+name,Fresno High,1.0
+103291,Herbert Hoover High,Fresno,8,423.0,10621661032911,code+name,Herbert Hoover High (Fresno),1.0
+103343,Kerman High,Kerman,7,177.0,10739991033430,code+name,Kerman High,1.0
+103369,Kingsburg High,Kingsburg,7,152.0,10622571033695,code+name,Kingsburg High,1.0
+103421,McLane High,Fresno,7,303.0,10621661034214,code+name,McLane High,1.0
+103499,Parlier High,Parlier,6,43.0,10623641034990,code+name,Parlier High,1.0
+103531,Reedley High,Reedley,7,146.0,10622651035310,code+name,Reedley High,1.0
+103557,Riverdale High,Riverdale,5,44.0,10754081035575,code+name,Riverdale High,1.0
+103583,Roosevelt High,Fresno,7,268.0,10621661035831,code+name,Roosevelt High,1.0
+103609,Sanger High,Sanger,7,272.0,10624141036094,code+name,Sanger High,1.0
+103667,Selma High,Selma,7,115.0,10624301036672,code+name,Selma High,1.0
+103693,Sierra High,Tollhouse,7,221.0,10752751036938,code+name,Sierra High (Fresno),1.0
+103745,Tranquillity High,Tranquillity,7,62.0,10752341037456,code+name,Tranquillity High,1.0
+103829,Washington Union Continuation High,,1,6.0,10625211038298,code+name,Easton Continuation High (Fresno) [1],0.79
+103830,Eashington High,Fresno,8,146.0,10625211038306,code+name,Washington High (Fresno) [1],0.93
+104028,Fresno Christian Education System,Fresno,7,82.0,,private_hint,,
+104270,Fresno Adven. Acad.-Sda,Fresno,1,5.0,,ambiguous(0.68 Fresno Academy for Civic | Fresno Prep Academy),,
+104317,Immanuel Acad.-Menn.,Reedley,5,38.0,,ambiguous(0.30 Reedley High | Mountain View (Alternative)),,
+104635,San Joaquin Memorial-Cath.,Fresno,7,249.0,,private_hint,,
+113285,Willows High,Willows,5,68.0,11626611132851,code+name,Willows High,1.0
+113370,Hamilton Union High,Hamilton City,7,64.0,11625881133701,code+name,Hamilton Union High,1.0
+113565,Orland High,Orland,7,112.0,11754811135656,code+name,Orland High,1.0
+123070,Arcata High,,6,234.0,12626871230705,code+name,Arcata High,1.0
+123220,Eureka Senior High,Eureka,7,233.0,12755151232206,code+name,Eureka Senior High,1.0
+123290,Ferndale High,Ferndale,8,56.0,12753741232909,code+name,Ferndale High,1.0
+123340,Fortuna High,Fortuna,8,185.0,12628101233402,code+name,Fortuna Union High,0.8
+123400,Hoopa Valley High,Hoopa,5,41.0,12629011234004,code+name,Hoopa Valley High,1.0
+123520,McKinleyville High,Mckinleyville,7,124.0,12626871235209,code+name,McKinleyville High,1.0
+123700,South Fork High,Miranda,7,50.0,12630401237007,code+name,South Fork Junior - Senior Hi,0.62
+124610,St. Bernard's High-Cath.,Eureka,6,57.0,,private_hint,,
+133013,Southwest High,,4,69.0,13631151330133,code+name,Southwest High,1.0
+133140,Brawley High,Brawley,7,135.0,13630811331404,code+name,Brawley High,1.0
+133220,Calexico High,Calexico,6,78.0,13630991332204,code+name,Calexico High,1.0
+133250,Calipatria High,Calipatria,3,17.0,13631071332501,code+name,Calipatria High,1.0
+133300,Central High,El Centro,8,124.0,13631151333004,code+name,Central Union High,0.8
+133530,Holtville High,,7,69.0,13631491335306,code+name,Holtville High,1.0
+133590,Imperial High,,1,9.0,13631641335900,code+name,Imperial High,1.0
+143160,Bishop High,,7,86.0,14632631431600,code+name,Bishop High,1.0
+153025,Arvin High,Arvin,7,204.0,15635291530252,code+name,Arvin High,1.0
+153034,Stockdale High,Bakersfield,7,420.0,15635291530344,code+name,Stockdale High,1.0
+153036,Centennial High Shool,Bakersfield,6,341.0,15635291530369,code+name,Centennial High (Kern),0.83
+153038,Ridgeview High School,Bakersfield,5,189.0,15635291530385,code+name,Ridgeview High,1.0
+153040,Frazier Mountain High,,2,22.0,15751681530401,code+name,Frazier Mountain High,1.0
+153047,Liberty High,,1,73.0,15635291530476,code+name,Liberty High (Kern),1.0
+153070,Bakersfield High,Bakersfield,7,305.0,15635291530708,code+name,Bakersfield High,1.0
+153099,Boron High,Boron,1,6.0,15636851530997,code+name,Boron Junior-Senior High,0.74
+153136,Burroughs High,Ridgecrest,7,76.0,15737421531367,code+name,Burroughs High (Kern),1.0
+153167,Delano High,Delano,8,251.0,15634121531672,code+name,Delano High,1.0
+153198,Desert High,,2,16.0,15636851531987,code+name,Desert Junior-Senior High,0.76
+153229,East Bakersfield High,Bakersfield,6,166.0,15635291532290,code+name,East Bakersfield High,1.0
+153260,Foothill High,Bakersfield,7,116.0,15635291532605,code+name,Foothill High (Kern),1.0
+153333,Highland High,Bakersfield,7,190.0,15635291533330,code+name,Highland High (Kern),1.0
+153353,Kern Valley High,Lake Isabella,7,54.0,15635291533538,code+name,Kern Valley High,1.0
+153415,McFarland High,,5,72.0,15739081534155,code+name,McFarland High,1.0
+153446,Mojave Junior-Senior High,Mojave,6,66.0,15636771534460,code+name,Mojave Jr./Sr. High (Kern) [2],0.84
+153477,North High,Bakersfield,6,101.0,15635291534775,code+name,North High (Kern),1.0
+153495,Rosamond High,,4,28.0,15637761534957,code+name,Rosamond High,1.0
+153508,Shafter High,Shafter,7,155.0,15635291535087,code+name,Shafter High,1.0
+153539,South High,Bakersfield,7,227.0,15635291535392,code+name,South High (Kern),1.0
+153590,Taft High,Taft,7,63.0,15638181535905,code+name,Taft Union High,0.75
+153613,Tehachapi High,Tehachapi,6,115.0,15638261536135,code+name,Tehachapi High,1.0
+153644,Wasco High,,7,214.0,15638591536440,code+name,Wasco High,1.0
+153660,West High,Bakersfield,8,327.0,15635291536606,code+name,West High (Kern),1.0
+154009,Bakersfield Christian Life,,1,5.0,,private_hint,,
+154105,Community Christian High,Bakersfield,2,14.0,,private_hint,,
+154322,Garces Memorial High,Bakersfield,7,205.0,,ambiguous(0.63 Centennial High (Kern) | Del Oro High (Kern)),,
+163095,Avenal High,Avenal,4,23.0,16739321630953,code+name,Avenal High,1.0
+163220,Corcoran High,Corcoran,5,56.0,16638911632207,code+name,Corcoran High,1.0
+163440,Hanford High \East',Hanford,5,131.0,16639251634401,code+name,Hanford High,0.83
+163443,Hanford High \West',,1,15.0,,no_city,,
+163560,Lemoore High,Lemoore,7,203.0,16639821635606,code+name,Lemoore High,1.0
+173230,Clear Lake High,Lakeport,7,65.0,17640301732304,code+name,Clear Lake High,1.0
+173435,Kelseyville High,Kelseyville,6,57.0,17640141734359,code+name,Kelseyville High,1.0
+173500,Lower Lake High,Lower Lake,3,20.0,17640221735000,code+name,Lower Lake High,1.0
+173600,Middletown High,,4,38.0,17640551736008,code+name,Middletown High,1.0
+173700,Upper Lake High,Upper Lake,4,25.0,17640711737006,code+name,Upper Lake High (Lake) [1],1.0
+183380,Lassen High,Susanville,3,25.0,18641391833805,code+name,Lassen High,1.0
+191073,Pacifica Christian High School,,2,14.0,,private_hint,,
+191078,Arroyo Pacific Academy,,1,5.0,,no_city,,
+191455,Westview,,1,7.0,,no_city,,
+191812,AGBU Vatche and Tamar Manoukian High School,,2,13.0,,no_city,,
+191922,Christian Chapel High School,,1,5.0,,private_hint,,
+193005,Cerritos High,Cerritos,10,756.0,19642121930056,code+name,Cerritos High,1.0
+193008,Agoura High,Agoura,9,399.0,19646831930080,code+name,Agoura High,1.0
+193015,George Miller Schurr High,Montebello,9,426.0,19648081930155,code+name,Schurr High,0.61
+193016,Alhambra High,Alhambra,8,759.0,19642381930163,code+name,Alhambra High (Los Angeles) [1],1.0
+193021,Antelope Valley High,Lancaster,8,116.0,19642461930213,code+name,Antelope Valley High,1.0
+193028,Arcadia Senior High,Arcadia,9,727.0,19642611930288,code+name,Arcadia High,1.0
+193032,Arroyo High,El Monte,10,460.0,19645191930320,code+name,Arroyo High (Los Angeles),1.0
+193036,Artesia High,Lakewood,9,218.0,19642121930361,code+name,Artesia High,1.0
+193037,Hawthorne Math & Science Academy High,,2,53.0,,no_city,,
+193041,Avalon Junior-Senior High,,5,37.0,19647251930411,code+name,Avalon (K-12),0.5
+193049,Monterey Continuation High,Los Angeles,2,14.0,19647331931989,city_fuzzy,Monterey Continuation,
+193052,Azusa High,Azusa,8,141.0,19642791930528,code+name,Azusa High,1.0
+193059,Lennox Academy,,2,77.0,,no_city,,
+193060,Baldwin Park High,Baldwin Park,8,257.0,19642871930601,code+name,Baldwin Park High,1.0
+193063,Banning Community Adult,,1,7.0,,no_city,,
+193065,Banning Senior High,Wilmington,9,391.0,19647331930650,code+name,Phineas Banning Senior High,0.75
+193066,High Tech High,,2,49.0,,no_city,,
+193070,Bassett Senior High,La Puente,9,186.0,19642951930700,code+name,Bassett Senior High,1.0
+193077,Bellflower High,Bellflower,9,249.0,19643031930775,code+name,Bellflower High,1.0
+193082,Bell Gardens High,Bell Gardens,10,423.0,19648081930825,code+name,Bell Gardens High,1.0
+193086,Bell Senior High,Bell,10,759.0,19647331930866,code+name,Bell Senior High,1.0
+193092,Belmont Senior High,Los Angeles,9,391.0,19647331930924,code+name,Belmont Senior High,1.0
+193098,Beverly Hills High,Beverly Hills,9,269.0,19643111930981,code+name,Beverly Hills High,1.0
+193104,Birmingham Senior High,Van Nuys,9,530.0,19647331931047,code+name,Birmingham Community Charter,0.56
+193106,Blair High,Pasadena,9,133.0,19648811931062,code+name,Blair High,1.0
+193108,Bonita High,Laverne,9,455.0,19643291931088,code+name,Bonita High,1.0
+193109,Ambassador School of Global Leadership,,2,16.0,19647330121095,county_unique,Ambassador School of Global Leadership,
+193118,Burbank Senior High,Burbank,9,426.0,19643371931187,code+name,Burbank High,1.0
+193123,Burroughs Senior High,Burbank,10,407.0,19643371931237,code+name,Burroughs High (Los Angeles),1.0
+193128,South High,,1,7.0,19650601938356,county_unique,South High,
+193130,California High,Whittier,9,386.0,19651281931302,code+name,California High (Los Angeles),1.0
+193147,Canoga Park Senior High,Canoga Park,9,304.0,19647331931476,code+name,Canoga Park Senior High,1.0
+193149,Canyon High,Canyon Country,10,370.0,19651361931492,code+name,Canyon High (Los Angeles),1.0
+193152,Carson Senior High,Carson,10,585.0,19647331931526,code+name,Carson Senior High,1.0
+193156,Centennial Senior High,Compton,8,141.0,19734371931567,code+name,Centennial High (Los Angeles),1.0
+193166,Charter Oak High,Charter Oak,10,471.0,19643781931666,code+name,Charter Oak High,1.0
+193167,Marshall Fundamental,Pasadena,9,221.0,19648811931674,code+name,Marshall Fundamental,1.0
+193170,Chatsworth Senior High,Chatsworth,9,476.0,19647331931708,code+name,Chatsworth Senior High,1.0
+193171,Valley Alternative Area K,,4,35.0,19647331931716,code+name,Valley Alternative Magnet,0.84
+193174,Saugus,Saugus,10,389.0,19651361931740,code+name,Saugus High,0.71
+193178,Calabasas High,Calabasas,9,387.0,19646831931781,code+name,Calabasas High,1.0
+193181,Renaissance Arts Academy,,2,27.0,19647330101683,county_unique,Renaissance Arts Academy,
+193182,Claremont High,Claremont,9,563.0,19643941931823,code+name,Claremont High,1.0
+193183,Oscar De La Hoya Animo Charter High,,2,72.0,19647330101675,county_unique,Oscar De La Hoya Animo Charter High,
+193186,Cleveland High,Reseda,10,647.0,19647331931864,code+name,Grover Cleveland High,0.8
+193188,Whitney (Gretchen) High,Cerritos,10,164.0,19642121931880,code+name,Whitney (Gretchen) High,1.0
+193196,Compton Senior High,Compton,9,244.0,19734371931963,code+name,Compton High,1.0
+193204,Quartz Hill High School,,3,26.0,19642461937051,county_unique,Quartz Hill High School,
+193205,San Gabriel High School,,2,15.0,19757131937697,county_active,San Gabriel High School,
+193208,Covina High,Covina,9,244.0,19644361932086,code+name,Covina High,1.0
+193212,Crenshaw Senior High,Los Angeles,9,358.0,19647331932128,code+name,Crenshaw Senior High,1.0
+193214,Crescenta Valley Senior High,La Crescenta,9,571.0,19645681932144,code+name,Crescenta Valley High,1.0
+193220,Culver City Senior High,Culver City,10,404.0,19644441932201,code+name,Culver City High,1.0
+193232,Dominguez Senior High,Compton,9,285.0,19734371932326,code+name,Dominguez High,1.0
+193235,Humanitas Academy of Art and Technology at Esteban E. Torres H.S. #4,,2,45.0,,no_city,,
+193238,Dorsey Senior High,Los Angeles,10,241.0,19647331932383,code+name,Susan Miller Dorsey Senior Hi,0.45
+193244,Downey Senior High,Downey,10,731.0,19644511932441,code+name,Downey High,1.0
+193245,Golden Valley High School,,2,118.0,19651360102459,county_unique,Golden Valley High School,
+193247,West Ranch High,,2,141.0,19651360102475,county_unique,West Ranch High,
+193248,Duarte High,Duarte,10,195.0,19644691932482,code+name,Duarte High,1.0
+193254,Eagle Rock Junior-Senior High,Los Angeles,9,532.0,19647331932540,code+name,Eagle Rock High,0.81
+193255,Frederick Douglass Academy High,,1,9.0,19647330112557,county_unique,Frederick Douglass Academy High,
+193258,Edgewood High,,2,44.0,19650940122432,county_unique,Edgewood High,
+193259,PUC Triumph Charter High,,2,29.0,19647330122598,county_unique,PUC Triumph Charter High,
+193260,Lakeview Charter High,,2,87.0,19647330122606,county_unique,Lakeview Charter High,
+193262,El Camino Real Senior High,Woodland Hills,9,762.0,19647331932623,code+name,El Camino Real Charter High,0.83
+193265,Center For Enriched Studies,Culver City,6,46.0,,code_name_conflict(0.36 Culver Park High),,
+193266,El Monte High,El Monte,9,357.0,19645191932664,code+name,El Monte High,1.0
+193268,Mountain View High,El Monte,9,171.0,19645191932680,code+name,Mountain View High (Los Angeles),1.0
+193270,El Rancho High,Pico Rivera,10,581.0,19645271932706,code+name,El Rancho High,1.0
+193271,California Virtual Academy @ Los Angeles,,2,13.0,19650940112706,county_unique,California Virtual Academy @ Los Angeles,
+193276,El Segundo Senior High,El Segundo,9,219.0,19645351932763,code+name,El Segundo High,1.0
+193284,Los Angeles Center Of Enriched Studies,Los Angeles,9,211.0,19647331932847,code+name,Los Angeles Center for Enrich,0.83
+193286,Diamond Bar High School,Diamond Bar,9,1081.0,19734601932862,code+name,Diamond Bar High,1.0
+193287,Los Angeles School of Global Studies,,2,24.0,,no_city,,
+193288,Downtown Business High,Los Angeles,10,284.0,19647331932888,code+name,Downtown Business High,1.0
+193291,Middle College High,,2,58.0,19647330102913,county_active,Middle College High,
+193292,Fairfax Senior High,Los Angeles,9,362.0,19647331932920,code+name,Fairfax Senior High,1.0
+193298,Francis Polytechnic Senior High,San Valley,8,638.0,19647331932987,code+name,John H. Francis Polytechnic,0.76
+193300,King-Drew Medical Magnet,Los Angeles,10,289.0,19647331933001,code+name,King/Drew Medical Magnet High,0.91
+193304,Franklin Senior High,Los Angeles,9,576.0,19647331933043,code+name,Benjamin Franklin Senior High,0.74
+193311,Fremont Senior High,Los Angeles,8,400.0,19647331933118,code+name,John C. Fremont Senior High,0.77
+193314,Alliance College-Ready Academy High No. 16,,2,49.0,,no_city,,
+193315,Richard Gahr High,Cerritos,8,354.0,19642121933159,code+name,Gahr (Richard) High,0.69
+193317,Ganesha Senior High,Pomona,8,193.0,19649071933175,code+name,Ganesha High,1.0
+193324,Gardena Senior High,Gardena,9,322.0,19647331933241,code+name,Gardena Senior High,1.0
+193332,Garey Senior High,Pomona,9,240.0,19649071933324,code+name,Garey Senior High,1.0
+193338,Garfield Senior High,Los Angeles,9,596.0,19647331933381,code+name,James A. Garfield Senior High,0.76
+193339,Los Angeles County H.S. For The Arts,Los Angeles,8,76.0,19101991933399,code+name,L.A. Co. High School/Arts,0.73
+193344,Gladstone High,Covina,8,106.0,19642791933449,code+name,Gladstone High,1.0
+193353,Glendale Senior High,Glendale,10,422.0,19645681933530,code+name,Glendale High,1.0
+193359,Glendora High,Glendora,9,462.0,19645761933597,code+name,Glendora High,1.0
+193364,John H. Glenn High,Norwalk,8,191.0,19648401933647,code+name,Glenn (John H.) High,0.74
+193374,Granada Hills High,Granada Hills,9,1211.0,19647331933746,code+name,Granada Hills Charter High,0.82
+193379,Grant Senior High,Van Nuys,8,398.0,19647331933795,code+name,Ulysses S. Grant Senior High,0.67
+193385,Hamilton Senior High,Los Angeles,8,523.0,19647331933852,code+name,Alexander Hamilton Senior Hig,0.57
+193390,Hart (William S.) Senior High,Newhall,9,459.0,19651361933902,code+name,Hart (William S.) Senior High,1.0
+193395,Hawthorne High,Hawthorne,8,225.0,19643521933951,code+name,Hawthorne High,1.0
+193403,Hollywood Senior High,Los Angeles,9,412.0,19647331934033,code+name,Hollywood Senior High,1.0
+193408,Hoover Senior High,Glendale,9,435.0,19645681934082,code+name,Herbert Hoover High (Los Angeles),0.73
+193415,Huntington Park Senior High,Huntington Park,9,568.0,19647331934157,code+name,Huntington Park Senior High,1.0
+193423,Inglewood High,Inglewood,7,214.0,19646341934231,code+name,Inglewood High,1.0
+193426,Gorman Middle,,1,11.0,,no_city,,
+193436,Valley Academy of Arts and Sciences,,2,141.0,19647330124362,county_unique,Valley Academy of Arts and Sciences,
+193437,Jefferson Senior High,Los Angeles,9,306.0,19647331934371,code+name,Thomas Jefferson Senior High,0.8
+193439,Opportunities For Learning - Baldwin Park II Chart,,2,57.0,,no_city,,
+193441,Los Angeles River at Sonia Sotomayor Learning Academies,,2,32.0,,no_city,,
+193445,Jordan Senior High,Los Angeles,9,194.0,19647331934454,code+name,David Starr Jordan Senior Hig,0.5
+193447,Jordan Senior High,Long Beach,8,476.0,19647251934470,code+name,Jordan High,1.0
+193448,Public Service Community at South Region High No. 2A,,2,45.0,,no_city,,
+193449,Communication and Technology at Diego Rivera Learning Complex,,1,5.0,19647330124495,county_unique,Communication and Technology at Diego Rivera Learning Complex,
+193455,Mark Keppel High,Alhambra,9,716.0,19642381934553,code+name,Mark Keppel High (Los Angeles) [1],1.0
+193456,Synergy Quantum Academy,,2,64.0,19647330124560,county_unique,Synergy Quantum Academy,
+193461,La Canada High,La Canada,8,203.0,19646591934611,code+name,La Canada High,1.0
+193467,Lakewood Senior High,Lakewood,9,716.0,19647251934678,code+name,Lakewood High,1.0
+193472,La Mirada High,La Mirada,9,394.0,19648401934728,code+name,La Mirada High,1.0
+193480,La Puente High,La Puente,10,291.0,19734451934801,code+name,La Puente High,1.0
+193482,Augustus Hawkins Critical Design and Gaming School,,1,23.0,,school_only_no_exact,,
+193485,West Adams Preparatory High,Los Angeles,2,62.0,19647330114850,exact,West Adams Preparatory High,
+193486,La Serna High,Whittier,9,542.0,19651281934868,code+name,La Serna High,1.0
+193488,Animo College Preparatory Academy,,2,26.0,19647330124883,county_unique,Animo College Preparatory Academy,
+193490,Augustus F. Hawkins Community Health Adv.,,2,23.0,,no_city,,
+193492,Lawndale High,,4,183.0,19643521934926,code+name,Lawndale High,1.0
+193504,Leuzinger High,Lawndale,9,273.0,19643521935048,code+name,Leuzinger High,1.0
+193508,A. F. Hawkins Responsible Indigenous Social Ent.,,2,23.0,,no_city,,
+193512,Lincoln Senior High,Los Angeles,8,534.0,19647331935121,code+name,Abraham Lincoln Senior High,0.75
+193515,Locke Senior High,Los Angeles,7,129.0,19647331935154,code+name,Alain Leroy Locke High,0.62
+193518,Long Beach Evening High,Long Beach,2,14.0,19647251935188,code+name,Long Beach Adult,0.56
+193521,Magnolia Science Academy 2,,2,19.0,,ambiguous(same name x2),,
+193524,Los Altos High,Hacienda Heights,8,349.0,19734451935246,code+name,Los Altos High (Los Angeles),1.0
+193533,Los Angeles Cty School For Arts -Obsolete Cod,Los Angeles,3,21.0,,ambiguous(0.68 Los Angeles Academy of Arts and Enterprise | Los Angeles High School of the Arts),,
+193535,Los Angeles Senior High,Los Angeles,9,482.0,19647331935352,code+name,Los Angeles Senior High,1.0
+193540,Legacy Math/Sci/Tech/Arts High,,1,38.0,,no_city,,
+193543,Lynwood Senior High,Lynwood,8,442.0,19647741935436,code+name,Lynwood High,1.0
+193544,Francisco Bravo Medical Magnet High,Los Angeles,5,218.0,19647331995448,exact,Francisco Bravo Medical Magnet High,
+193551,Manual Arts Senior High,Los Angeles,9,304.0,19647331935519,code+name,Manual Arts Senior High,1.0
+193556,Marshall Senior High,Los Angeles,10,805.0,19647331935568,code+name,John Marshall Senior High,0.84
+193561,Mayfair High,Lakewood,9,348.0,19643031935618,code+name,Mayfair High,1.0
+193566,South El Monte High,South El Monte,7,187.0,19645191995661,exact,South El Monte High,
+193575,Millikan Senior High,Long Beach,9,947.0,19647251935758,code+name,Millikan High,1.0
+193580,Mira Costa High,Manhattan Beach,9,397.0,19753331935808,code+name,Mira Costa High,1.0
+193582,Alliance Cindy and Bill Simon Technology Academy H.S.,,2,97.0,19647330121285,county_unique,Alliance Cindy and Bill Simon Technology Academy H.S.,
+193585,USC Hybrid High,,1,31.0,19647330125864,county_unique,USC Hybrid High,
+193586,James Monroe High,North Hills,8,470.0,19647331935865,code+name,James Monroe High,1.0
+193589,Canyon High,Monrovia,1,6.0,19647901935899,code+name,Canyon Oaks High,0.81
+193592,Monrovia High,Monrovia,7,258.0,19647901935923,code+name,Monrovia High,1.0
+193593,Cabrillo High,,4,183.0,19647251995935,county_unique,Cabrillo High,
+193596,Leadership in Entertainment and Media Arts (LEMA),,1,8.0,19647330125963,county_unique,Leadership in Entertainment and Media Arts (LEMA),
+193599,Montebello High,Montebello,8,356.0,19648081935998,code+name,Montebello High,1.0
+193604,Morningside High School,Inglewood,9,171.0,19646341936046,code+name,Morningside High,1.0
+193610,Muir High,Pasadena,8,191.0,19648811936103,code+name,John Muir High,0.78
+193613,Clark (Anderson W.) Magnet High,,3,135.0,19645681996131,county_unique,Clark (Anderson W.) Magnet High,
+193616,Narbonne Senior High,Harbor City,9,328.0,19647331936160,code+name,Nathaniel Narbonne Senior Hig,0.57
+193618,Academy of Science and Engineering,,1,14.0,19647330126185,county_unique,Academy of Science and Engineering,
+193622,Nogales High,La Puente,9,478.0,19734521936228,code+name,Nogales High,1.0
+193627,North High,Torrance,9,401.0,19650601936277,code+name,North High (Los Angeles),1.0
+193632,Ivy Academia,,2,14.0,19647330106351,county_unique,Ivy Academia,
+193635,North Hollywood Senior High,North Hollywood,8,677.0,19647331936350,code+name,North Hollywood Senior High,1.0
+193641,Northview High,Covina,9,240.0,19644361936418,code+name,Northview High,1.0
+193643,Camino Nuevo High School Charter,,3,29.0,,no_city,,
+193646,Norwalk High,Norwalk,9,272.0,19648401936467,code+name,Norwalk High,1.0
+193647,El Camino High,La Mirada,1,0.0,19648401936475,code+name,"El Camino High, Cont.",0.68
+193650,Media Arts and Entertainment High,,2,46.0,,no_city,,
+193656,Palisades Senior High - CLOSED,Pacific Palisades,5,105.0,,ambiguous(0.65 Palisades Charter High | -),,
+193657,Academy for Multilingual Arts / Dymally HS,,1,13.0,,no_city,,
+193661,Academies of Education and Empowerment at Carson High,,2,30.0,19647330126615,county_unique,Academies of Education and Empowerment at Carson High,
+193662,Palmdale High,Palmdale,8,271.0,19642461936624,code+name,Palmdale High,1.0
+193668,Palos Verdes High,Palos Verdes Ests,8,216.0,19648651936681,code+name,Palos Verdes High (Los Angeles) [1],1.0
+193669,"School of Arts and Enterprise,The",,2,27.0,19649071996693,county_unique,"School of Arts and Enterprise,The",
+193674,Paramount High,Paramount,9,556.0,19648731936749,code+name,Paramount High,1.0
+193682,Pasadena High,Pasadena,8,353.0,19648811936822,code+name,Pasadena High,1.0
+193684,Animo Pat Brown,,2,82.0,19647330106849,county_unique,Animo Pat Brown,
+193686,Gertz-Ressler Academy High,,2,74.0,,no_city,,
+193688,Pioneer High,Whittier,8,236.0,19651281936889,code+name,Pioneer High (Los Angeles),1.0
+193694,Polytechnic Senior High,Long Beach,9,1245.0,19647251936947,code+name,Polytechnic High (Los Angeles),1.0
+193699,Orthopaedic Hospital High School,,2,80.0,,no_city,,
+193701,International Studies Learning Community,,2,39.0,,no_city,,
+193702,Pomona Senior High,Pomona,9,235.0,19649071937028,code+name,Pomona Senior High,1.0
+193705,Quartz Hill High,Quartz,8,264.0,19642461937051,code+name,Quartz Hill High,1.0
+193714,Redondo High,Redondo Beach,7,324.0,19753411937143,code+name,Redondo Union High,0.8
+193722,Reseda Senior High,Reseda,9,446.0,19647331937226,code+name,Reseda Senior High,1.0
+193734,Rolling Hills High,Rolling Hills Ests,1,6.0,,ambiguous(0.49 Rancho del Mar High (Continuation) | -),,
+193742,Roosevelt Senior High,Los Angeles,8,548.0,19647331937424,code+name,School of CNMT at Roosevelt,0.64
+193748,Rosemead High,Rosemead,8,411.0,19645191937481,code+name,Rosemead High,1.0
+193756,John A. Rowland High,Rowland Heights,8,577.0,19734521937564,code+name,Rowland (John A.) High,0.77
+193762,San Fernando Senior High,San Fernando,7,502.0,19647331937622,code+name,San Fernando Senior High,1.0
+193769,San Gabriel High,San Gabriel,9,735.0,19642381937697,code+name,San Gabriel High (Los Angeles) [1],1.0
+193773,San Dimas High,San Dimas,7,267.0,19643291937739,code+name,San Dimas High,1.0
+193775,San Marino High,San Marino,9,153.0,19649641937754,code+name,San Marino High,1.0
+193776,School for the Visual Arts and Humanities,,2,37.0,19647330117762,county_unique,School for the Visual Arts and Humanities,
+193778,Humanities and Arts (HARTS) Academy of Los Angeles,,1,5.0,19647330127787,county_unique,Humanities and Arts (HARTS) Academy of Los Angeles,
+193783,San Pedro Senior High,San Pedro,9,398.0,19647331937838,code+name,San Pedro Senior High,1.0
+193790,Santa Fe High,Santa Fe Springs,8,434.0,19651281937903,code+name,Santa Fe High,1.0
+193791,Camino Nuevo High No. 2,,2,76.0,,no_city,,
+193800,Santa Monica High,Santa Monica,9,469.0,19649801938000,code+name,Santa Monica High,1.0
+193804,Academic Leadership Community,,2,35.0,19647330117721,county_unique,Academic Leadership Community,
+193809,Sherman Oaks Center Enriched Studies,Reseda,9,206.0,19647331933233,exact,Sherman Oaks Center Enriched Studies,
+193816,Sierra Vista High,Baldwin Park,8,316.0,19642871938166,code+name,Sierra Vista High (Los Angeles),1.0
+193830,South Gate Senior High,South Gate,8,677.0,19647331938307,code+name,South Gate Senior High,1.0
+193835,South High,Torrance,8,329.0,19650601938356,code+name,South High (Los Angeles),1.0
+193837,South Hills High,West Covina,8,372.0,19644361938372,code+name,South Hills High,1.0
+193840,Eastside High,,2,98.0,,ambiguous(same name x2),,
+193845,South Pasadena Senior High,South Pasadena,8,245.0,19650291938455,code+name,South Pasadena Senior High,1.0
+193855,Sylmar Senior High,Sylmar,9,457.0,19647331938554,code+name,Sylmar Senior High,1.0
+193858,Animo Locke Charter High School #1,,2,74.0,,no_city,,
+193861,Taft Senior High,Woodland Hills,10,573.0,19647331938612,code+name,William Howard Taft Senior Hi,0.37
+193867,Temple City High,Temple City,10,420.0,19650521938679,code+name,Temple City High,1.0
+193875,Torrance High,Torrance,9,531.0,19650601938752,code+name,Torrance High,1.0
+193887,Charter High School of Arts-Multimedia & Performing,,2,71.0,,no_city,,
+193888,University Senior High,Los Angeles,7,294.0,19647331938885,code+name,University Senior High,1.0
+193889,Heritage College-Ready High,,2,74.0,,no_city,,
+193896,Van Nuys Senior High,Van Nuys,10,709.0,19647331938968,code+name,Van Nuys Senior High,1.0
+193901,Diamond Ranch High,,3,269.0,19649071995901,county_unique,Diamond Ranch High,
+193904,Venice Senior High,Los Angeles,7,300.0,19647331939040,code+name,Venice Senior High,1.0
+193910,Verdugo Hills Senior High,Tujunga,8,259.0,19647331939107,code+name,Verdugo Hills Senior High,1.0
+193914,Walnut High,Walnut,8,711.0,19734601939149,code+name,Walnut High,1.0
+193916,Warren Senior High,Downey,8,701.0,19644511939164,code+name,Warren High,1.0
+193930,Washington Senior High,Los Angeles,9,365.0,19647331939305,code+name,George Washington Preparatory,0.5
+193944,Santee Educational Complex,,2,80.0,,no_city,,
+193946,Maywood Academy High,,2,80.0,19647330109462,county_unique,Maywood Academy High,
+193947,Westchester High,Los Angeles,7,276.0,,code_name_conflict(0.42 WESM Health/Sports Medicine),,
+193953,West Covina High,West Covina,9,483.0,19650941939537,code+name,West Covina High,1.0
+193960,West High,Torrance,9,397.0,19650601939602,code+name,West High (Los Angeles),1.0
+193963,Da Vinci Design,,2,29.0,19768690119636,county_active,Da Vinci Design,
+193965,Sun Valley High,,2,31.0,19647330119651,county_unique,Sun Valley High,
+193968,New Open World Academy,,2,22.0,19647330119685,county_unique,New Open World Academy,
+193969,UCLA Community,,2,49.0,19647330119693,county_unique,UCLA Community,
+193970,Whittier High,Whittier,8,301.0,19651281939701,code+name,Whittier High,1.0
+193971,Vaughn Next Century Learning Center,,2,73.0,19647336019715,county_unique,Vaughn Next Century Learning Center,
+193983,Glen A. Wilson High,Hacienda Heights,8,395.0,19734451939834,code+name,Glen A. Wilson High,1.0
+193985,Wilson Senior High,Los Angeles,9,497.0,19647331939859,code+name,Woodrow Wilson Senior High,0.73
+193987,Wilson Senior High,Long Beach,8,784.0,19647251939875,code+name,Wilson High,1.0
+193989,Alliance Renee and Meyer Luskin Academy HIgh,,2,40.0,19647330124891,county_unique,Alliance Renee and Meyer Luskin Academy HIgh,
+193992,William Workman High,City Of Industry,8,136.0,19734451939925,code+name,Workman (William) High,0.75
+193994,John F. Kennedy Senior High,Granada Hills,8,316.0,19647331939941,code+name,John F. Kennedy High (Los Angeles),1.0
+193996,S.E.A. Independent Study Program,,2,37.0,,no_city,,
+194003,Highland Hall,Northridge,6,51.0,,ambiguous(0.32 Kirk Douglas | Northridge Academy High),,
+194005,Alemany High School,Mission Hills,8,288.0,,no_candidates,,
+194008,Alverno High,,7,73.0,,no_city,,
+194014,Lutheran High School,La Verne,6,49.0,,private_hint,,
+194042,Bellarmine-Jefferson High-Cath.,Burbank,8,116.0,,private_hint,,
+194053,Bishop Alemany High-Cath.,Mission Hills,5,280.0,,private_hint,,
+194058,Bishop Amat Memorial High-Cath.,La Puente,9,905.0,,private_hint,,
+194061,Concord High,,1,6.0,,no_city,,
+194062,Bishop Conaty Memorial High,Los Angeles,8,88.0,,private_hint,,
+194064,Montclair High,Van Nuys,3,16.0,,ambiguous(0.44 Van Nuys Senior High | Ulysses S. Grant Senior High),,
+194066,Bishop Montgomery High,Torrance,9,558.0,,private_hint,,
+194069,Bishop Mora Salesian High,Los Angeles,5,99.0,,private_hint,,
+194070,Pacific Hills,,1,6.0,,no_city,,
+194071,Pacific Hills High,,2,10.0,,no_city,,
+194084,Brethren High,Paramount,2,14.0,,private_hint,,
+194096,St. Genevieve High-Cath.,Panorama City,10,265.0,,private_hint,,
+194099,Desert Christian High School,Lancaster,6,37.0,,private_hint,,
+194122,New Community Jewish High School,,2,19.0,,private_hint,,
+194123,Armenian Mesrobian Elementary and High,Pico Rivera,3,25.0,,no_candidates,,
+194132,Oxford,,1,6.0,,no_city,,
+194142,Crossroads School For Arts + Sciences,,1,6.0,,no_city,,
+194143,Campbell Hall,No Hollywood,5,30.0,,no_city,,
+194145,Cantwell High-Cath.,Montebello,9,179.0,,private_hint,,
+194149,Cathedral High-Cath.,Los Angeles,9,242.0,,private_hint,,
+194163,Chaminade Prep High - Catholic,Canoga Park,8,341.0,,private_hint,,
+194171,First Lutheran School,,1,6.0,,private_hint,,
+194203,Crespi Carmelite High,Encino,8,154.0,,private_hint,,
+194211,Don Bosco Tech. Inst.-Cath.,Rosemead,9,258.0,,private_hint,,
+194216,Trinity Lutheran Junior/Senior,,1,5.0,,private_hint,,
+194235,Flintridge Preparatory School,,5,37.0,,school_only_no_exact,,
+194236,Faith Baptist,Canoga Park,8,91.0,,private_hint,,
+194238,Flintridge Sacred Heart Acad.,Pasadena,7,60.0,,private_hint,,
+194265,Glendale Acad.-Sda,Glendale,5,26.0,,ambiguous(0.55 Glendale High | Verdugo Academy),,
+194272,T.C.A. Arshag Dickranian Armen,,1,6.0,,no_city,,
+194273,Oak Hill,,2,15.0,,no_city,,
+194307,Holy Family High-Cath.,Glendale,9,97.0,,private_hint,,
+194314,Holy Martyrs Ferrahian Armenian High,Encino,9,100.0,,private_hint,,
+194315,Immaculate Heart High-Cath.,Los Angeles,10,250.0,,private_hint,,
+194320,La Salle High-Cath.,Pasadena,9,313.0,,private_hint,,
+194343,Los Angeles Baptist High,Sepulveda,8,141.0,,private_hint,,
+194398,Louisville High-Cath.,Woodland Hills,9,161.0,,private_hint,,
+194401,Loyola High,,9,199.0,,private_hint,,
+194410,Los Angeles Lutheran High School,Burbank,4,25.0,,private_hint,,
+194415,"Manoogian, A.G.B.U. Marie, School",Canoga Park,4,50.0,,school_only_no_exact,,
+194416,Alex Pilibos Armenian School,,3,25.0,,school_only_no_exact,,
+194417,Maranatha High,,9,149.0,,no_city,,
+194431,Marymount High-Cath.,Los Angeles,3,19.0,,private_hint,,
+194441,Mary Star Of The Sea High-Cath.,San Pedro,9,134.0,,private_hint,,
+194445,Mayfield High,Pasadena,1,7.0,,ambiguous(0.61 Blair High | Pasadena High),,
+194457,Montclair Col Preparatory School,Van Nuys,6,66.0,,school_only_no_exact,,
+194501,Notre Dame Acad. Girls' High-Cath.,Los Angeles,8,101.0,,private_hint,,
+194512,Notre Dame High,Sherman Oaks,10,464.0,,private_hint,,
+194530,Our Lady Of Loretto High,Los Angeles,1,9.0,,private_hint,,
+194545,North Hills Preparatory,,1,7.0,,no_city,,
+194552,Sherman School,,1,5.0,,school_only_no_exact,,
+194561,Paraclete High,,9,271.0,,no_city,,
+194589,St. Francis High,La Canada,5,58.0,,private_hint,,
+194590,Fusion Academy - Warner Center,,1,5.0,,no_city,,
+194595,St. Matthias High,,3,31.0,,private_hint,,
+194609,Pius X High,Downey,4,57.0,,ambiguous(0.58 Columbus (Christopher) High | Warren (Earl) High),,
+194610,Valley Christian High,,3,65.0,,private_hint,,
+194612,San Fernando Valley Profession,,1,5.0,,no_city,,
+194619,Damien High,La Verne,9,511.0,,ambiguous(0.55 Bonita High | -),,
+194620,Pomona Catholic Girls High,Pomona,9,130.0,,private_hint,,
+194622,Rolling Hills Preparatory,,2,13.0,,no_city,,
+194623,Frederick K.C. Price III Elem. and Secondary,,1,5.0,,no_city,,
+194627,West Los Angeles Baptist,,1,7.0,,private_hint,,
+194635,Providence High School,Burbank,9,210.0,,ambiguous(0.52 Burbank High | Monterey High),,
+194647,Ramona Convent Secondary,,8,187.0,,no_city,,
+194650,Regina Caeli High-Cath.,Compton,1,6.0,,private_hint,,
+194655,Ribet Academy,La Canada,5,38.0,,ambiguous(0.30 Opportunities for Learning-Hacienda La Puente | La Canada High),,
+194660,Rio Hondo Prep,,4,24.0,,no_city,,
+194664,Sacred Heart High,,10,165.0,,private_hint,,
+194670,Sacred Heart Of Mary High,,1,5.0,,private_hint,,
+194680,St Anthony High School,Long Beach,9,210.0,,private_hint,,
+194686,St. Bernard High-Cath.,Playa Del Rey,9,235.0,,private_hint,,
+194692,St. Francis High-Cath.,La Canada,10,221.0,,private_hint,,
+194693,Calvary Chapel Christian,Downey,6,63.0,,private_hint,,
+194701,Pilgrim School,Los Angeles,3,27.0,,school_only_no_exact,,
+194706,St. John Bosco High-Cath.,Bellflower,9,469.0,,private_hint,,
+194712,Daniel Murphy High,,7,115.0,,no_city,,
+194714,St. Joseph High,,9,441.0,,private_hint,,
+194716,St. Lucy's Priory,,8,452.0,,private_hint,,
+194722,St. Mary's Acad.-Cath.,Inglewood,9,129.0,,private_hint,,
+194723,St. Matthias Catholic Girls High,Huntington Park,6,74.0,,private_hint,,
+194726,St. Michael's High-Cath.,Los Angeles,2,12.0,,private_hint,,
+194732,St. Monica High-Cath.,Santa Monica,9,167.0,,private_hint,,
+194740,St. Paul High,Santa Fe Springs,9,311.0,,private_hint,,
+194742,Salesian High School,Los Angeles,4,22.0,,private_hint,,
+194777,San Gabriel Academy,,2,13.0,,no_city,,
+194784,San Gabriel Mission High-Cath.,San Gabriel,8,131.0,,private_hint,,
+194787,Arroyo Pacific Academy,,1,5.0,,no_city,,
+194853,New Roads,,1,8.0,,no_city,,
+194857,Heritage Christian,,1,5.0,,private_hint,,
+194860,Junipero Serra High-Cath.,Gardena,9,248.0,,private_hint,,
+194866,Sherwood Oaks School,Encino,6,72.0,,school_only_no_exact,,
+194872,Hillcrest Christian,,1,5.0,,private_hint,,
+194876,Stoneridge Prep,,1,6.0,,no_city,,
+194884,Agbu Manoogian-Demirdjian,,3,50.0,,no_city,,
+194900,Milken Community High School,,3,19.0,,no_city,,
+194910,Valley Christian High-Ref.,Artesia,7,86.0,,private_hint,,
+194913,Excelsior,,1,10.0,,no_city,,
+194919,Verbum Dei High-Cath.,Los Angeles,9,87.0,,private_hint,,
+194921,Southlands Christian Schools,,2,33.0,,private_hint,,
+194928,Webb School Of California,,1,5.0,,no_city,,
+194945,Western Christian High,Covina,8,116.0,,private_hint,,
+194951,Westlake School,,1,7.0,,school_only_no_exact,,
+194965,Whittier Christian High,Whittier,7,131.0,,private_hint,,
+194994,Oaks Christian School,,3,40.0,,private_hint,,
+194999,Village Christian School,Sun Valley,9,182.0,,private_hint,,
+199008,"William J ""Pete"" Knight High School",,2,122.0,,no_city,,
+199036,Daniel Pearl Journalism & Communications Magnet,,2,59.0,19647330120360,county_unique,Daniel Pearl Journalism & Communications Magnet,
+199075,Wallis Annenberg High School,,2,51.0,19647330100750,county_unique,Wallis Annenberg High School,
+199080,Central City Value,,2,65.0,19647330100800,county_unique,Central City Value,
+199099,Sylmar Biotech Health Academy,,1,7.0,,no_city,,
+199119,View Park Preparatory Accelerated High,,2,39.0,,no_city,,
+199129,Alliance Tennenbaum Family Technology High,,2,52.0,19647330121293,county_unique,Alliance Tennenbaum Family Technology High,
+199133,Alliance Susan and Eric Smidt Technology High,,1,19.0,19647330123133,county_unique,Alliance Susan and Eric Smidt Technology High,
+199145,Foshay Learning Center,,7,156.0,19647336061451,county_unique,Foshay Learning Center,
+199148,New Village Charter High,,2,12.0,19647330111484,county_unique,New Village Charter High,
+199149,College Ready Academy High #5,,2,96.0,,no_city,,
+199150,College Ready Academy High #4,,2,63.0,,no_city,,
+199157,Animo Ralph Bunche High,,2,52.0,19647330111575,county_unique,Animo Ralph Bunche High,
+199158,Animo Jackie Robinson High,,2,71.0,19647330111583,county_unique,Animo Jackie Robinson High,
+199162,Animo Watts Charter High,,2,33.0,19647330111625,county_unique,Animo Watts Charter High,
+199163,Marc & Eva Stern Math and Science,,2,94.0,,no_city,,
+199164,College Ready Academy High #6,,2,43.0,,no_city,,
+199165,Crenshaw Arts/Tech Charter High,,2,38.0,,no_city,,
+199173,"Albert Einstein Academy for Letters, Arts and Sciences",,2,21.0,19651360121731,county_unique,"Albert Einstein Academy for Letters, Arts and Sciences",
+199202,Contreras Learning Complex,,2,37.0,,no_city,,
+199203,East Valley Senior High,,2,33.0,19647330112037,county_unique,East Valley Senior High,
+199204,Arleta High,,2,140.0,19647330112045,county_unique,Arleta High,
+199205,Panorama High,,2,84.0,19647330112052,county_unique,Panorama High,
+199210,Edward R. Roybal Learning Center,,2,96.0,19647330117051,county_unique,Edward R. Roybal Learning Center,
+199227,Academy of Environmental & Social Policy (ESP) at Roosevelt High,,2,23.0,,no_city,,
+199230,School of STEM at Roosevelt High,,1,5.0,,no_city,,
+199233,"Math, Science, & Technology Magnet Academy at Roosevelt High",,2,52.0,19647330122333,county_unique,"Math, Science, & Technology Magnet Academy at Roosevelt High",
+199234,East Los Angeles Performing Arts Academy at Esteban E. Torres H.S. #1,,2,55.0,,no_city,,
+199236,Social Justice Leadership Academy at Esteban E. Torres H.S. #5,,2,29.0,,no_city,,
+199237,East Los Angeles Renaissance Academy at Esteban E. Torres High No. 2,,2,40.0,19647330122374,county_unique,East Los Angeles Renaissance Academy at Esteban E. Torres High No. 2,
+199238,Engineering and Technology Academy at Esteban E. Torres High School #3,,2,47.0,,no_city,,
+199243,Animo South Los Angeles Charter School,,2,15.0,19647330102434,county_unique,Animo South Los Angeles Charter School,
+199250,Bright Star Secondary Charter Academy,,2,59.0,,no_city,,
+199254,New Designs Charter,,2,38.0,19647330102541,county_unique,New Designs Charter,
+199272,Aspire Pacific Academy,,2,66.0,19647330122721,county_unique,Aspire Pacific Academy,
+199292,Harbor Teacher Prep Academy,,2,74.0,,no_city,,
+199400,"USC/LAUSD Math, Science & Tech Magnet Center",,4,28.0,,no_city,,
+199437,"Cesar E. Chavez Learning Academies-Arts,Theatre, Entertainment (ArTES)",,2,46.0,,no_city,,
+199438,Social Justice Humanitas Academy at Valley Region High No. 5D,,2,66.0,,no_city,,
+199439,Cesar E. Chavez Learning Academies - Academy of Scientific Exploration,,1,13.0,,no_city,,
+199440,Cesar E. Chavez Learning Academies-Teacher Prep. Academy,,2,44.0,,no_city,,
+199442,School of History and Dramatic Arts at Sonia Sotomayor Learning Acad,,2,41.0,,no_city,,
+199447,Social Justice Fine Arts Academy at Maya Angelou,,2,58.0,,no_city,,
+199449,Communication and Technology at South Region High No. 2B,,2,20.0,,no_city,,
+199450,Green Design at South Region High No. 2,,2,19.0,,no_city,,
+199451,"Performing Arts Community, South Region High No. 2D",,2,35.0,,no_city,,
+199452,Rancho Dominguez Preparatory,,2,49.0,19647330124529,county_unique,Rancho Dominguez Preparatory,
+199455,Applied Technology Center,,2,56.0,19648080124552,county_unique,Applied Technology Center,
+199473,Libra Academy at Marquez High,,2,67.0,,no_city,,
+199474,Marquez High / H.P. Inst. of Applied Med.,,2,34.0,,no_city,,
+199475,Marquez High / School of Social Justice,,2,27.0,,no_city,,
+199493,Early College Academy for Leaders and Scholars (ECALS),,3,54.0,,no_city,,
+199502,Southeast ROP,,1,8.0,,no_city,,
+199503,Magnolia Science Academy #3,,1,15.0,,ambiguous(same name x2),,
+199537,Palmdale Aerospace Academy,,1,14.0,19648570125377,county_unique,Palmdale Aerospace Academy,
+199539,Highland High,Palmdale,10,347.0,19642461995398,code+name,Highland High (Los Angeles),1.0
+199540,Littlerock High,Littlerock,9,173.0,19642461995406,code+name,Littlerock High,1.0
+199544,Bravo (Francisco) Medical Magnet,Los Angeles,7,370.0,19647331995448,code+name,Francisco Bravo Medical Magne,0.78
+199545,Middle College High,Los Angeles,2,22.0,19647331995455,code+name,Middle College High (Alte,0.88
+199553,California Acad Of Math/Science,Carson,10,212.0,19647251995539,code+name,Calif Acad Math and Science,0.93
+199558,Palos Verdes Peninsula High School,Rolling Hills Est,9,425.0,19648651995588,code+name,Palos Verdes Penins. High,0.94
+199573,Malibu High School,Malibu,8,101.0,19649801995737,code+name,Malibu High,1.0
+199574,Temple City Comm. Learning Ctr (Cont.),,1,16.0,,code_name_conflict(0.49 Dr. Doug Sears Learning Cente),,
+199578,Vasquez High,,2,21.0,19753091995786,code+name,Vasquez High,1.0
+199580,Valencia High,Valencia,7,372.0,19651361995802,code+name,Valencia High (Los Angeles),1.0
+199581,Gabrielino High,,6,315.0,19752911995810,code+name,Gabrielino High,1.0
+199583,Palisades Charter High,,5,242.0,19647331995836,code+name,Palisades Charter Hi Alt,0.87
+199584,Lancaster High,,5,178.0,19642461995844,code+name,Lancaster High,1.0
+199586,International Polytechnic High,Pomona,7,182.0,19101991995869,code+name,Intern. Polytechnic High,0.87
+199598,STEM Academy of Hollywood,,2,37.0,,no_city,,
+199601,Options for Youth - La Crescenta,,2,13.0,19752911996016,code+name,Options for Youth San Gabriel,0.59
+199609,Options for Youth-Burbank Charter,,1,6.0,19643371996099,code+name,Options for Youth-Burbank,0.84
+199630,Gorman Learning Center,,2,14.0,19645841996305,code+name,Gorman Learning Center,1.0
+199631,Animo Leadership High,,3,113.0,19647091996313,code+name,Animo Leadership High,1.0
+199632,Academy of the Canyons High,,2,23.0,19651361996321,code+name,Academy of the Canyons,0.86
+199634,Fremont Academy of Engineering and Design,,2,24.0,19649076061634,county_unique,Fremont Academy of Engineering and Design,
+199642,William and Carol Ouchi High,,2,26.0,,no_city,,
+199643,Environmental Charter,,2,40.0,19646911996438,code+name,Environmental Charter High,0.89
+199644,"Hilda L Solis Learning Academy of Technology, Business and Education",,1,9.0,19647330126474,county_unique,"Hilda L Solis Learning Academy of Technology, Business and Education",
+199647,Opportunities for Learning (Baldwin Park),,2,52.0,19642871996479,code+name,Opps. Learning-Baldwin Park,0.54
+199649,Village Academy High School @ Indian Hill,,2,36.0,19649071996495,code+name,Village Academy Indian Hill,0.92
+199650,Renaissance Career Academy,,2,57.0,19647251996503,code+name,Renaissance High for the Arts,0.6
+199652,City Honors High,,3,42.0,19646341996529,code+name,City Honors College Preparato,0.58
+199658,Animo Inglewood Charter High,,4,73.0,19646341996586,code+name,Animo Inglewood Charter High (Los Angeles) [1],1.0
+199659,Discovery Charter,,2,26.0,19647331996594,code+name,Discovery Charter,1.0
+199661,Los Angeles Leadership Academy,,2,28.0,19647331996610,code+name,Los Angeles Leadership Acad,1.0
+199662,Academy of Medical Arts at Carson High,,2,50.0,19647330126623,county_unique,Academy of Medical Arts at Carson High,
+199683,Animo Venice Charter High School,,3,63.0,19647330106831,county_unique,Animo Venice Charter High School,
+199688,Elizabeth Street Learning Center,Cudahy,8,135.0,19647336016885,city_fuzzy,Elizabeth Learning Center,
+199700,Northridge Academy High School,,2,102.0,19647330107003,county_unique,Northridge Academy High School,
+199706,Bernstein (Helen) High School,,2,39.0,,no_city,,
+199707,Academic Performance Excellence Academy,,2,25.0,,no_city,,
+199723,Santa Clarita Valley International,,1,5.0,19651360117234,county_unique,Santa Clarita Valley International,
+199759,Health Services Academy High,,2,52.0,,no_city,,
+199760,Alliance Environmental Science and Technology High,,2,100.0,,no_city,,
+199774,Los Angeles High School for the Arts (LAHSA),,2,35.0,19647330117747,county_unique,Los Angeles High School for the Arts (LAHSA),
+199775,Port of Los Angeles High,,2,90.0,19647330107755,county_unique,Port of Los Angeles High,
+199779,School of Social Justice At Contreras,,2,34.0,,no_city,,
+199791,New Millennium Secondary,,1,9.0,19647330117911,county_unique,New Millennium Secondary,
+199800,Robert Fulton College Preparatory School,,2,45.0,19647336058002,county_unique,Robert Fulton College Preparatory School,
+199815,Anahuacalmecac University Preparatory High,,1,5.0,,no_city,,
+199872,Opportunities for Learning - Duarte,,1,8.0,19644690128736,county_unique,Opportunities for Learning - Duarte,
+199873,SOAR High School (Students on Academic Rise),,2,60.0,19642460111872,county_unique,SOAR High School (Students on Academic Rise),
+199892,Larchmont Charter,,1,7.0,19647330108928,county_unique,Larchmont Charter,
+199893,Huntington Park College-Ready Academy,,2,125.0,,no_city,,
+199901,Da Vinci Science,,2,86.0,19768690119016,county_active,Da Vinci Science,
+199915,Carlson (Berenece) Home Hospital,,1,7.0,,no_city,,
+199945,South East High,,2,161.0,19647330109454,county_unique,South East High,
+199947,Thirty-Second St. USC Performing Arts,,2,31.0,,private_hint,,
+199953,Marco Antonio Firebaugh High,,2,128.0,19647740109538,county_unique,Marco Antonio Firebaugh High,
+199955,CA Academy for Liberal Studies Early College,,2,36.0,,no_city,,
+199972,Central LA Area New High School #9,,2,127.0,,no_city,,
+199987,Community Charter Early College High,,2,63.0,,no_city,,
+199992,Academia Avance Charter,,2,16.0,,ambiguous(same name x3),,
+199994,Los Angeles International,,2,60.0,19647330109942,county_unique,Los Angeles International,
+199996,Magnolia Science Academy,,2,48.0,19101996119945,county_unique,Magnolia Science Academy,
+203001,Yosemite Union High,,7,105.0,20737342030013,code+name,Yosemite High (Madera) [1],0.81
+203020,Liberty High,,1,6.0,20755802030203,code+name,Liberty High (Madera),1.0
+203235,Chowchilla High,Chowchilla,7,75.0,20652012032357,code+name,Chowchilla High,1.0
+203570,Madera High,,7,435.0,20652432035707,code+name,Madera High,1.0
+213134,Drake-Sir Francis-High School,San Anselmo,8,205.0,21654822131340,code+name,Sir Francis Drake High,0.73
+213227,Novato High,Novato,6,207.0,21654172132272,code+name,Novato High,1.0
+213258,Redwood High,Larkspur,7,163.0,21654822132587,code+name,Redwood High (Marin),1.0
+213305,San Marin High,Novato,8,260.0,21654172133056,code+name,San Marin High,1.0
+213326,San Rafael High,San Rafael,8,149.0,21654662133262,code+name,San Rafael High,1.0
+213369,Tamalpais High,Mill Valley,7,118.0,21654822133692,code+name,Tamalpais High,1.0
+213400,Terra Linda High,San Rafael,8,190.0,21654662134005,code+name,Terra Linda High,1.0
+213431,Tomales High,Tomales,5,29.0,21733612134310,code+name,Tomales High,1.0
+214022,North Bay Marin School,,1,5.0,,school_only_no_exact,,
+214196,Marin Catholic High,Kentfield,7,181.0,,private_hint,,
+223535,Mariposa County High,Mariposa,7,57.0,22655322235356,code+name,Mariposa County High,1.0
+233136,Fort Bragg Senior High,Fort Bragg,7,91.0,23655652331361,code+name,Fort Bragg High,1.0
+233318,Mendocino Junior-Senior High,,6,45.0,23655812333185,code+name,Mendocino High,0.8
+233364,Point Arena High,Point Arena,2,11.0,23655992333649,code+name,Point Arena High,1.0
+233456,Round Valley High,,1,6.0,23656072334563,code+name,Round Valley High,1.0
+233502,Ukiah High,Ukiah,7,170.0,23656152335024,code+name,Ukiah High,1.0
+233548,Willits Junior-Senior High,Willits,4,35.0,23656232335487,code+name,Willits High,0.77
+234712,Mendocino Alternative Learning Center,,1,6.0,,no_city,,
+243009,Golden Valley High School,Merced,5,139.0,24657892430098,code+name,Golden Valley High (Merced),1.0
+243011,Delhi High,,2,29.0,24753662430114,code+name,Delhi High,1.0
+243020,Buhach Colony High,,1,42.0,24657892430205,code+name,Buhach High,0.76
+243060,Atwater High,Atwater,6,164.0,24657892430601,code+name,Atwater High,1.0
+243120,Dos Palos High,Dos Palos,7,103.0,24753172431203,code+name,Dos Palos High,1.0
+243180,Gustine High,Gustine,5,59.0,24736192431807,code+name,Gustine High,1.0
+243240,Hilmar Junior-Senior High,Hilmar,8,149.0,24656982432409,code+name,Hilmar High,0.76
+243300,Le Grand High,Le Grand,6,52.0,24657302433001,code+name,Le Grand High,1.0
+243360,Livingston High,Livingston,7,120.0,24657892433605,code+name,Livingston High,1.0
+243420,Los Banos High,Los Banos,6,150.0,24657552434207,code+name,Los Banos High,1.0
+243520,Merced High,Merced,7,228.0,24657892435204,code+name,Merced High,1.0
+243960,Yosemite High,Merced,3,16.0,24657892439602,code+name,"Yosemite High, Cont.",0.67
+253540,Modoc High,,2,12.0,25735852535409,code+name,Modoc High,1.0
+263001,Mammoth Unified High,Mammoth,3,22.0,26736922630010,code+name,Mammoth High,0.75
+273003,North Monterey County High School,Castroville,6,166.0,27738252730034,code+name,North Monterey County High,1.0
+273010,Alisal High,Salinas,6,133.0,27661592730109,code+name,Alisal High,1.0
+273016,Alvarez (Everett) High,,3,61.0,27661592730166,code+name,Everett Alvarez High,0.75
+273017,Greenfield High,,1,20.0,27660682730174,code+name,Greenfield High,1.0
+273019,Soledad High,,1,12.0,27754402730190,code+name,Soledad High,1.0
+273041,Carmel High,,5,94.0,27659872730414,code+name,Carmel High,1.0
+273088,Gonzales High,Gonzales,7,122.0,27754732730885,code+name,Gonzales High,1.0
+273217,King City High,King City,7,120.0,27660682732170,code+name,King City High,1.0
+273280,Monterey High,Monterey,6,131.0,27660922732808,code+name,Monterey High,1.0
+273317,North Salinas High,Salinas,7,120.0,27661592733178,code+name,North Salinas High,1.0
+273365,Pacific Grove High,Pacific Grove,7,102.0,27661342733657,code+name,Pacific Grove High,1.0
+273455,Salinas High,Salinas,8,226.0,27661592734556,code+name,Salinas High,1.0
+273534,Seaside High,Fort Ord,6,89.0,27660922735348,code+name,Seaside High,1.0
+274405,Notre Dame High,Salinas,8,138.0,,private_hint,,
+274413,Palma High School,Salinas,8,167.0,,ambiguous(0.76 Alisal High | Salinas High),,
+274493,Santa Catalina,,1,5.0,,no_city,,
+274575,Robert Louis Stevenson School,Pebble Beach,7,66.0,,school_only_no_exact,,
+274750,York High-Epis.,,1,7.0,,no_city,,
+283001,Vintage High,Napa,7,198.0,28662662830016,code+name,Vintage High,1.0
+283011,New Technology High,,3,35.0,28662662830115,code+name,New Technology High (Napa),1.0
+283175,Calistoga High,Calistoga,5,41.0,28662412831758,code+name,Calistoga Junior-Senior High,0.8
+283560,Napa High,Napa,7,226.0,28662662835601,code+name,Napa High,1.0
+283710,St. Helena Senior High,St. Helena,7,92.0,28662902837102,code+name,Saint Helena High,1.0
+284208,Justin Siena High-Cath.,Napa,7,144.0,,private_hint,,
+293004,Bear River High School,Grass Valley,7,216.0,29663572930048,code+name,Bear River High,1.0
+293550,Nevada High,Grass Valley,6,279.0,29663572935500,code+name,Nevada Union High,0.79
+294003,Forest Lake Christian,,1,6.0,,private_hint,,
+303003,Cypress High,Cypress,7,333.0,30664313030038,code+name,Cypress High,1.0
+303004,Canyon High,Anaheim,6,313.0,30666213030046,code+name,Canyon High (Orange),1.0
+303005,Esperanza High,Anaheim,6,487.0,30666473030053,code+name,Esperanza High (Orange),1.0
+303006,El Toro High,El Toro,7,534.0,30736353030061,code+name,El Toro High,1.0
+303014,Ocean View High,Huntington Beach,7,133.0,30665483030145,code+name,Ocean View High,1.0
+303015,Irvine High,Irvine,7,378.0,30736503030152,code+name,Irvine High,1.0
+303021,Capistrano Valley High,Mission Viejo,6,229.0,30664643030210,code+name,Capistrano Valley High,1.0
+303022,Anaheim High,Anaheim,8,195.0,30664313030228,code+name,Anaheim High,1.0
+303024,Laguna Hills High,Laguna Hills,6,209.0,30736353030244,code+name,Laguna Hills High,1.0
+303028,Woodbridge High School,Irvine,6,244.0,30736503030285,code+name,Woodbridge High,1.0
+303039,Trabuco Hills High School,Mission Viejo,7,283.0,30736353030392,code+name,Trabuco Hills High,1.0
+303043,Bolsa Grande High,Garden Grove,7,132.0,30665223030434,code+name,Bolsa Grande High,1.0
+303049,Century High School,Santa Ana,7,164.0,30666703030491,code+name,Century High (Orange),1.0
+303057,Aliso Niguel High School,Aliso Viejo,6,232.0,30664643030574,code+name,Aliso Niguel High,1.0
+303060,Middle College High,,1,7.0,30666703030608,code+name,Middle College High (Orange),1.0
+303061,Oxford High,,1,21.0,30664313030616,code+name,Oxford Academy,0.56
+303064,Brea Olinda High,Brea,6,371.0,30664493030640,code+name,Brea-Olinda High,1.0
+303065,Northwood High,,1,59.0,30736503030657,code+name,Northwood High,1.0
+303072,Orange County High School of the Arts,,1,38.0,30103063030723,code+name,Orange County High School of the Arts,1.0
+303075,Tesoro High,,1,98.0,30664643030756,code+name,Tesoro,0.71
+303085,Buena Park High,Buena Park,7,229.0,30665143030855,code+name,Buena Park High,1.0
+303169,Corona Del Mar High,Newport Beach,6,85.0,30665973031697,code+name,Corona del Mar High,1.0
+303180,Monte Vista High,Costa Mesa,1,7.0,30665973030186,exact,Monte Vista High,
+303185,Costa Mesa High,Costa Mesa,7,67.0,30665973031853,code+name,Costa Mesa High,1.0
+303189,Edison High,Huntington Beach,7,282.0,30665483031895,code+name,Edison High (Orange),1.0
+303192,El Dorado High,Placentia,7,405.0,30666473031929,code+name,El Dorado High (Orange),1.0
+303195,El Modena High,Orange,6,137.0,30666213031952,code+name,El Modena High,1.0
+303200,Estancia High,Costa Mesa,5,50.0,30665973032000,code+name,Estancia High,1.0
+303210,Foothill High,Santa Ana,7,280.0,30736433032109,code+name,Foothill High (Orange),1.0
+303215,Fountain Valley High,,5,253.0,30665483032158,code+name,Fountain Valley High,1.0
+303250,Fullerton High,Fullerton,8,235.0,30665143032505,code+name,Fullerton Un. High,0.9
+303275,Garden Grove High,Garden Grove,7,227.0,30665223032752,code+name,Garden Grove High,1.0
+303294,Huntington Beach High,Huntington Beach,7,311.0,30665483032943,code+name,Huntington Beach High,1.0
+303305,Katella High,,6,191.0,30664313033057,code+name,Katella High,1.0
+303311,John F. Kennedy High,,5,226.0,30664313033115,code+name,John F. Kennedy High (Orange),1.0
+303320,Laguna Beach High,Laguna Beach,7,97.0,30665553033206,code+name,Laguna Beach High,1.0
+303336,La Habra High,La Habra,7,280.0,30665143033362,code+name,La Habra High,1.0
+303357,La Quinta High,Westminster,6,141.0,30665223033578,code+name,La Quinta High (Orange),1.0
+303378,Loara High,Anaheim,6,228.0,30664313033784,code+name,Loara High,1.0
+303391,Los Alamitos High,,6,558.0,30739243033917,code+name,Los Alamitos High,1.0
+303393,Los Amigos High,Fountain Valley,8,237.0,30665223033933,code+name,Los Amigos High,1.0
+303399,Lowell High,,1,5.0,,no_city,,
+303420,Magnolia High,,8,224.0,30664313034204,code+name,Magnolia High,1.0
+303441,Marina High,Huntington Beach,8,371.0,30665483034410,code+name,Marina High (Orange),1.0
+303495,Mission Viejo High,Mission Viejo,7,279.0,30736353034956,code+name,Mission Viejo High,1.0
+303504,Newport Harbor High,Newport Beach,6,147.0,30665973035045,code+name,Newport Harbor High,1.0
+303510,University High,Irvine,6,186.0,30736503035102,code+name,University High (Orange),1.0
+303540,Orange High,Orange,7,170.0,30666213035409,code+name,Orange High,1.0
+303558,Pacifica High,,7,242.0,30665223035581,code+name,Pacifica High,1.0
+303570,Rancho Alamitos High,,7,147.0,30665223035706,code+name,Rancho Alamitos High,1.0
+303582,Saddleback High,Santa Ana,7,207.0,30666703035821,code+name,Saddleback High,1.0
+303600,San Clemente High,San Clemente,6,245.0,30664643036001,code+name,San Clemente High,1.0
+303635,Santa Ana Senior High,Santa Ana,7,110.0,30666703036357,code+name,Santa Ana High,1.0
+303645,Valley High,,8,133.0,30666703036456,code+name,Valley High (Orange),1.0
+303655,Santiago High,Garden Grove,6,182.0,30665223036555,code+name,Santiago High (Orange),1.0
+303671,Savanna High,Anaheim,7,175.0,30664313036712,code+name,Savanna High,1.0
+303709,Sonora High,La Habra,7,247.0,30665143037090,code+name,Sonora High (Orange),1.0
+303734,Sunny Hills High,Fullerton,6,372.0,30665143037348,code+name,Sunny Hills High,1.0
+303749,Troy High,Fullerton,6,386.0,30665143037496,code+name,Troy High,1.0
+303755,Tustin High,Tustin,7,183.0,30736433037553,code+name,Tustin High,1.0
+303802,Valencia High,Placentia,8,342.0,30666473038023,code+name,Valencia High (Orange),1.0
+303809,Villa Park High,Villa Park,6,215.0,30666213038098,code+name,Villa Park High,1.0
+303823,Western High,,5,97.0,30664313038239,code+name,Western High,1.0
+303844,Westminster High,Westminster,8,314.0,30665483038445,code+name,Westminster High,1.0
+303856,Dana Hills High,Dana Point,6,207.0,30664643038569,code+name,Dana Hills High,1.0
+304017,Lutheran High School Of Orange County,Orange,7,170.0,,private_hint,,
+304066,San Jose Academy,,1,7.0,,no_city,,
+304093,Valley Christian High School,Cypress,2,13.0,,private_hint,,
+304162,Cornelia Connelly School Of The Holy Child,Anaheim,8,61.0,,private_hint,,
+304164,Calvary Chapel High,Santa Ana,6,82.0,,private_hint,,
+304433,Brethren Christian Jr/Sr High,Cypress,4,51.0,,private_hint,,
+304465,Santa Margarita High-Cath.,R. Santa Margarita,7,348.0,,private_hint,,
+304483,Mater Dei High,Santa Ana,5,424.0,,private_hint,,
+304577,Rosary High,Fullerton,6,181.0,,ambiguous(0.80 Troy High | La Vista High (Continuation)),,
+304580,St. Margaret Episcopal School,San Juan Capistran,3,19.0,,private_hint,,
+304594,St. Michael's Prep.-Cath.,Orange,1,8.0,,private_hint,,
+304692,Servite High,Anaheim,7,220.0,,ambiguous(0.67 Western High | Gilbert High (Continuation)),,
+304700,Orange County Christian School,Anaheim,1,5.0,,private_hint,,
+304753,Tarbut V'Torah Community Day,,1,6.0,,no_city,,
+304988,Fairmont Private High,,2,17.0,,no_city,,
+304999,Oxford Academy,,1,16.0,30664313030616,county_unique,Oxford Academy,
+313001,North Tahoe High,Tahoe City,8,90.0,31669443130010,code+name,North Tahoe High,1.0
+313015,Rocklin High School,Rocklin,5,243.0,31750853130150,code+name,Rocklin High,1.0
+313017,Woodcreek High,Roseville,4,140.0,31669283130176,code+name,Woodcreek High,1.0
+313018,Granite Bay High,,4,226.0,31669283130184,code+name,Granite Bay High,1.0
+313185,Colfax High,Colfax,7,167.0,31668943131851,code+name,Colfax High,1.0
+313245,Del Oro High,Loomis,7,182.0,31668943132453,code+name,Del Oro High (Placer),1.0
+313465,Lincoln High,Lincoln,6,53.0,31669513134657,code+name,Lincoln High (Placer),1.0
+313530,Oakmont High,Roseville,8,313.0,31669283135308,code+name,Oakmont High,1.0
+313570,Placer High,Auburn,7,206.0,31668943135704,code+name,Placer High,1.0
+313650,Roseville High,Roseville,7,162.0,31669283136504,code+name,Roseville High,1.0
+313850,Tahoe-Truckee High,Truckee,8,211.0,31669443138500,code+name,Tahoe Truckee High,1.0
+323350,Greenville Junior-Senior High,,1,5.0,32669693233509,code+name,Greenville Junior/Senior,0.83
+323560,Portola Junior-Senior High,Portola,3,15.0,32669693235603,code+name,Portola Junior/Senior High,1.0
+323600,Quincy Junior-Senior High,Quincy,4,29.0,32669693236007,code+name,Quincy Junior/Senior High,1.0
+333000,La Sierra High,Riverside,9,462.0,33669773330008,code+name,La Sierra High (Riverside),1.0
+333002,Arlington High,Riverside,9,407.0,33672153330024,code+name,Arlington High,1.0
+333015,Canyon Springs High,Sunnymead,4,35.0,33671243330396,county_unique,Canyon Springs High,
+333021,Banning High,Banning,9,148.0,33669853330214,code+name,Banning High,1.0
+333025,Desert Mirage High,,1,30.0,33736760100255,county_unique,Desert Mirage High,
+333038,Palm Desert High,Indio,9,267.0,33670583330388,code+name,Palm Desert High,1.0
+333039,Canyon Springs High,Moreno Valley,10,261.0,33671243330396,code+name,Canyon Springs High,1.0
+333041,Jurupa Valley High,Mira Loma,10,299.0,33670903330412,code+name,Jurupa Valley High,1.0
+333042,Vista Murrieta High,,2,221.0,33752000100420,county_unique,Vista Murrieta High,
+333043,Valley View High School,Moreno Valley,10,292.0,33671243330438,code+name,Valley View High,1.0
+333044,Centennial H S,Corona,9,407.0,33670333330446,code+name,Centennial High (Riverside),1.0
+333045,Hamilton K-12,,1,6.0,33670823330453,code+name,Hamilton K-12,1.0
+333047,Beaumont Senior High,Beaumont,8,72.0,33669933330479,code+name,Beaumont Senior High,1.0
+333048,Temescal Canyon High School,Lake Elsinore,9,310.0,33751763330487,code+name,Temescal Canyon High,1.0
+333052,Murrieta Valley High,Murrieta,10,549.0,33752003330529,code+name,Murrieta Valley High,1.0
+333053,West Valley High School,Hemet,7,115.0,33670823330537,code+name,West Valley High (Riverside),1.0
+333055,Rancho Verde High School,Moreno Valley,10,247.0,33752423330552,code+name,Rancho Verde High,1.0
+333057,Cathedral City High,,8,190.0,33671733330578,code+name,Cathedral City High,1.0
+333066,La Quinta High,,7,255.0,33670583330669,code+name,La Quinta High (Riverside),1.0
+333070,Santiago High,,6,440.0,33670333330701,code+name,Santiago High (Riverside),1.0
+333072,Paloma Valley High School,,7,181.0,33672073330727,code+name,Paloma Valley High,1.0
+333074,Chaparral High,,4,310.0,33751923330743,code+name,Chaparral High (Riverside),1.0
+333081,Desert Hot Springs High,,3,56.0,33671733330818,code+name,Desert Hot Springs High,1.0
+333085,King (Martin Luther Jr.) High,,3,189.0,33672153330859,code+name,Martin Luther King Jr. High,0.46
+333091,Temecula Preparatory,,1,6.0,33751923330917,code+name,Temecula Preparatory,1.0
+333099,Coachella Valley High,Thermal,10,318.0,33736763330990,code+name,Coachella Valley High,1.0
+333107,Vista del Lago High,,3,52.0,33671243331071,code+name,Vista del Lago High (Riverside),1.0
+333160,Corona Senior High,Corona,9,460.0,33670333331600,code+name,Corona High,1.0
+333235,Elsinore High,Elsinore,9,219.0,33751763332350,code+name,Elsinore High,1.0
+333267,Hemet Senior High,Hemet,10,260.0,33670823332673,code+name,Hemet High,1.0
+333319,Indio High,Indio,9,191.0,33670583333192,code+name,Indio High,1.0
+333377,Moreno Valley High,Sunnymead,9,185.0,33671243333770,code+name,Moreno Valley High,1.0
+333423,Norco Senior High,Norco,9,404.0,33670333334232,code+name,Norco High,1.0
+333429,Norte Vista High,Riverside,9,198.0,33669773334299,code+name,Norte Vista High,1.0
+333440,John W. North High,Riverside,8,321.0,33672153334406,code+name,North (John W.) High,0.74
+333513,Palm Springs High,Palm Springs,8,208.0,33671733335130,code+name,Palm Springs High,1.0
+333573,Great Oak High,,1,74.0,33751920105734,county_unique,Great Oak High,
+333575,Palo Verde High,Blythe,10,113.0,33671813335759,code+name,Palo Verde High,1.0
+333597,Perris High,Perris,8,135.0,33672073335973,code+name,Perris,0.71
+333623,Polytechnic Senior High,Riverside,10,376.0,33672153336237,code+name,Polytechnic High (Riverside),1.0
+333649,Ramona Senior High,Riverside,10,291.0,33672153336492,code+name,Ramona High (Riverside),1.0
+333700,Temecula Valley High,Temecula,9,489.0,33751923330370,exact,Temecula Valley High,
+333713,Rubidoux High,Riverside,6,181.0,33670903337136,code+name,Rubidoux High,1.0
+333764,Mountain View High (Continuation),,3,20.0,33672493337649,code+name,"Mountain View High, Cont. (Riverside)",0.73
+333765,San Jacinto Senior High,San Jacinto,8,92.0,33672493337656,code+name,San Jacinto High,1.0
+334023,Woodcrest Christian High School,Riverside,8,77.0,,private_hint,,
+334308,Calvary Chapel Christian,,2,14.0,,private_hint,,
+334351,La Sierra Academy,,2,13.0,,no_city,,
+334360,Linfield,,6,65.0,,no_city,,
+334455,Notre Dame High-Cath.,Riverside,9,223.0,,private_hint,,
+334680,Riverside Christian High,Riverside,8,87.0,,private_hint,,
+334767,Moreno Valley Christian,,1,12.0,,private_hint,,
+339075,John F. Kennedy High,,1,5.0,33670330110759,county_unique,John F. Kennedy High,
+341296,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,18.0,,no_city,,
+341570,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,11.0,,no_city,,
+341685,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,10.0,,no_city,,
+343004,Mesa Verde High School,Citrus Heights,9,134.0,34674473430048,code+name,Mesa Verde High,1.0
+343017,Valley High,Sacramento,9,446.0,34673143430170,code+name,Valley High (Sacramento),1.0
+343037,Center High,Elverta,7,176.0,34739733430378,code+name,Center High,1.0
+343047,Florin High,Sacramento,7,350.0,34673143430477,code+name,Florin High,1.0
+343049,Bella Vista High,Fair Oaks,8,352.0,34674473430493,code+name,Bella Vista High,1.0
+343058,Natomas High School,,6,170.0,34752833430584,code+name,Natomas High,1.0
+343059,Laguna Creek High,Elk Grove,5,307.0,34673143430592,code+name,Laguna Creek High,1.0
+343061,Sheldon High,,4,368.0,34673143430618,code+name,Sheldon High,1.0
+343065,Natomas Charter,,2,34.0,34752833430659,code+name,Natomas Charter,1.0
+343069,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,11.0,,code_name_conflict(0.21 Options for Youth-San Juan),,
+343071,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,11.0,,code_name_conflict(0.29 Visions In Education),,
+343086,Hiram W. Johnson High West Campus,,2,96.0,34674393430865,code+name,West Campus,0.51
+343087,Franklin High School,,2,220.0,34673143430873,code+name,Franklin High (Sacramento),1.0
+343101,Luther Burbank Senior High,Sacramento,6,226.0,34674393431012,code+name,Burbank (Luther) High,0.77
+343111,Casa Roble High,Orangevale,8,242.0,34674473431111,code+name,Casa Roble Fundamental High,0.71
+343153,Cordova Senior High,Rancho Cordova,8,206.0,34673303431533,code+name,Cordova High,1.0
+343183,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,10.0,,no_city,,
+343190,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,8.0,,no_city,,
+343197,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,39.0,,no_city,,
+343203,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,46.0,,no_city,,
+343205,Del Campo High,Fair Oaks,8,298.0,34674473432051,code+name,Del Campo High,1.0
+343223,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,74.0,,no_city,,
+343231,El Camino High,Sacramento,5,223.0,34674473432317,code+name,El Camino Fundamental High,0.7
+343242,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,32.0,,no_city,,
+343257,Elk Grove Senior High,Elk Grove,6,375.0,34673143432572,code+name,Elk Grove High,1.0
+343283,Encina High,Sacramento,7,80.0,34674473432838,code+name,Encina Preparatory High,0.65
+343321,Folsom High,Folsom,7,382.0,34673303433216,code+name,Folsom High,1.0
+343326,Foothill High,Sacramento,6,142.0,34673633433265,code+name,Foothill High (Sacramento) [1],1.0
+343347,Galt High,Galt,9,220.0,34673553433471,code+name,Galt High,1.0
+343357,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,68.0,,no_city,,
+343379,Grant High,Sacramento,9,278.0,34673633433794,code+name,Grant Union High (Sacramento) [1],0.77
+343437,Highlands High,North Highlands,7,112.0,34673633434370,code+name,Highlands High (Sacramento) [1],1.0
+343463,Hiram W. Johnson High School,Sacramento,8,352.0,34674393434636,code+name,Johnson (Hiram W.) High,0.75
+343476,John F. Kennedy Senior High,Sacramento,9,362.0,34674393434768,code+name,Kennedy (John F.) High (Sacramento),0.77
+343482,Thurgood Marshall Alternative,,3,36.0,34674393434826,code+name,Marshall (Thurgood) Alt,0.59
+343530,Rio Vista High,,1,15.0,34674134835302,county_unique,Rio Vista High,
+343541,C. K. McClatchy Senior High,Sacramento,7,238.0,34674393435419,code+name,McClatchy (C. K.) High,0.88
+343591,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,131.0,,no_city,,
+343593,Mira Loma High,Sacramento,7,187.0,34674473435930,code+name,Mira Loma High,1.0
+343606,Leroy Greene Academy,,1,18.0,34752830126060,county_unique,Leroy Greene Academy,
+343671,Rio Americano High,Sacramento,6,293.0,34674473436714,code+name,Rio Americano High,1.0
+343689,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,98.0,,no_city,,
+343697,Rio Linda High,Rio Linda,7,113.0,34673633436979,code+name,Rio Linda High (Sacramento) [1],1.0
+343755,Sacramento Senior High,Sacramento,7,232.0,34674393437555,code+name,Sacramento High,1.0
+343850,San Juan High,Citrus Heights,9,158.0,34674473438504,code+name,San Juan High,1.0
+343875,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,106.0,,no_city,,
+343895,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,9.0,,no_city,,
+344010,Victory Christian High School,,2,12.0,,private_hint,,
+344013,Capital Christian High School,Sacramento,6,52.0,,private_hint,,
+344042,Sacramento Waldorf,,2,11.0,,private_hint,,
+344127,Christian Brothers High-Cath.,Sacramento,8,351.0,,private_hint,,
+344201,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,11.0,,no_city,,
+344453,Jesuit High-Cath.,Carmichael,8,410.0,,private_hint,,
+344515,Loretto High,Sacramento,7,134.0,,ambiguous(0.70 Florin High | Sacramento High),,
+344786,St Francis Girls High School,Sacramento,9,338.0,,private_hint,,
+349454,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,14.0,,no_city,,
+349913,Explore the System Issues & Ideas Locate & Find InfoCenter Home,,1,35.0,,no_city,,
+353006,Anzar High,,2,16.0,35752593530060,code+name,Anzar High,1.0
+353700,San Benito County High,Hollister,7,359.0,35675383537008,code+name,San Benito High,0.81
+363003,Don Antonio Lugo High School,Chino,8,288.0,36676783630035,code+name,Don Antonio Lugo High,1.0
+363022,Alta Loma High,Alta Loma,8,483.0,36676523630225,code+name,Alta Loma High,1.0
+363023,Serrano High School,Phelan,9,217.0,36739573630233,code+name,Serrano High,1.0
+363027,Silver Valley High,,2,14.0,36738903630274,code+name,Silver Valley High,1.0
+363037,Etiwanda High,Etiwanda,8,486.0,36676523630373,code+name,Etiwanda High,1.0
+363040,Hesperia High,Hesperia,9,239.0,36750443630407,code+name,Hesperia High,1.0
+363042,Apple Valley Senior High,Apple Valley,8,219.0,36750773630423,code+name,Apple Valley High,1.0
+363052,Ayala High School,Chino,9,909.0,36676783630522,code+name,Ruben S. Ayala High,0.71
+363055,A B Miller High School,Fontana,8,328.0,36677103630555,code+name,Fontana Miller (A. B.) High,0.76
+363056,Lucerne Valley High,,1,5.0,36750513630563,code+name,Lucerne Valley High,1.0
+363057,Rancho Cucamonga High,Rancho Cucamonga,8,536.0,36676523630571,code+name,Rancho Cucamonga High,1.0
+363059,Rialto High School,Rialto,8,343.0,36678503630597,code+name,Rialto High,1.0
+363074,Sultana High,Hesperia,6,141.0,36750443630746,code+name,Sultana High,1.0
+363077,Redlands East Valley High School,,4,261.0,36678433630779,code+name,Redlands East Valley High,1.0
+363078,Silverado High,,4,122.0,36679343630787,code+name,Silverado High,1.0
+363080,Barstow High,Barstow,8,116.0,36676113630803,code+name,Barstow High,1.0
+363083,Academy for Academic Excellence (Charter),,1,6.0,36750773630837,code+name,Academy Academic Exc Char,0.81
+363089,Granite Hills High,,2,91.0,36750773630894,code+name,Granite Hills High (San Bernardino),1.0
+363090,Kaiser (Henry J.) High,,2,109.0,36677103630902,code+name,Kaiser (Henry J.) High,1.0
+363092,Grove High,,1,6.0,36678433630928,code+name,Grove,0.67
+363101,Chino Hills High,,2,186.0,36676783631017,code+name,Chino Hills High,1.0
+363105,Los Osos High,,2,180.0,36676523631058,code+name,Los Osos High,1.0
+363106,Big Bear High,Big Bear Lake,8,128.0,36676373631066,code+name,Big Bear High,1.0
+363108,Arroyo Valley High School,,2,123.0,36678763631082,code+name,Arroyo Valley High,1.0
+363109,Middle College High,,1,19.0,36678763631090,code+name,Middle College High (San Bernardino),1.0
+363115,Colony High,,2,55.0,36676523631157,code+name,Colony High,1.0
+363132,Bloomington High,Bloomington,8,240.0,36676863631322,code+name,Bloomington High,1.0
+363220,Chaffey High,Ontario,8,175.0,36676523632205,code+name,Chaffey High,1.0
+363222,Cajon High,San Bernardino,9,494.0,36678763632221,code+name,Cajon High,1.0
+363250,Chino Senior High,Chino,9,461.0,36676783632502,code+name,Chino High,1.0
+363274,Colton High,Colton,9,368.0,36676863632742,code+name,Colton High,1.0
+363283,Wilmer Amina Carter High School,,1,57.0,36678500102830,county_unique,Wilmer Amina Carter High School,
+363300,Eisenhower Senior High,Rialto,8,329.0,36678503633005,code+name,Eisenhower Senior High,1.0
+363330,Fontana High,Fontana,8,370.0,36677103633302,code+name,Fontana High,1.0
+363348,John F. Kennedy High,,1,12.0,,no_city,,
+363390,Montclair High,Montclair,8,228.0,36676523633906,code+name,Montclair High,1.0
+363448,Ontario High,Ontario,9,255.0,36676523634482,code+name,Ontario High,1.0
+363468,Pacific High,San Bernardino,9,377.0,36678763634680,code+name,Pacific High (San Bernardino),1.0
+363504,Redlands Senior High,Redlands,8,519.0,36678433635042,code+name,Redlands Senior High,1.0
+363526,Rim Of The World Senior High,Lake Arrowhead,8,303.0,36678683635265,code+name,Rim of the World Senior High,1.0
+363584,San Bernardino High,San Bernardino,9,265.0,36678763635844,code+name,San Bernardino High,1.0
+363608,San Gorgonio High,San Bernardino,9,340.0,36678763636081,code+name,San Gorgonio High,1.0
+363674,Twentynine Palms High,Twentynine Palms,7,68.0,36677773636743,code+name,Twentynine Palms High,1.0
+363758,Upland High,Upland,9,662.0,36750693637584,code+name,Upland High,1.0
+363765,Valley View High,,1,5.0,36676523637659,code+name,"Valley View High, Cont.",0.71
+363801,Victor Valley Senior High,Victorville,8,191.0,36679343638012,code+name,Victor Valley High,1.0
+363819,Summit High,,1,30.0,36677100108191,county_unique,Summit High,
+363850,Yucaipa High,Yucaipa,8,377.0,36679593638509,code+name,Yucaipa High,1.0
+363861,Yucca Valley High,Yucca Valley,7,77.0,36677773638616,code+name,Yucca Valley High,1.0
+364005,Victor Valley Christian,,1,9.0,,private_hint,,
+364044,Arrowhead Christian Academy,La Quinta,7,98.0,,private_hint,,
+364048,Aquinas High-Cath.,,8,124.0,,private_hint,,
+364049,Calvary Chapel Christian,,1,5.0,,private_hint,,
+364069,Apple Valley Christian,,1,5.0,,private_hint,,
+364131,Ontario Christian Military School,,1,5.0,,private_hint,,
+364358,Loma Linda Acad.-Sda,Loma Linda,7,57.0,,no_city,,
+364442,Ontario Christian-Ref.,Ontario,9,98.0,,private_hint,,
+364558,Bloomington Christian,,2,13.0,,private_hint,,
+364771,Upland Christian Schools,,1,11.0,,private_hint,,
+364836,Ambassador Christian School,,1,6.0,,private_hint,,
+364853,Hesperia Christian,,1,8.0,,private_hint,,
+373003,Torrey Pines High,Encinitas,7,353.0,37683463730033,code+name,Torrey Pines High,1.0
+373005,San Pasqual High,,7,214.0,37681063730058,code+name,San Pasqual High,1.0
+373006,Valhalla High School,El Cajon,8,478.0,37681303730066,code+name,Valhalla High,1.0
+373007,Mt Carmel High,San Diego,6,628.0,37682963730074,code+name,Mt. Carmel High,1.0
+373012,Southwest Senior High,San Diego,5,266.0,37684113730124,code+name,Southwest Senior High,1.0
+373017,Serra Junior-Senior High,San Diego,6,272.0,37683383730173,code+name,Serra High,0.74
+373018,Mira Mesa Jr-Sr High,San Diego,7,558.0,37683383730181,code+name,Mira Mesa High,0.67
+373030,Gompers Secondary School Center,,4,44.0,,no_city,,
+373031,University City High,San Diego,7,361.0,37683383730314,code+name,University City High,1.0
+373034,Gompers Secondary,,2,13.0,37683383730348,code+name,Gompers High,0.55
+373038,San Diego School Of Creative & Perf. Arts,San Dieg,6,87.0,,no_city,,
+373040,Bonita Vista Senior High,Chula Vista,6,360.0,37684113730405,code+name,Bonita Vista Senior High,1.0
+373044,Borrego Springs High,,1,5.0,37679833730447,code+name,Borrego Springs High,1.0
+373069,Carlsbad High,Carlsbad,7,382.0,37735513730694,code+name,Carlsbad High,1.0
+373070,West Hills High School,Santee,6,219.0,37681303730702,code+name,West Hills High,1.0
+373072,Rancho Buena Vista High,Vista,5,264.0,37684523730728,code+name,Rancho Buena Vista High,1.0
+373080,Castle Park Senior High,Chula Vista,5,149.0,37684113730801,code+name,Castle Park Senior High,1.0
+373081,Rancho Bernardo High School,San Diego,7,647.0,37682963730819,code+name,Rancho Bernardo High,1.0
+373084,Eastlake High School,Chula Vista,5,305.0,37684113730843,code+name,Eastlake High,1.0
+373088,Scripps Ranch High School,San Diego,7,486.0,37683383730884,code+name,Scripps Ranch High,1.0
+373094,Guajome Park Academy Charter,,1,9.0,37684523730942,code+name,Guajome Park Acad Charter,1.0
+373100,La Costa Canyon High,Carlsbad,5,335.0,37683463731007,code+name,La Costa Canyon High,1.0
+373102,Escondido Charter High,,1,5.0,37681063731023,code+name,Escondido Charter High,1.0
+373106,Chula Vista Senior High,Chula Vista,6,281.0,37684113731064,code+name,Chula Vista Senior High,1.0
+373111,Valley Center High,,2,44.0,37681063731114,code+name,Valley Center High (San Diego) [1],1.0
+373118,Preuss Model School at UCSD,,1,12.0,37683383731189,code+name,Preuss School UCSD,0.79
+373121,Clairemont Senior High,San Diego,6,131.0,37683383731213,code+name,Clairemont High,1.0
+373124,High Tech High,,1,21.0,37683383731247,code+name,High Tech High,1.0
+373126,Steele Canyon High,,1,68.0,37681303731262,code+name,Steele Canyon High,1.0
+373137,San Diego School of Creative & Perf. Arts,,3,32.0,,no_city,,
+373147,Coronado High,Coronado,6,162.0,37680313731478,code+name,Coronado High,1.0
+373152,Westview High,,1,62.0,37682963731528,code+name,Westview High,1.0
+373158,Crawford Senior High,San Diego,5,140.0,37683383731585,code+name,Crawford Senior High,1.0
+373169,El Cajon Valley High,El Cajon,6,108.0,37681303731692,code+name,El Cajon Valley High,1.0
+373180,El Capitan High,Lakeside,6,164.0,37681303731809,code+name,El Capitan High (San Diego),1.0
+373206,Escondido High,Escondido,7,236.0,37681063732062,code+name,Escondido High,1.0
+373217,Fallbrook High,Fallbrook,6,275.0,37681223732179,code+name,Fallbrook High,1.0
+373233,Granite Hills High,El Cajon,7,394.0,37681303732336,code+name,Granite Hills High (San Diego),1.0
+373255,Chaparral High,,1,8.0,37681303732559,code+name,Chaparral High (San Diego),1.0
+373262,Grossmont High,La Mesa,5,207.0,37681303732625,code+name,Grossmont High,1.0
+373273,Helix High,La Mesa,6,275.0,37681303732732,code+name,Helix High,1.0
+373278,Henry Senior High,San Diego,5,232.0,37683383732781,code+name,Henry High,1.0
+373284,Hilltop Senior High,Chula Vista,6,231.0,37684113732849,code+name,Hilltop Senior High,1.0
+373299,Hoover Senior High,San Diego,6,186.0,37683383732997,code+name,Hoover High,1.0
+373321,Julian High,Julian,2,12.0,37681713733219,code+name,Julian High,1.0
+373332,Kearny Senior High,San Diego,6,132.0,37683383733326,code+name,Kearny Senior High,1.0
+373350,La Jolla Senior High,La Jolla,6,234.0,37683383733508,code+name,La Jolla High,1.0
+373358,Lincoln Senior High,San Diego,5,55.0,37683383733581,code+name,Lincoln Senior High,1.0
+373369,Madison Senior High,San Diego,6,127.0,37683383733698,code+name,Madison High,1.0
+373395,Mar Vista Senior High,Imperial Beach,6,183.0,37684113733953,code+name,Mar Vista Senior High,1.0
+373443,Mission Bay Senior High,San Diego,6,165.0,37683383734431,code+name,Mission Bay High,1.0
+373454,Monte Vista High,,6,240.0,37681303734548,code+name,Monte Vista High (San Diego),1.0
+373465,Morse Senior High,San Diego,6,442.0,37683383734654,code+name,Morse High,1.0
+373476,Mount Miguel High,Spring Valley,6,159.0,37681303734761,code+name,Mount Miguel High,1.0
+373487,Mountain Empire High,Pine Valley,3,21.0,37682133734878,code+name,Mountain Empire High,1.0
+373520,Oceanside High-West Campus,Oceanside,6,84.0,37735693735206,code+name,Oceanside High,0.7
+373531,Orange Glen High,Escondido,6,251.0,37681063735313,code+name,Orange Glen High,1.0
+373575,Point Loma Senior High,San Diego,6,312.0,37683383735750,code+name,Point Loma High,1.0
+373586,Poway High,Poway,6,488.0,37682963735867,code+name,Poway High,1.0
+373597,Ramona High,Ramona,6,287.0,37683043735974,code+name,Ramona High (San Diego),1.0
+373715,San Diego Senior High,San Diego,5,206.0,37683383737152,code+name,San Diego Senior High,1.0
+373741,San Dieguito High,Encinitas,5,217.0,37683463737418,code+name,San Dieguito High Academy,0.81
+373763,San Marcos High,San Marcos,6,260.0,37737913737632,code+name,San Marcos High,1.0
+373790,Santana High,Santee,5,127.0,37681303737905,code+name,Santana High,1.0
+373822,Sweetwater Union Senior High,National City,5,217.0,37684113738226,code+name,Sweetwater High,0.83
+373823,Montgomery Senior High,San Diego,6,379.0,37684113738234,code+name,Montgomery Senior High,1.0
+373870,Vista High,Vista,6,316.0,37684523738705,code+name,Vista High (San Diego),1.0
+373901,El Camino High,Oceanside,6,184.0,37735693739018,code+name,El Camino High (San Diego),1.0
+374010,Academy Of Our Lady Of Peace-Cath.,San Diego,7,223.0,,private_hint,,
+374025,Army And Navy Academy,,4,31.0,,no_city,,
+374046,Horizon Christian,,3,30.0,,private_hint,,
+374050,Santa Fe Christian High School,Solana Beach,3,23.0,,private_hint,,
+374098,Christian High School Of San Diego,El Cajon,6,46.0,,private_hint,,
+374203,Calvin Christian High,,2,12.0,,private_hint,,
+374343,La Jolla Country Day,La Jolla,2,11.0,,private_hint,,
+374380,Marian High-Cath.,,6,81.0,,private_hint,,
+374564,Francis W. Parker High,,3,17.0,,no_city,,
+374641,St. Augustine High,San Diego,5,120.0,,private_hint,,
+374700,Tri-City Christian Schools,,3,17.0,,private_hint,,
+374775,Futures High San Diego,,1,5.0,,no_city,,
+374859,University Of San Diego High-Cath.,San Diego,6,367.0,,private_hint,,
+383004,San Francisco High,,2,13.0,,no_city,,
+383007,J. Eugene Mc Ateer High School,San Francisco,6,82.0,38684783830072,code+name,McAteer (J. Eugene) High,0.71
+383019,Independence High (Alter.),,1,5.0,38684783830197,code+name,Independence High (San Francisco),1.0
+383020,Raoul Wallenberg Traditional High,San Francisco,8,222.0,38684783830205,code+name,Wallenberg Traditional High,0.9
+383025,Philip & Sala Burton Academic High,San Francisco,7,338.0,38684783830254,code+name,Burton Academic High,0.77
+383028,Balboa High,San Francisco,8,301.0,38684783830288,code+name,Balboa High,1.0
+383035,International Studies Academy,San Francisco,9,101.0,38684783830353,code+name,Intl Studies Academy,1.0
+383038,School of the Arts,,2,17.0,38684783830387,code+name,Asawa SF School of the Arts,0.47
+383040,Thurgood Marshall High,,6,153.0,38684783830403,code+name,Marshall (Thurgood) High,0.74
+383041,Leadership High,San Francisco,3,27.0,38684783830411,code+name,Leadership High,1.0
+383043,Gateway High,,2,37.0,38684783830437,code+name,Gateway High,1.0
+383176,Galileo High,San Francisco,9,694.0,38684783831765,code+name,Galileo High,1.0
+383324,Abraham Lincoln High,San Francisco,6,472.0,38684783833241,code+name,Lincoln (Abraham) High (San Francisco),0.75
+383340,Lowell High,San Francisco,8,749.0,38684783833407,code+name,Lowell High,1.0
+383408,Mission High,San Francisco,8,233.0,38684783834082,code+name,Mission High (San Francisco),1.0
+383476,John A. O'Connell Vocational High And Technic,San Francisco,3,43.0,38684783834769,code+name,O'Connell (John) High,0.52
+383492,School Of The Arts,San Francisco,7,62.0,38684783830387,city_tokens,Asawa SF School of the Arts,
+383730,City Arts and Tech High,,1,29.0,38684780107300,county_unique,City Arts and Tech High,
+383908,George Washington High,San Francisco,8,785.0,38684783839081,code+name,Washington (George) High,0.81
+383940,Woodrow Wilson High,San Francisco,3,27.0,38684783839404,code+name,Woodrow Wilson High,1.0
+384014,Independence High School,San Francisco,1,0.0,38684783830197,exact,Independence High School,
+384017,San Francisco Christian Elem.,,1,5.0,,private_hint,,
+384027,Bridgemont High,,2,10.0,,no_city,,
+384052,Sacred Heart Cathedral School,San Francisco,9,359.0,,private_hint,,
+384078,French American International,,1,6.0,,no_city,,
+384085,Cathedral High,San Francisco,1,5.0,,ambiguous(0.77 McAteer (J. Eugene) High | Gateway High),,
+384124,Hebrew Academy Of San Francisco,San Francisco,2,5.0,,private_hint,,
+384156,Drew College Prep,,3,13.0,,no_city,,
+384276,Immaculate Conception Acad.-Cath.,San Francisco,9,144.0,,private_hint,,
+384280,International Studies Academy--Invalid Code/U,San Francisco,1,0.0,,ambiguous(0.79 Intl Studies Academy | Galileo Academy of Science and Technology),,
+384308,Lick-Wilmerding High,San Francisco,3,18.0,,ambiguous(0.62 Lincoln (Abraham) High | Mark Twain High (Cont.)),,
+384316,Cornerstone Academy,,1,5.0,,no_city,,
+384388,Mercy High-Cath.,San Francisco,9,297.0,,private_hint,,
+384456,Notre Dame High School,,1,6.0,,private_hint,,
+384524,Riordan High-Cath.,San Francisco,8,249.0,,private_hint,,
+384540,Sacred Heart High,San Francisco,6,350.0,,private_hint,,
+384572,St. Ignatius College Prep.-Cath.,San Francisco,8,366.0,,private_hint,,
+389181,San Francisco Flex Academy,,1,5.0,38767030121814,county_unique,San Francisco Flex Academy,
+389987,S.F. International High,,1,9.0,38684780119875,county_unique,S.F. International High,
+389995,Academy of Arts and Sciences,,1,19.0,38684780119958,county_unique,Academy of Arts and Sciences,
+393023,Bear Creek High School,Stockton,6,132.0,39685853930237,code+name,Bear Creek High,1.0
+393030,Merrill West High,Tracy,5,140.0,39754993930302,code+name,Merrill F. West High,0.94
+393031,Sierra High School,Manteca,5,126.0,39685933930310,code+name,Sierra High (San Joaquin),1.0
+393200,East Union High,Manteca,6,161.0,39685933932001,code+name,East Union High,1.0
+393210,Edison Senior High,Stockton,6,99.0,39686763932100,code+name,Edison High (San Joaquin),1.0
+393230,Escalon High,Escalon,6,89.0,39685023932308,code+name,Escalon High,1.0
+393265,Franklin Senior High,Stockton,7,86.0,39686763932654,code+name,Franklin High (San Joaquin),1.0
+393380,Lincoln High,,6,238.0,39685693933801,code+name,Lincoln High (San Joaquin),1.0
+393395,Linden High,Linden,5,58.0,39685773933959,code+name,Linden High,1.0
+393475,Tokay High,Lodi,6,162.0,39685853934759,code+name,Tokay High,1.0
+393478,Lodi High,Lodi,6,155.0,39685853934783,code+name,Lodi High,1.0
+393510,Manteca High,Manteca,7,115.0,39685933935103,code+name,Manteca High,1.0
+393575,Ripon High,Ripon,7,99.0,39686503935756,code+name,Ripon High,1.0
+393740,Stagg Senior High,Stockton,6,109.0,39686763937406,code+name,Stagg Senior High,1.0
+393800,Tracy High,Tracy,7,217.0,39754993938008,code+name,Tracy High,1.0
+394552,Ripon Christian School,,5,36.0,,private_hint,,
+394620,St. Mary's High,Stockton,5,171.0,,private_hint,,
+403026,Nipomo High,,1,16.0,40687594030268,code+name,Nipomo High,1.0
+403050,Arroyo Grande High (Crown Hill),Arroyo Grande,2,23.0,40687594030508,code+name,Arroyo Grande High (San Luis Obispo) [1],1.0
+403055,Arroyo Grande High (Valley Road),Arroyo Grande,7,287.0,40687594030557,code+name,Arroyo Grande High (San Luis Obispo) [2],1.0
+403075,Atascadero High,Atascadero,7,289.0,40687004030755,code+name,Atascadero High,1.0
+403200,Coast High,Cambria,6,60.0,40754654032009,code+name,Coast Union High,0.77
+403480,Morro Bay High,Morrow Bay,5,92.0,40688094034807,code+name,Morro Bay High,1.0
+403575,Paso Robles High,Paso Robles,6,205.0,40754574035754,code+name,Paso Robles High,1.0
+403670,San Luis Obispo Senior High,San Luis Obispo,7,357.0,40688094036703,code+name,San Luis Obispo High,1.0
+403700,Shandon High,,1,5.0,40688334037008,code+name,Shandon High,1.0
+403770,Templeton High,Templeton,5,91.0,40688414037701,code+name,Templeton High,1.0
+404455,Mission College Prep,San Luis Obispo,7,80.0,,ambiguous(0.50 Grizzly Challenge Charter | Grizzly ChalleNGe Charter),,
+413021,Aragon High,San Mateo,6,181.0,41690474130217,code+name,Aragon High,1.0
+413047,Burlingame High,Burlingame,6,178.0,41690474130472,code+name,Burlingame High,1.0
+413073,Capuchino High,San Bruno,7,120.0,41690474130738,code+name,Capuchino High,1.0
+413099,Carlmont High,Belmont,7,229.0,41690624130993,code+name,Carlmont High,1.0
+413255,El Camino High,South San Francisc,5,222.0,41690704132551,code+name,El Camino High (San Mateo),1.0
+413281,Half Moon Bay High,Half Moon Bay,7,158.0,41688904132817,code+name,Half Moon Bay High,1.0
+413307,Hillsdale High,San Mateo,6,126.0,41690474133070,code+name,Hillsdale High,1.0
+413339,Jefferson High,Daly City,7,213.0,41689244133393,code+name,Jefferson High,1.0
+413371,Menlo Atherton High,Atherton,6,122.0,41690624133716,code+name,Menlo-Atherton High,1.0
+413455,Mills High,Millbrae,7,253.0,41690474134557,code+name,Mills High,1.0
+413507,Oceana High,Pacifica,6,85.0,41689244135075,code+name,Oceana High,1.0
+413637,San Mateo High,San Mateo,6,142.0,41690474136370,code+name,San Mateo High,1.0
+413669,Sequoia High,Redwood City,7,155.0,41690624136693,code+name,Sequoia High (San Mateo),1.0
+413727,South San Francisco High,S. San Francisco,6,185.0,41690704137279,code+name,South San Francisco High,1.0
+413753,Terra Nova High,Pacifica,6,160.0,41689244137535,code+name,Terra Nova High,1.0
+413779,Westmoor High,Daly City,7,250.0,41689244137790,code+name,Westmoor High,1.0
+413805,Woodside High,Woodside,6,205.0,41690624138053,code+name,Woodside High,1.0
+414017,Junipero Serra High School,,3,51.0,,no_city,,
+414177,Sacred Heart Preparatory,Atherton,5,37.0,,private_hint,,
+414429,Mercy High-Cath.,Burlingame,7,130.0,,private_hint,,
+414481,Notre Dame High-Cath.,Belmont,7,169.0,,private_hint,,
+414695,Serra High,San Mateo,6,133.0,,ambiguous(0.67 Aragon High | San Mateo High),,
+414817,Woodside Priory,,1,7.0,,private_hint,,
+423045,Cabrillo Senior High,Lompoc,5,62.0,42692294230454,code+name,Cabrillo High (Santa Barbara),1.0
+423058,Carpinteria Senior High School,Carpinteria,4,37.0,42691464230587,code+name,Carpinteria Senior High,1.0
+423120,Cuyama Valley High,New Cuyama,2,13.0,42750104231205,code+name,Cuyama Valley High,1.0
+423172,Dos Pueblos Senior High,Goleta,5,48.0,42692864231726,code+name,Dos Pueblos Senior High (Santa Barbara) [1],1.0
+423306,Lompoc Senior High,Lompoc,6,76.0,42692294233060,code+name,Lompoc High,1.0
+423461,Ernest Righetti High,Santa Maria,6,150.0,42693104234613,code+name,Righetti (Ernest) High,0.79
+423523,San Marcos Senior High,Santa Barbara,6,96.0,42692864235230,code+name,San Marcos Senior High (Santa Barbara) [1],1.0
+423572,Santa Barbara Senior High,Santa Barbara,6,86.0,42692864235727,code+name,Santa Barbara Senior High (Santa Barbara) [1],1.0
+423603,Santa Maria High,Santa Maria,6,132.0,42693104236030,code+name,Santa Maria High,1.0
+423634,Santa Ynez High,Santa Ynez,6,88.0,42693284236345,code+name,Santa Ynez Valley Union High,0.7
+424027,Bishop Garcia Diego High-Cath.,Santa Barbara,5,33.0,,private_hint,,
+424399,Midland High,Los Olivos,1,5.0,,ambiguous(0.26 Olive Grove | -),,
+424505,St. Joseph High-Cath.,Santa Maria,5,84.0,,private_hint,,
+433001,Yerba Buena High,San Jose,6,225.0,43694274330015,code+name,Yerba Buena High,1.0
+433002,Santa Teresa,San Jose,6,297.0,43694274330023,code+name,Santa Teresa High,0.83
+433003,Independence High Aka Eastside Educ. Park,San Jose,7,696.0,43694274330031,code+name,Independence High (Santa Clara),0.6
+433008,Gunderson High,San Jose,6,161.0,43696664330080,code+name,Gunderson High,1.0
+433012,Santa Clara High School,Santa Clara,5,146.0,43696744330122,code+name,Santa Clara High,1.0
+433044,Willow Glen Plus (Continuation),,1,24.0,43696664330445,code+name,"Willow Glen Plus, Cont.",0.71
+433047,San Jose High Academy Plus (Continuation),,1,23.0,43696664330478,code+name,"San Jose High Acad. Plus, Ct.",0.95
+433058,Downtown College Preparatory,,1,17.0,43696664330585,code+name,Downtown College Preparatory,1.0
+433069,Evergreen Valley High School,,1,37.0,43694274330692,code+name,Evergreen Valley High,1.0
+433086,Branham High,,1,53.0,43694014330866,code+name,Branham High,1.0
+433179,Cupertino High,Cupertino,7,158.0,43694684331799,code+name,Cupertino High,1.0
+433195,Del Mar High,San Jose,7,176.0,43694014331955,code+name,Del Mar High (Santa Clara),1.0
+433231,Foothill High,San Jose,1,8.0,43694274332318,code+name,Foothill High (Santa Clara),1.0
+433247,Fremont High,Sunnyvale,6,184.0,43694684332474,code+name,Fremont High (Santa Clara),1.0
+433283,Gilroy High,Gilroy,7,201.0,43694844332839,code+name,Gilroy High,1.0
+433290,Henry M. Gunn Senior High,,7,127.0,43696414332904,code+name,Gunn (Henry M.) High,0.69
+433299,Andrew P. Hill High,San Jose,7,291.0,43694274332995,code+name,Andrew P Hill High,1.0
+433331,Homestead High,Cupertino,6,215.0,43694684333316,code+name,Homestead High,1.0
+433347,Leigh High,,6,253.0,43694014330239,county_unique,Leigh High,
+433352,Leland High,San Jose,7,339.0,43696664333522,code+name,Leland High,1.0
+433363,James Lick High,,7,162.0,43694274333639,code+name,James Lick High,1.0
+433379,Abraham Lincoln High,San Jose,6,168.0,43696664333795,code+name,Lincoln (Abraham) High (Santa Clara),0.75
+433395,Live Oak High,Morgan Hill,6,267.0,43695834333951,code+name,Live Oak High (Santa Clara),1.0
+433411,Los Altos High,Los Altos,6,174.0,43696094334116,code+name,Los Altos High (Santa Clara),1.0
+433437,Los Gatos High,,7,292.0,43695344334371,code+name,Los Gatos High,1.0
+433442,Lynbrook High,San Jose,6,163.0,43694684334421,code+name,Lynbrook High,1.0
+433446,Monta Vista High,Cupertino,6,253.0,43694684334462,code+name,Monta Vista High,1.0
+433447,Milpitas High,Milpitas,7,461.0,43733874334470,code+name,Milpitas High,1.0
+433472,Mountain View High,Mountain View,7,246.0,43696094334728,code+name,Mountain View High (Santa Clara),1.0
+433490,Mt. Pleasant High,San Jose,6,274.0,43694274334900,code+name,Mount Pleasant High,1.0
+433520,Oak Grove High,San Jose,6,283.0,43694274335204,code+name,Oak Grove High,1.0
+433542,William C. Overfelt High,San Jose,6,207.0,43694274335428,code+name,William C Overfelt High,1.0
+433578,Palo Alto Senior High,Palo Alto,7,141.0,43696414335782,code+name,Palo Alto High,1.0
+433590,Piedmont Hills High,San Jose,7,371.0,43694274335907,code+name,Piedmont Hills High,1.0
+433594,Pioneer High,,6,167.0,43696664335949,code+name,Pioneer High (Santa Clara),1.0
+433613,Prospect High,Saratoga,6,122.0,43694014336137,code+name,Prospect High,1.0
+433720,San Jose High,,6,95.0,43696664337200,code+name,San Josi High,0.92
+433760,Santa Clara High --DEFUNCT Use 433012--,Santa Clara,5,44.0,,ambiguous(0.63 Santa Clara High | Adrian Wilcox High),,
+433776,Saratoga High,Saratoga,6,158.0,43695344337762,code+name,Saratoga High,1.0
+433790,Silver Creek High,,6,324.0,43694274337903,code+name,Silver Creek High,1.0
+433850,Westmont High,,6,129.0,43694014338505,code+name,Westmont High,1.0
+433880,Adrian Wilcox High,Santa Clara,6,220.0,43696744338802,code+name,Wilcox (Adrian) High,0.76
+433895,Willow Glen High,San Jose,5,82.0,43696664338950,code+name,Willow Glen High,1.0
+434000,Liberty Baptist Christian School,San Jose,1,7.0,,private_hint,,
+434001,St. Lawrence High,Santa Clara,3,26.0,,private_hint,,
+434007,Valley Christian High,San Jose,7,173.0,,private_hint,,
+434019,Archbishop Mitty-Cath.,San Jose,6,472.0,,private_hint,,
+434049,Mid Peninsula High School,Palo Alto,4,23.0,,ambiguous(0.52 Gunn (Henry M.) High | Palo Alto High),,
+434050,Monte Vista Christian High School,San Jose,2,12.0,,private_hint,,
+434059,Bellarmine College Prep.-Cath.,San Jose,7,362.0,,private_hint,,
+434425,East Valley Christian,,1,5.0,,private_hint,,
+434510,Notre Dame High-Cath.,San Jose,7,153.0,,private_hint,,
+434610,Presentation High-Cath.,San Jose,6,181.0,,private_hint,,
+434630,St. Francis High-Cath.,Mountain View,6,297.0,,private_hint,,
+434788,St. Lawrence Academy,,1,12.0,,private_hint,,
+434842,King's Academy,,2,18.0,,no_city,,
+443021,Scotts Valley High,,1,31.0,44754324430211,code+name,Scotts Valley High,1.0
+443051,Aptos High,,6,200.0,44697994430518,code+name,Aptos High,1.0
+443234,Harbor High,Santa Cruz,6,188.0,44698234432340,code+name,Harbor High,1.0
+443675,San Lorenzo Valley High,Felton,6,155.0,44698074436754,code+name,San Lorenzo Valley High,1.0
+443710,Santa Cruz High,Santa Cruz,6,124.0,44698234437109,code+name,Santa Cruz High,1.0
+443740,Soquel High,Soquel,6,143.0,44698234437406,code+name,Soquel High,1.0
+443790,Watsonville High,Watsonville,6,188.0,44697994437901,code+name,Watsonville High,1.0
+444410,Monte Vista Christian High,Watsonville,6,139.0,,private_hint,,
+444430,Monterey Bay Academy,Watsonville,1,7.0,,ambiguous(0.53 Ceiba College Preparatory Academy | Diamond Technology Institute),,
+444635,St Francis Junior-Senior High,,1,5.0,,private_hint,,
+453002,West Valley High School,Cottonwood,6,73.0,45698564530028,code+name,West Valley High (Shasta),1.0
+453004,Foothill High,Redding,8,124.0,45701364530044,code+name,Foothill High (Shasta),1.0
+453080,Anderson High,Anderson,6,57.0,45698564530804,code+name,Anderson High,1.0
+453100,Burney Junior-Senior High,Burney,1,5.0,45699894531000,code+name,Burney Junior-Senior High,1.0
+453190,Central Valley High,Central Valley,4,43.0,45752674531901,code+name,Central Valley High (Shasta),1.0
+453275,Enterprise High,Redding,7,94.0,45701364532750,code+name,Enterprise High (Shasta),1.0
+453360,Fall River Junior-Senior High,Mcarthur,2,12.0,45699894533600,code+name,Fall River Junior-Senior High,1.0
+453601,University Preparatory,,1,16.0,45701360106013,county_unique,University Preparatory,
+453730,Shasta High,Redding,7,119.0,45701364537304,code+name,Shasta High,1.0
+463230,Downieville Junior-Senior High,,1,6.0,46701774632303,code+name,Downieville Junior-Senior Hig,0.85
+463425,Loyalton High,Loyalton,5,32.0,46701774634259,code+name,Loyalton High,1.0
+473330,Etna High,Etna,6,47.0,47702764733309,code+name,Etna Union High School,0.75
+473540,Mount Shasta High,,2,17.0,47704664735403,code+name,Mt. Shasta High,1.0
+473725,Tulelake High,,1,6.0,25735934737250,code+name,Tulelake High,1.0
+473920,Yreka High,Yreka,8,84.0,47705164739207,code+name,Yreka High,1.0
+483008,Wood (Will C) High School,Vacaville,6,211.0,48705734830089,code+name,Wood (Will C.) High,1.0
+483014,Bethel (Jesse M.) High,,1,27.0,48705814830147,code+name,Bethel (Jesse M.) High,1.0
+483017,Angelo Rodriguez High,,1,34.0,48705404830170,code+name,Rodriguez (Angelo) High,0.8
+483045,Armijo High,Fairfield,6,171.0,48705404830451,code+name,Armijo High,1.0
+483100,Benicia High,Benicia,6,262.0,48705244831004,code+name,Benicia High,1.0
+483225,Dixon High,Dixon,6,136.0,48705324832259,code+name,Dixon High,1.0
+483300,Fairfield High,Fairfield,6,159.0,48705404833000,code+name,Fairfield High,1.0
+483395,Hogan Senior High,Vallejo,6,175.0,48705814833950,code+name,Hogan High,1.0
+483530,Rio Vista High,Rio Vista,6,59.0,34674134835302,code+name,Rio Vista High (Sacramento),1.0
+483780,Vacaville High,Vacaville,7,285.0,48705734837803,code+name,Vacaville High,1.0
+483850,Vallejo Senior High,Vallejo,7,298.0,48705814838504,code+name,Vallejo High,1.0
+483880,Vanden High,Travis Afb,6,109.0,48705654838801,code+name,Vanden High,1.0
+484096,Saint Patrick-Saint Vincent High,,3,47.0,,private_hint,,
+484600,St. Patrick's High-Cath.,Vallejo,7,223.0,,private_hint,,
+484610,St. Vincent High-Cath.,Vallejo,4,22.0,,private_hint,,
+493001,Casa Grande Junior-Senior High,Petaluma,7,207.0,49402464930012,code+name,Casa Grande High (Sonoma) [1],0.82
+493016,Allen (Elsie) High,,4,52.0,49402534930160,code+name,Allen (Elsie) High (Sonoma) [1],1.0
+493022,Windsor High,,3,39.0,49753584930228,code+name,Windsor High,1.0
+493024,Carillo (Maria) High,,3,69.0,49402534930244,code+name,Carrillo (Maria) High (Sonoma) [1],0.96
+493040,Analy High,Sebastopol,7,134.0,49706074930400,code+name,Analy High,1.0
+493085,Cloverdale High,Cloverdale,5,42.0,49706564930855,code+name,Cloverdale High,1.0
+493150,El Molino High,Forestville,6,97.0,49706074931507,code+name,El Molino High,1.0
+493210,Geyserville Educational Park,Geyserville,1,6.0,49707064932109,code+name,Geyserville Ed Park High,0.73
+493255,Healdsburg High,Healdsburg,7,164.0,49753904932554,code+name,Healdsburg High,1.0
+493415,Montgomery High,Santa Rosa,6,180.0,49402534934154,code+name,Montgomery High (Sonoma) [1],1.0
+493515,Petaluma Sr High,Petaluma,7,146.0,49402464935151,code+name,Petaluma High (Sonoma) [1],0.79
+493529,Piner High,Santa Rosa,6,100.0,49402534935292,code+name,Piner High (Sonoma) [1],1.0
+493548,Rancho Cotate Senior High,Rohnert Park,5,159.0,49738824935482,code+name,Rancho Cotate High,1.0
+493680,Santa Rosa High,Santa Rosa,6,119.0,49402534936803,code+name,Santa Rosa High (Sonoma) [1],1.0
+493725,Sonoma Valley High,Sonoma,7,177.0,49709534937256,code+name,Sonoma Valley High,1.0
+494003,John Muir School,Cotati,2,12.0,,school_only_no_exact,,
+494006,St. Vincent High-Cath.,Petaluma,7,110.0,,private_hint,,
+494075,Cardinal Newman High,Santa Rosa,7,107.0,,private_hint,,
+494780,Ursuline High,Santa Rosa,7,114.0,,ambiguous(0.70 Piner High (Sonoma) [2] | Midrose High),,
+503001,Fred C. Beyer High,Modesto,6,295.0,50711755030010,code+name,Beyer (Fred C.) High,0.74
+503013,Johansen High School,Modesto,6,168.0,50711755030135,code+name,Johansen (Peter) High,1.0
+503025,Waterford High,,1,25.0,50755725030259,code+name,Waterford High,1.0
+503028,John H. Pitman High,,1,27.0,50713165030283,code+name,John H. Pitman High,1.0
+503087,Ceres High,Ceres,6,201.0,50710435030879,code+name,Ceres High,1.0
+503138,Grace M. Davis High,Modesto,7,223.0,50711755031380,code+name,Davis (Grace M.) High,0.71
+503152,Denair High,Denair,6,78.0,50710685031521,code+name,Denair High,1.0
+503180,Thomas Downey High,Modesto,4,115.0,50711755031802,code+name,Thomas Downey High,1.0
+503265,Hughson High,Hughson,5,80.0,50755495032651,code+name,Hughson High,1.0
+503490,Modesto High,Modesto,5,177.0,50711755034905,code+name,Modesto High,1.0
+503565,Oakdale High,Oakdale,5,135.0,50755645035654,code+name,Oakdale High,1.0
+503590,Orestimba High,Newman,5,82.0,50736015035902,code+name,Orestimba High,1.0
+503625,Patterson High,Patterson,6,86.0,50712175036256,code+name,Patterson High,1.0
+503685,Riverbank High,Riverbank,6,83.0,50755565036850,code+name,Riverbank High,1.0
+503770,Turlock High,Turlock,7,460.0,50713165037700,code+name,Turlock High (Stanislaus) [1],1.0
+504003,Modesto Christian School,Modesto,5,47.0,,private_hint,,
+504018,Turlock Christian High School,,3,18.0,,private_hint,,
+504100,Central Catholic High,Modesto,4,68.0,,private_hint,,
+504253,Big Valley Christian,,1,7.0,,private_hint,,
+513275,East Nicolaus High,Trowbridge,3,18.0,51713735132758,code+name,East Nicolaus High,1.0
+513525,Live Oak High,Live Oak,6,72.0,51713995135256,code+name,Live Oak High (Sutter),1.0
+513750,Sutter High,Sutter,6,63.0,51714495137500,code+name,Sutter High,1.0
+513900,Yuba City High,,7,216.0,51714645139001,code+name,Yuba City High,1.0
+514001,Faith Christian School,,1,5.0,,private_hint,,
+523170,Corning High,Corning,6,77.0,52715065231709,code+name,Corning High,1.0
+523510,Los Molinos High,Los Molinos,5,35.0,52715715235106,code+name,Los Molinos High,1.0
+523720,Red Bluff High,Red Bluff,7,179.0,52716395237201,code+name,Red Bluff High,1.0
+524590,Mercy High,Red Bluff,7,64.0,,ambiguous(0.58 Salisbury High (Continuation) | Red Bluff High),,
+533740,Hayfork High,Hayfork,2,11.0,53750285337407,code+name,Hayfork High,1.0
+533745,Trinity High,Weaverville,6,47.0,53717795337456,code+name,Trinity High (Trinity) [1],1.0
+543004,Golden West High School,Visalia,6,193.0,54722565430046,code+name,Golden West High,1.0
+543021,Farmersville High,,1,14.0,54753255430210,code+name,Farmersville High,1.0
+543025,Granite Hills High,,1,21.0,54755235430251,code+name,Granite Hills High (Tulare),1.0
+543118,Dinuba High,Dinuba,7,50.0,54755315431184,code+name,Dinuba High,1.0
+543159,Exeter High,Exeter,6,90.0,54719285431598,code+name,Exeter High (Tulare) [1],1.0
+543241,Lindsay Senior High,Lindsay,6,57.0,54719935432414,code+name,Lindsay Senior High,1.0
+543278,Monache High,Porterville,7,114.0,54755235432786,code+name,Monache High,1.0
+543282,Mt. Whitney High,Visalia,6,167.0,54722565432828,code+name,Mt. Whitney High,1.0
+543323,Orosi High,Orosi,5,48.0,54718605433230,code+name,Orosi High,1.0
+543411,Porterville High,Porterville,5,82.0,54755235434113,code+name,Porterville High,1.0
+543452,Redwood High,Visalia,6,174.0,54722565434527,code+name,Redwood High (Tulare),1.0
+543493,Strathmore High,,2,10.0,54721655434931,code+name,Strathmore High (Tulare) [1],1.0
+543540,Tulare High,Tulare,6,220.0,54722495435409,code+name,Tulare Union High,0.79
+543546,Tulare Western High,Tulare,7,164.0,54722495435466,code+name,Tulare Western High,1.0
+543628,Woodlake High,Woodlake,6,96.0,54722805436282,code+name,Woodlake High (Tulare) [1],1.0
+544050,Central Valley Christian H S,,3,27.0,,private_hint,,
+553007,Tioga High,,1,6.0,55751845530076,code+name,Tioga High,1.0
+553650,Sonora High,Sonora,6,125.0,55723895536503,code+name,Sonora High (Tuolumne),1.0
+553675,Summerville High,Tuolumne,6,90.0,55724135536750,code+name,Summerville High,1.0
+563011,Westlake High School,Westlake Village,7,216.0,56737595630116,code+name,Westlake High,1.0
+563013,Oak Park High,Agoura,6,114.0,56738745630132,code+name,Oak Park High,1.0
+563032,Santa Susana High,,1,15.0,56726035630322,code+name,Santa Susana High,1.0
+563034,Foothill Technology High,,1,16.0,56726525630348,code+name,Foothill Technology High,1.0
+563038,Pacifica High,,1,6.0,56725465630389,code+name,Pacifica,0.76
+563079,Buena Senior High,Ventura,7,161.0,56726525630793,code+name,Buena High,1.0
+563161,Camarillo High,Camarillo,7,188.0,56725465631619,code+name,Camarillo (Adolfo) High,1.0
+563174,Channel Islands High,Oxnard,6,148.0,56725465631742,code+name,Channel Islands High,1.0
+563202,Fillmore Senior High,Fillmore,6,69.0,56724545632021,code+name,Fillmore Senior High,1.0
+563284,Hueneme High,Oxnard,5,44.0,56725465632849,code+name,Hueneme High,1.0
+563325,Moorpark Memorial High,Moorpark,6,128.0,56739405633250,code+name,Moorpark High,0.74
+563326,Moorpark High,,1,46.0,56739405633250,county_unique,Moorpark High,
+563374,Newbury Park High,Newbury Park,7,234.0,56737595633748,code+name,Newbury Park High,1.0
+563407,Nordhoff High,Ojai,7,108.0,56725205634076,code+name,Nordhoff High,1.0
+563454,Oxnard High,Oxnard,7,135.0,56725465634548,code+name,Oxnard High,1.0
+563476,Rio Mesa High,Oxnard,7,126.0,56725465634761,code+name,Rio Mesa High,1.0
+563500,Royal High,Simi Valley,7,226.0,56726035635008,code+name,Royal High,1.0
+563577,Santa Paula Union High,Santa Paula,4,39.0,56725955635776,code+name,Santa Paula High (Ventura) [1],0.84
+563618,Simi Valley High,Simi Valley,7,293.0,56726035636188,code+name,Simi Valley High,1.0
+563700,Thousand Oaks High,Thousand Oaks,7,258.0,56737595637004,code+name,Thousand Oaks High,1.0
+563782,Ventura Senior High,Ventura,5,104.0,56726525637822,code+name,Ventura High,1.0
+564009,Hillcrest Christian,,1,5.0,,private_hint,,
+564010,Laurel Springs School,,1,5.0,,school_only_no_exact,,
+564243,Happy Valley High,Ojai,2,12.0,,ambiguous(0.57 Legacy High | Valley Oak Charter),,
+564310,La Reina High-Cath.,Thousand Oaks,7,75.0,,private_hint,,
+564433,Ojai Valley,,1,5.0,,no_city,,
+564486,St. Bonaventure High-Cath.,Ventura,5,111.0,,private_hint,,
+564536,Santa Clara High-Cath.,Oxnard,7,53.0,,private_hint,,
+564823,Villanova Prep.-Cath.,Ojai,5,35.0,,private_hint,,
+573170,Delta High,Clarksburg,3,24.0,34674135731708,code+name,Delta High (Sacramento),1.0
+573220,Davis Senior High,Davis,6,283.0,57726785732201,code+name,Davis Senior High,1.0
+573290,Esparto High,Esparto,2,12.0,57726865732904,code+name,Esparto High,1.0
+573515,River City Senior High School,West Sacramento,6,89.0,57726945735154,code+name,River City Senior High,1.0
+573850,Winters High,Winters,6,63.0,57727025738505,code+name,Winters High,1.0
+573880,Woodland Senior High,Woodland,6,236.0,57727105738802,code+name,Woodland Senior High,1.0
+583001,Lindhurst High,Olivehurst,4,43.0,58727365830013,code+name,Lindhurst High,1.0
+583520,Marysville High,,4,33.0,58727365835202,code+name,Marysville High,1.0
+583830,Wheatland Union High,Wheatland,4,24.0,58727695838305,code+name,Wheatland Union High,1.0

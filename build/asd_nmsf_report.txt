@@ -1,0 +1,319 @@
+universe: 4424 schools; 3428 with data since 2015
+CSU archived panel: 7366 school-years, 1392 schools, falls 1995-2017
+--- CSU archived reports: school matching (schools / school-years / freshmen) ---
+  ambiguous                 36    148     2672
+  city_fuzzy                 2     10      149
+  city_tokens                2      8       70
+  code+name                895   5600   194270
+  code_name_conflict         9     37      603
+  county_active              4      8      188
+  county_unique             93    175     5143
+  exact                      7     34     1169
+  no_candidates              5     20      382
+  no_city                  146    297     5671
+  private_hint             180    958    22640
+  school_only_no_exact      13     41      400
+  matched: 1003 of 1392 schools; 5835 of 7336 school-years (79.5%); freshmen 86.1%
+  unmatched with the most freshmen (private schools are expected here):
+    194058 Bishop Amat Memorial High-Cath.               La Puente          ftf=  905  private_hint
+    194066 Bishop Montgomery High                        Torrance           ftf=  558  private_hint
+    014528 Moreau High-Cath.                             Hayward            ftf=  544  private_hint
+    194619 Damien High                                   La Verne           ftf=  511  ambiguous(0.55 Bonita High | -)
+    434019 Archbishop Mitty-Cath.                        San Jose           ftf=  472  private_hint
+    194706 St. John Bosco High-Cath.                     Bellflower         ftf=  469  private_hint
+    194512 Notre Dame High                               Sherman Oaks       ftf=  464  private_hint
+    194716 St. Lucy's Priory                                                ftf=  452  private_hint
+    194714 St. Joseph High                                                  ftf=  441  private_hint
+    304483 Mater Dei High                                Santa Ana          ftf=  424  private_hint
+    344453 Jesuit High-Cath.                             Carmichael         ftf=  410  private_hint
+    374859 University Of San Diego High-Cath.            San Diego          ftf=  367  private_hint
+    384572 St. Ignatius College Prep.-Cath.              San Francisco      ftf=  366  private_hint
+    434059 Bellarmine College Prep.-Cath.                San Jose           ftf=  362  private_hint
+    384052 Sacred Heart Cathedral School                 San Francisco      ftf=  359  private_hint
+    344127 Christian Brothers High-Cath.                 Sacramento         ftf=  351  private_hint
+    384540 Sacred Heart High                             San Francisco      ftf=  350  private_hint
+    304465 Santa Margarita High-Cath.                    R. Santa Margarita ftf=  348  private_hint
+    194163 Chaminade Prep High - Catholic                Canoga Park        ftf=  341  private_hint
+    344786 St Francis Girls High School                  Sacramento         ftf=  338  private_hint
+    074118 Carondelet High-Cath.                         Concord            ftf=  323  private_hint
+    194320 La Salle High-Cath.                           Pasadena           ftf=  313  private_hint
+    194740 St. Paul High                                 Santa Fe Springs   ftf=  311  private_hint
+    014140 Bishop O'Dowd High-Cath.                      Oakland            ftf=  307  private_hint
+    384388 Mercy High-Cath.                              San Francisco      ftf=  297  private_hint
+  every non-code match, for review:
+    013541 Newark Adult High School                 Newark           -> Newark Adult                             [city_tokens]
+    193049 Monterey Continuation High               Los Angeles      -> Monterey Continuation                    [city_fuzzy]
+    193109 Ambassador School of Global Leadership                    -> Ambassador School of Global Leadership   [county_unique]
+    193128 South High                                                -> South High                               [county_unique]
+    193181 Renaissance Arts Academy                                  -> Renaissance Arts Academy                 [county_unique]
+    193183 Oscar De La Hoya Animo Charter High                       -> Oscar De La Hoya Animo Charter High      [county_unique]
+    193204 Quartz Hill High School                                   -> Quartz Hill High School                  [county_unique]
+    193205 San Gabriel High School                                   -> San Gabriel High School                  [county_active]
+    193245 Golden Valley High School                                 -> Golden Valley High School                [county_unique]
+    193247 West Ranch High                                           -> West Ranch High                          [county_unique]
+    193255 Frederick Douglass Academy High                           -> Frederick Douglass Academy High          [county_unique]
+    193258 Edgewood High                                             -> Edgewood High                            [county_unique]
+    193259 PUC Triumph Charter High                                  -> PUC Triumph Charter High                 [county_unique]
+    193260 Lakeview Charter High                                     -> Lakeview Charter High                    [county_unique]
+    193271 California Virtual Academy @ Los Angeles                  -> California Virtual Academy @ Los Angeles [county_unique]
+    193291 Middle College High                                       -> Middle College High                      [county_active]
+    193436 Valley Academy of Arts and Sciences                       -> Valley Academy of Arts and Sciences      [county_unique]
+    193449 Communication and Technology at Diego Ri                  -> Communication and Technology at Diego Ri [county_unique]
+    193456 Synergy Quantum Academy                                   -> Synergy Quantum Academy                  [county_unique]
+    193485 West Adams Preparatory High              Los Angeles      -> West Adams Preparatory High              [exact]
+    193488 Animo College Preparatory Academy                         -> Animo College Preparatory Academy        [county_unique]
+    193544 Francisco Bravo Medical Magnet High      Los Angeles      -> Francisco Bravo Medical Magnet High      [exact]
+    193566 South El Monte High                      South El Monte   -> South El Monte High                      [exact]
+    193582 Alliance Cindy and Bill Simon Technology                  -> Alliance Cindy and Bill Simon Technology [county_unique]
+    193585 USC Hybrid High                                           -> USC Hybrid High                          [county_unique]
+    193593 Cabrillo High                                             -> Cabrillo High                            [county_unique]
+    193596 Leadership in Entertainment and Media Ar                  -> Leadership in Entertainment and Media Ar [county_unique]
+    193613 Clark (Anderson W.) Magnet High                           -> Clark (Anderson W.) Magnet High          [county_unique]
+    193618 Academy of Science and Engineering                        -> Academy of Science and Engineering       [county_unique]
+    193632 Ivy Academia                                              -> Ivy Academia                             [county_unique]
+    193661 Academies of Education and Empowerment a                  -> Academies of Education and Empowerment a [county_unique]
+    193669 School of Arts and Enterprise,The                         -> School of Arts and Enterprise,The        [county_unique]
+    193684 Animo Pat Brown                                           -> Animo Pat Brown                          [county_unique]
+    193776 School for the Visual Arts and Humanitie                  -> School for the Visual Arts and Humanitie [county_unique]
+    193778 Humanities and Arts (HARTS) Academy of L                  -> Humanities and Arts (HARTS) Academy of L [county_unique]
+    193804 Academic Leadership Community                             -> Academic Leadership Community            [county_unique]
+    193809 Sherman Oaks Center Enriched Studies     Reseda           -> Sherman Oaks Center Enriched Studies     [exact]
+    193901 Diamond Ranch High                                        -> Diamond Ranch High                       [county_unique]
+    193946 Maywood Academy High                                      -> Maywood Academy High                     [county_unique]
+    193963 Da Vinci Design                                           -> Da Vinci Design                          [county_active]
+    193965 Sun Valley High                                           -> Sun Valley High                          [county_unique]
+    193968 New Open World Academy                                    -> New Open World Academy                   [county_unique]
+    193969 UCLA Community                                            -> UCLA Community                           [county_unique]
+    193971 Vaughn Next Century Learning Center                       -> Vaughn Next Century Learning Center      [county_unique]
+    193989 Alliance Renee and Meyer Luskin Academy                   -> Alliance Renee and Meyer Luskin Academy  [county_unique]
+    199036 Daniel Pearl Journalism & Communications                  -> Daniel Pearl Journalism & Communications [county_unique]
+    199075 Wallis Annenberg High School                              -> Wallis Annenberg High School             [county_unique]
+    199080 Central City Value                                        -> Central City Value                       [county_unique]
+    199129 Alliance Tennenbaum Family Technology Hi                  -> Alliance Tennenbaum Family Technology Hi [county_unique]
+    199133 Alliance Susan and Eric Smidt Technology                  -> Alliance Susan and Eric Smidt Technology [county_unique]
+    199145 Foshay Learning Center                                    -> Foshay Learning Center                   [county_unique]
+    199148 New Village Charter High                                  -> New Village Charter High                 [county_unique]
+    199157 Animo Ralph Bunche High                                   -> Animo Ralph Bunche High                  [county_unique]
+    199158 Animo Jackie Robinson High                                -> Animo Jackie Robinson High               [county_unique]
+    199162 Animo Watts Charter High                                  -> Animo Watts Charter High                 [county_unique]
+    199173 Albert Einstein Academy for Letters, Art                  -> Albert Einstein Academy for Letters, Art [county_unique]
+    199203 East Valley Senior High                                   -> East Valley Senior High                  [county_unique]
+    199204 Arleta High                                               -> Arleta High                              [county_unique]
+    199205 Panorama High                                             -> Panorama High                            [county_unique]
+    199210 Edward R. Roybal Learning Center                          -> Edward R. Roybal Learning Center         [county_unique]
+    199233 Math, Science, & Technology Magnet Acade                  -> Math, Science, & Technology Magnet Acade [county_unique]
+    199237 East Los Angeles Renaissance Academy at                   -> East Los Angeles Renaissance Academy at  [county_unique]
+    199243 Animo South Los Angeles Charter School                    -> Animo South Los Angeles Charter School   [county_unique]
+    199254 New Designs Charter                                       -> New Designs Charter                      [county_unique]
+    199272 Aspire Pacific Academy                                    -> Aspire Pacific Academy                   [county_unique]
+    199452 Rancho Dominguez Preparatory                              -> Rancho Dominguez Preparatory             [county_unique]
+    199455 Applied Technology Center                                 -> Applied Technology Center                [county_unique]
+    199537 Palmdale Aerospace Academy                                -> Palmdale Aerospace Academy               [county_unique]
+    199634 Fremont Academy of Engineering and Desig                  -> Fremont Academy of Engineering and Desig [county_unique]
+    199644 Hilda L Solis Learning Academy of Techno                  -> Hilda L Solis Learning Academy of Techno [county_unique]
+    199662 Academy of Medical Arts at Carson High                    -> Academy of Medical Arts at Carson High   [county_unique]
+    199683 Animo Venice Charter High School                          -> Animo Venice Charter High School         [county_unique]
+    199688 Elizabeth Street Learning Center         Cudahy           -> Elizabeth Learning Center                [city_fuzzy]
+    199700 Northridge Academy High School                            -> Northridge Academy High School           [county_unique]
+    199723 Santa Clarita Valley International                        -> Santa Clarita Valley International       [county_unique]
+    199774 Los Angeles High School for the Arts (LA                  -> Los Angeles High School for the Arts (LA [county_unique]
+    199775 Port of Los Angeles High                                  -> Port of Los Angeles High                 [county_unique]
+    199791 New Millennium Secondary                                  -> New Millennium Secondary                 [county_unique]
+    199800 Robert Fulton College Preparatory School                  -> Robert Fulton College Preparatory School [county_unique]
+    199872 Opportunities for Learning - Duarte                       -> Opportunities for Learning - Duarte      [county_unique]
+    199873 SOAR High School (Students on Academic R                  -> SOAR High School (Students on Academic R [county_unique]
+    199892 Larchmont Charter                                         -> Larchmont Charter                        [county_unique]
+    199901 Da Vinci Science                                          -> Da Vinci Science                         [county_active]
+    199945 South East High                                           -> South East High                          [county_unique]
+    199953 Marco Antonio Firebaugh High                              -> Marco Antonio Firebaugh High             [county_unique]
+    199994 Los Angeles International                                 -> Los Angeles International                [county_unique]
+    199996 Magnolia Science Academy                                  -> Magnolia Science Academy                 [county_unique]
+    303180 Monte Vista High                         Costa Mesa       -> Monte Vista High                         [exact]
+    304999 Oxford Academy                                            -> Oxford Academy                           [county_unique]
+    333015 Canyon Springs High                      Sunnymead        -> Canyon Springs High                      [county_unique]
+    333025 Desert Mirage High                                        -> Desert Mirage High                       [county_unique]
+    333042 Vista Murrieta High                                       -> Vista Murrieta High                      [county_unique]
+    333573 Great Oak High                                            -> Great Oak High                           [county_unique]
+    333700 Temecula Valley High                     Temecula         -> Temecula Valley High                     [exact]
+    339075 John F. Kennedy High                                      -> John F. Kennedy High                     [county_unique]
+    343530 Rio Vista High                                            -> Rio Vista High                           [county_unique]
+    343606 Leroy Greene Academy                                      -> Leroy Greene Academy                     [county_unique]
+    363283 Wilmer Amina Carter High School                           -> Wilmer Amina Carter High School          [county_unique]
+    363819 Summit High                                               -> Summit High                              [county_unique]
+    383492 School Of The Arts                       San Francisco    -> Asawa SF School of the Arts              [city_tokens]
+    383730 City Arts and Tech High                                   -> City Arts and Tech High                  [county_unique]
+    384014 Independence High School                 San Francisco    -> Independence High School                 [exact]
+    389181 San Francisco Flex Academy                                -> San Francisco Flex Academy               [county_unique]
+    389987 S.F. International High                                   -> S.F. International High                  [county_unique]
+    389995 Academy of Arts and Sciences                              -> Academy of Arts and Sciences             [county_unique]
+    433347 Leigh High                                                -> Leigh High                               [county_unique]
+    453601 University Preparatory                                    -> University Preparatory                   [county_unique]
+    563326 Moorpark High                                             -> Moorpark High                            [county_unique]
+  9 CDS codes receive two CSU labels (kept: the panel is aggregated by CDS, first non-null value wins):
+    19642461937051 <- 193204 Quartz Hill High School | 193705 Quartz Hill High
+    19647331995448 <- 193544 Francisco Bravo Medical Magnet High | 199544 Bravo (Francisco) Medical Magnet
+    19650601938356 <- 193128 South High | 193835 South High
+    30664313030616 <- 303061 Oxford High | 304999 Oxford Academy
+    33671243330396 <- 333039 Canyon Springs High | 333015 Canyon Springs High
+    34674134835302 <- 343530 Rio Vista High | 483530 Rio Vista High
+    38684783830197 <- 383019 Independence High (Alter.) | 384014 Independence High School
+    38684783830387 <- 383038 School of the Arts | 383492 School Of The Arts
+    56739405633250 <- 563325 Moorpark Memorial High | 563326 Moorpark High
+csu_asd_ftf          1995-2017  cells=  5764  per year 1995:677 1996:632 1997:747 1998:758 1999:584 2000:645 2001:195 2005:837 2006:41 2007:44 2009:44 2013:19 2015:248 2016:260 2017:33  [dropped thin years 2008:1]
+gpa_csu_asd          1995-2000  cells=  1829  per year 1995:581 1996:565 1997:627 1999:27 2000:29  [dropped thin years 1998:14, 2001:6, 2005:14, 2013:1]
+sat_csu_asd          1995-2000  cells=  1829  per year 1995:581 1996:565 1997:627 1999:27 2000:29  [dropped thin years 1998:14, 2001:6, 2005:14, 2013:1]
+csu_math_ready_asd   1995-2017  cells=  5159  per year 1995:564 1996:551 1997:672 1998:675 1999:520 2000:590 2001:173 2005:785 2006:37 2007:40 2009:41 2015:236 2016:244 2017:31  [dropped thin years 2013:14]
+csu_wc_ready_asd     1995-2017  cells=  5145  per year 1995:556 1996:547 1997:672 1998:675 1999:519 2000:589 2001:173 2005:785 2006:37 2007:40 2009:41 2015:236 2016:244 2017:31  [dropped thin years 2013:14]
+csu_ret1_asd         1995-2000  cells=  1775  per year 1995:554 1996:549 1997:610 1999:32 2000:30  [dropped thin years 1998:10, 2001:4]
+gpa_csu1_asd         1995-2000  cells=  1775  per year 1995:554 1996:549 1997:610 1999:32 2000:30  [dropped thin years 1998:10, 2001:4]
+National Merit lists: programs [np.int64(2016), np.int64(2018), np.int64(2020), np.int64(2022)]; 2016: 2099 semifinalists at 383 schools, 2018: 2240 semifinalists at 407 schools, 2020: 2263 semifinalists at 408 schools, 2022: 2106 semifinalists at 363 schools
+--- National Merit: school matching (schools / semifinalists, all four lists) ---
+  ambiguous                 50    279
+  city_fuzzy                12     94
+  city_tokens               21     77
+  county_unique              6     44
+  exact                    389   6494
+  exact_active               3     28
+  no_candidates              3     73
+  no_city                    5     17
+  override                   1      1
+  private_hint             119    615
+  school_only_no_exact      61    986
+  matched 432 of 670 school labels; 6738 of 8708 semifinalists (77.4%) - the rest are at private schools or home-schooled
+  every non-exact match, for review:
+    ADRIAN C. WILCOX H. S.                     SANTA CLARA          -> Wilcox (Adrian) High                     [city_fuzzy]
+    AGOURA H. S.                               AGOURA HILLS         -> Agoura High                              [county_unique]
+    ARROYO GRANDE H. S.                        ARROYO GRANDE        -> Arroyo Grande High (San Luis Obispo) [2] [exact_active]
+    BUENA VISTA VIRTUAL ACADEMY                YORBA LINDA          -> La Entrada High                          [county_unique]
+    C. K. MC CLATCHY H. S.                     SACRAMENTO           -> McClatchy (C. K.) High                   [city_fuzzy]
+    CIRCLE OF INDEPENDENT LEARNING CHARTER SCH FREMONT              -> Circle of Independent Learnin            [city_fuzzy]
+    CLAYTON VALLEY H. S.                       CONCORD              -> Clayton Valley Charter High              [city_tokens]
+    CLEVELAND H. S.                            RESEDA               -> Grover Cleveland High                    [city_tokens]
+    COAST H. S.                                HUNTINGTON BEACH     -> Coast High                               [county_unique]
+    DA VINCI SCIENCE H. S.                     EL SEGUNDO           -> Da Vinci Science (Los Angeles) [2]       [city_tokens]
+    DR. T. J. OWENS GILROY EARLY COLLEGE ACADE GILROY               -> Dr. T. J. Owens Gilroy Early             [city_fuzzy]
+    FLOYD B. BUCHANAN H. S.                    CLOVIS               -> Buchanan High                            [city_tokens]
+    GRETCHEN WHITNEY H. S.                     CERRITOS             -> Whitney (Gretchen) High                  [city_tokens]
+    GROSSMONT H. S.                            EL CAJON             -> Grossmont High                           [county_unique]
+    HELIX CHARTER H. S.                        LA MESA              -> Helix High                               [city_tokens]
+    INTERNATIONAL H. S.                        SAN FRANCISCO        -> S.F. International High                  [city_fuzzy]
+    JOHN BURROUGHS H. S.                       BURBANK              -> Burroughs High (Los Angeles)             [city_tokens]
+    JOHN FRANCIS POLYTECHNIC HIGH              SUN VALLEY           -> John H. Francis Polytechnic              [city_fuzzy]
+    JUNIPERO SERRA H. S.                       SAN DIEGO            -> Serra High                               [city_tokens]
+    LONG BEACH POLYTECHNIC H. S.               LONG BEACH           -> Polytechnic High (Los Angeles)           [city_tokens]
+    LOS ANGELES COUNTY H. S. FOR THE ARTS      LOS ANGELES          -> L.A. Co. High School/Arts                [city_tokens]
+    MARTIN LUTHER KING H. S.                   RIVERSIDE            -> Martin Luther King Jr. High              [city_fuzzy]
+    ORANGE COUNTY SCHOOL OF THE ARTS           SANTA ANA            -> Orange County High School of the Arts    [city_fuzzy]
+    ORCUTT ACADEMY H. S.                       ORCUTT               -> Orcutt Academy Charter                   [city_tokens]
+    PACIFIC COLLEGIATE SCHOOL                  SANTA CRUZ           -> Pacific Collegiate Charter               [city_tokens]
+    PALOS VERDES H. S.                         PALOS VERDES ESTATES -> Palos Verdes High (Los Angeles) [2]      [exact_active]
+    PATRICK HENRY H. S.                        SAN DIEGO            -> Henry High                               [city_tokens]
+    RIVERSIDE POLYTECHNIC H. S.                RIVERSIDE            -> Polytechnic High (Riverside)             [city_tokens]
+    ROBERT A. MILLIKAN H. S.                   LONG BEACH           -> Millikan High                            [city_tokens]
+    RUTH ASAWA SCHOOL OF THE ARTS              SAN FRANCISCO        -> Asawa SF School of the Arts              [city_tokens]
+    SAN DIEGO MET H. S.                        SAN DIEGO            -> San Diego Metro Career and Te            [override]
+    SAN DIEGUITO ACADEMY                       ENCINITAS            -> San Dieguito High Academy                [city_fuzzy]
+    SANTA YNEZ VALLEY UNION H. S.              SANTA YNEZ           -> Santa Ynez Valley Union High             [county_unique]
+    SATO ACADEMY OF MATH AND SCIENCE           LONG BEACH           -> Eunice Sato Academy of Math & Science    [city_fuzzy]
+    SUMMIT SCHOOL DENALI                       SUNNYVALE            -> Summit Public School: Denali             [city_tokens]
+    SUMMIT SHASTA                              DALY CITY            -> Summit Public School: Shasta             [city_tokens]
+    TESORO H. S.                               RANCHO SANTA MARGARI -> Tesoro                                   [county_unique]
+    THE PREUSS SCHOOL U. C. S. D.              LA JOLLA             -> Preuss School UCSD                       [city_fuzzy]
+    UNIVERSITY H. S.                           FRESNO               -> University High (Fresno) [1]             [exact_active]
+    UNIVERSITY PREPARATORY ACADEMY             SAN JOSE             -> University Preparatory Academ            [city_fuzzy]
+    WEST CAMPUS H. S.                          SACRAMENTO           -> West Campus                              [city_tokens]
+    WILLIAM HOWARD TAFT H. S.                  WOODLAND HILLS       -> William Howard Taft Senior Hi            [city_tokens]
+    WOODROW WILSON H. S.                       LONG BEACH           -> Wilson High                              [city_tokens]
+  unmatched labels with 5+ semifinalists (expected: private schools):
+    THE HARKER SCHOOL                          SAN JOSE             n=162  school_only_no_exact
+    HARVARD - WESTLAKE SCHOOL                  STUDIO CITY          n=116  school_only_no_exact
+    ST. FRANCIS H. S.                          MOUNTAIN VIEW        n= 85  private_hint
+    ARCHBISHOP MITTY H. S.                     SAN JOSE             n= 73  private_hint
+    BASIS INDEPENDENT SILICON VALLEY           SAN JOSE             n= 70  no_candidates
+    BELLARMINE COLLEGE PREPARATORY             SAN JOSE             n= 66  ambiguous(0.81 Latino College Preparatory Ac | KIP
+    COLLEGE PREPARATORY SCHOOL                 OAKLAND              n= 64  school_only_no_exact
+    MENLO SCHOOL                               ATHERTON             n= 61  school_only_no_exact
+    THE BISHOP'S SCHOOL                        LA JOLLA             n= 60  private_hint
+    VALLEY CHRISTIAN H. S.                     SAN JOSE             n= 53  private_hint
+    HARKER SCHOOL                              SAN JOSE             n= 51  school_only_no_exact
+    THE NUEVA SCHOOL                           SAN MATEO            n= 43  school_only_no_exact
+    CRYSTAL SPRINGS UPLANDS SCHOOL             HILLSBOROUGH         n= 32  school_only_no_exact
+    SAGE HILL SCHOOL                           NEWPORT BEACH        n= 29  school_only_no_exact
+    FRANCIS W. PARKER SCHOOL                   SAN DIEGO            n= 29  school_only_no_exact
+    FLINTRIDGE PREPARATORY SCHOOL              LA CANADA FLINTRIDGE n= 28  school_only_no_exact
+    SAN FRANCISCO UNIVERSITY H. S.             SAN FRANCISCO        n= 27  ambiguous(0.58 San Francisco Flex Academy | KIPP S
+    HEAD - ROYCE SCHOOL                        OAKLAND              n= 27  school_only_no_exact
+    POLYTECHNIC SCHOOL                         PASADENA             n= 25  school_only_no_exact
+    CHADWICK SCHOOL                            PALOS VERDES PENINSU n= 22  school_only_no_exact
+    SANTA MARGARITA CATHOLIC H. S.             RANCHO SANTA MARGARI n= 21  private_hint
+    THE THACHER SCHOOL                         OJAI                 n= 21  school_only_no_exact
+    LOYOLA H. S.                               LOS ANGELES          n= 19  private_hint
+    ST. IGNATIUS COLLEGE PREPARATORY SCHOOL    SAN FRANCISCO        n= 19  private_hint
+    MARLBOROUGH SCHOOL                         LOS ANGELES          n= 19  school_only_no_exact
+    NOTRE DAME H. S.                           SAN JOSE             n= 18  private_hint
+    PRESENTATION H. S.                         SAN JOSE             n= 18  ambiguous(0.62 Pathfinder High | Pioneer High)
+    LICK - WILMERDING H. S.                    SAN FRANCISCO        n= 18  ambiguous(0.62 Lincoln (Abraham) High | Mark Twain
+    THE KING'S ACADEMY                         SUNNYVALE            n= 17  ambiguous(0.29 Summit Public School: Denali | Frem
+    PACIFIC RIDGE SCHOOL                       CARLSBAD             n= 16  school_only_no_exact
+    LA JOLLA COUNTRY DAY SCHOOL                LA JOLLA             n= 16  private_hint
+    CASTILLEJA SCHOOL                          PALO ALTO            n= 16  school_only_no_exact
+    BRENTWOOD SCHOOL                           LOS ANGELES          n= 15  school_only_no_exact
+    QUARRY LANE SCHOOL                         DUBLIN               n= 14  school_only_no_exact
+    SACRED HEART PREPARATORY SCHOOL            ATHERTON             n= 13  private_hint
+    FAIRMONT PREPARATORY ACADEMY               ANAHEIM              n= 12  ambiguous(0.51 Epic California Academy | Loara Hig
+    FLINTRIDGE PREPARATORY SCHOOL              LA CANADA            n= 12  school_only_no_exact
+    JUNIPERO SERRA H. S.                       SAN MATEO            n= 11  ambiguous(0.48 San Mateo High | Aragon High)
+    HOMESCHOOL                                 SAN JOSE             n= 11  private_hint
+    WINDWARD SCHOOL                            LOS ANGELES          n= 10  school_only_no_exact
+    STEVENSON SCHOOL                           PEBBLE BEACH         n= 10  school_only_no_exact
+    VIVIAN WEBB SCHOOL                         CLAREMONT            n= 10  school_only_no_exact
+    WESTRIDGE SCHOOL                           PASADENA             n= 10  school_only_no_exact
+    VIEWPOINT SCHOOL                           CALABASAS            n= 10  school_only_no_exact
+    OAK PARK H. S.                             SAN BERNARDINO       n= 10  ambiguous(0.56 San Bernardino High | Indian Spring
+    BRANSON SCHOOL                             ROSS                 n=  9  school_only_no_exact
+    PINEWOOD SCHOOL                            LOS ALTOS HILLS      n=  9  school_only_no_exact
+    CATHEDRAL CATHOLIC H. S.                   SAN DIEGO            n=  9  private_hint
+    PROOF SCHOOL                               SAN FRANCISCO        n=  8  school_only_no_exact
+    SIERRA CANYON SCHOOL                       CHATSWORTH           n=  7  school_only_no_exact
+    CHAMINADE COLLEGE PREPARATORY SCHOOL       WEST HILLS           n=  7  school_only_no_exact
+    CATE SCHOOL                                CARPINTERIA          n=  7  school_only_no_exact
+    WOODSIDE PRIORY SCHOOL                     PORTOLA VALLEY       n=  7  private_hint
+    ST. MARGARET'S EPISCOPAL SCHOOL            SAN JUAN CAPISTRANO  n=  7  private_hint
+    OAKS CHRISTIAN H. S.                       WESTLAKE VILLAGE     n=  7  private_hint
+    LOMA LINDA ACADEMY                         LOMA LINDA           n=  7  no_city
+    YORK SCHOOL                                MONTEREY             n=  7  school_only_no_exact
+    SAGE HILL SCHOOL                           NEWPORT COAST        n=  7  school_only_no_exact
+    VISTAMAR SCHOOL                            EL SEGUNDO           n=  6  school_only_no_exact
+    JESUIT H. S.                               CARMICHAEL           n=  6  private_hint
+    MARANATHA H. S.                            PASADENA             n=  6  ambiguous(0.67 Pasadena High | Blair High)
+    OAKWOOD SCHOOL                             MORGAN HILL          n=  6  school_only_no_exact
+    URBAN SCHOOL                               SAN FRANCISCO        n=  6  school_only_no_exact
+    ST. AUGUSTINE H. S.                        SAN DIEGO            n=  6  private_hint
+    STEVENSON H. S.                            PEBBLE BEACH         n=  6  no_city
+    SACRAMENTO COUNTRY DAY SCHOOL              SACRAMENTO           n=  6  private_hint
+    MARIN ACADEMY                              SAN RAFAEL           n=  6  ambiguous(0.64 Phoenix Academy | Marin's Community
+    CREAN LUTHERAN H. S.                       IRVINE               n=  5  private_hint
+    DE LA SALLE H. S.                          CONCORD              n=  5  private_hint
+    MAYFIELD SCHOOL                            PASADENA             n=  5  school_only_no_exact
+    MILKEN COMMUNITY SCHOOL                    LOS ANGELES          n=  5  ambiguous(0.73 UCLA Community | Garfield (James A.
+    GEFFEN ACADEMY AT UCLA                     LOS ANGELES          n=  5  ambiguous(0.59 California Academy for Libera | Ear
+    J SERRA CATHOLIC H. S.                     SAN JUAN CAPISTRANO  n=  5  private_hint
+    SHALHEVET H. S.                            LOS ANGELES          n=  5  ambiguous(0.61 STEM High | Los Angeles Senior High
+    SACRED HEART CATHEDRAL PREPARATORY         SAN FRANCISCO        n=  5  private_hint
+    THE ARCHER SCHOOL FOR GIRLS                LOS ANGELES          n=  5  ambiguous(0.43 New Village Girls Academy | Girls A
+    WEBB SCHOOL OF CALIFORNIA                  CLAREMONT            n=  5  ambiguous(0.32 San Antonio High (Continuation) | C
+nmsf                 2016-2022  cells=  8508  per year 2016:2104 2018:2109 2020:2151 2022:2144
+nmsf_rate            2016-2022  cells=  7874  per year 2016:1940 2018:1959 2020:1994 2022:1981
+  2016: 2104 schools in the panel, 258 with 1+ semifinalists, 1638 semifinalists placed; top: Mission San Jose High 84, Monta Vista High 57, Troy High 54, Lynbrook High 48
+  2018: 2109 schools in the panel, 287 with 1+ semifinalists, 1790 semifinalists placed; top: Mission San Jose High 91, Lynbrook High 63, Monta Vista High 53, Canyon Crest Academy 52
+  2020: 2151 schools in the panel, 280 with 1+ semifinalists, 1728 semifinalists placed; top: Mission San Jose High 66, Dougherty Valley High 66, Canyon Crest Academy 58, Saratoga High 51
+  2022: 2144 schools in the panel, 242 with 1+ semifinalists, 1582 semifinalists placed; top: Mission San Jose High 71, Lynbrook High 69, Monta Vista High 56, Dougherty Valley High 51
+--- checks ---
+  Berkeley High: csu_asd_ftf(1995)=27; gpa_csu_asd(1995)=2.84; sat_csu_asd(1995)=1081; csu_math_ready_asd(1995)=50; csu_wc_ready_asd(1995)=71; csu_ret1_asd(1995)=63; gpa_csu1_asd(1995)=2.7; nmsf(2016)=10; nmsf(2018)=4; nmsf(2020)=15; nmsf(2022)=7
+  Compton High: csu_asd_ftf(1995)=18; gpa_csu_asd(1995)=3.03; sat_csu_asd(1995)=827; csu_math_ready_asd(1995)=12; csu_wc_ready_asd(1995)=31; csu_ret1_asd(1995)=78; gpa_csu1_asd(1995)=2.43; nmsf(2016)=0; nmsf(2018)=0; nmsf(2020)=0; nmsf(2022)=0
+  Lowell High: csu_asd_ftf(1995)=94; gpa_csu_asd(1995)=2.95; sat_csu_asd(1995)=1090; csu_math_ready_asd(1995)=84; csu_wc_ready_asd(1995)=71; csu_ret1_asd(1996)=82; gpa_csu1_asd(1996)=2.93; nmsf(2016)=5; nmsf(2018)=11; nmsf(2020)=13; nmsf(2022)=4
+  Mission High (San Francisco): csu_asd_ftf(1995)=48; gpa_csu_asd(1995)=3.26; sat_csu_asd(1995)=822; csu_math_ready_asd(1997)=17; csu_wc_ready_asd(1995)=9; csu_ret1_asd(1995)=88; gpa_csu1_asd(1995)=2.87; nmsf(2016)=0; nmsf(2018)=0; nmsf(2020)=0; nmsf(2022)=0
+  Mission San Jose High: csu_asd_ftf(1995)=53; gpa_csu_asd(1995)=3.19; sat_csu_asd(1995)=1078; csu_math_ready_asd(1995)=75; csu_wc_ready_asd(1995)=73; csu_ret1_asd(1995)=87; gpa_csu1_asd(1995)=2.69; nmsf(2016)=84; nmsf(2018)=91; nmsf(2020)=66; nmsf(2022)=71
+  sat_csu_asd 1995: median 994 (CA CSU-freshman mean that year was about 985)
+  sat_csu_asd 1996: median 988 (CA CSU-freshman mean that year was about 985)
+  sat_csu_asd 1997: median 997 (CA CSU-freshman mean that year was about 985)
