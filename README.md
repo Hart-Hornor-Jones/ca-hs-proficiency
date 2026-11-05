@@ -1,7 +1,7 @@
 # California high schools: measures of academic proficiency, 1994-2025
 
-A school-level panel of **4,424 California public high schools** across **54 measures
-and 32 years** (52 measures observed by year, plus two fixed school attributes), assembled
+A school-level panel of **4,424 California public high schools** across **60 measures
+and 32 years** (58 measures observed by year, plus two fixed school attributes), assembled
 entirely from public records, plus an interactive visualizer.
 
 **The visualizer** (`index.html`) is a self-contained page - open it in any browser, no
@@ -17,11 +17,11 @@ spreadsheet.
 
 | file | what it is |
 |---|---|
-| `index.html` | the interactive visualizer (all data embedded; works offline). Its embedded copy of the panel was rounded by a different routine than the CSVs, so about 3,300 of its 850,000 values (0.4%) sit one unit higher or lower in the last decimal; the CSVs are the reference |
-| `data/panel_long.csv` | tidy long form - one row per school x year x measure (850,422 rows): `cds14, year, measure, value`. Carries the 52 by-year measures; a missing value is an absent row, never a blank |
-| `data/panel_wide.csv` | one row per school x year (71,866 rows): `cds14, school_name, county, year`, then one column per by-year measure (52 columns, 56 in all) |
+| `index.html` | the interactive visualizer (all data embedded; works offline). Its embedded copy of the panel was rounded by a different routine than the CSVs, so about 3,300 of its 963,000 values (0.3%) sit one unit higher or lower in the last decimal; the CSVs are the reference |
+| `data/panel_long.csv` | tidy long form - one row per school x year x measure (962,831 rows): `cds14, year, measure, value`. Carries the 58 by-year measures; a missing value is an absent row, never a blank |
+| `data/panel_wide.csv` | one row per school x year (71,869 rows): `cds14, school_name, county, year`, then one column per by-year measure (58 columns, 62 in all) |
 | `data/schools.csv` | school directory (4,424 rows): `cds14, school_name, county, students_per_grade, charter`. `charter` is 1 or 0, blank where the directory has no entry (1,467 schools); `students_per_grade` is blank for 730 schools; `county` is blank for 279; a school with no name on file is shown as `School <cds14>` (280 schools). This is also where the two fixed measures `ctx_charter` and `ctx_size` live |
-| `data/measures.csv` | the measure dictionary (54 rows): `measure, label, group, unit, decimals, first_year, last_year, n_values, description, source` - **read this first**. `first_year` and `last_year` are blank for the two fixed attributes, so they read as floats (1994.0) unless cast |
+| `data/measures.csv` | the measure dictionary (60 rows): `measure, label, group, unit, decimals, first_year, last_year, n_values, description, source` - **read this first**. `first_year` and `last_year` are blank for the two fixed attributes, so they read as floats (1994.0) unless cast |
 | `build/build_panel.py` | the script that built the original 28-measure panel (source files listed in its header) |
 | `build/extend_panel_uc_pools.py` | the script that added the nine UC applicant-pool measures (denied, non-enrolling, selective-campus pools, spread, applications per applicant) |
 | `build/splice_new_measures.py` | merges the nine new measures into the CSVs and the visualizer |
@@ -33,9 +33,13 @@ spreadsheet.
 | `build/splice_asd_nmsf_measures.py` | merges those nine measures into the CSVs and the visualizer (data, menus, footnote) |
 | `build/asd_nmsf_report.txt` | coverage, every non-exact school match, and the checks for those nine measures; `match_csu_asd.csv` and `match_nmsf.csv` list every school label and where it landed |
 | `build/extend_report.txt` | coverage and checks for the nine added measures |
+| `build/extend_panel_levels_gap_ucsd.py` | builds the six measures taken from three sibling repositories: the CAASPP mathematics Level 4 and Level 1 shares, the Level 4 share by economic status, the within-school met-or-above gap by economic status, and UCSD's admit rate minus the rate expected from applicant GPA |
+| `build/splice_levels_gap_ucsd_measures.py` | merges those six into the CSVs and the visualizer, and asserts that every measure already present is reproduced exactly |
+| `build/levels_gap_ucsd_report.txt` | coverage by year and the checks for those six measures |
 | `build/panel_report.txt` | per-measure coverage and the cross-checks run at build time |
 | `tests/check_data.py` | integrity checks (standard library + pandas): long and wide forms agree, the dictionary lists exactly the measures present, the page's embedded data equals the CSVs, no duplicate keys, values within range, derived measures reproduce |
 | `tests/render_check.py` | opens `index.html` in headless Chromium (Playwright) and exercises every control; fails on any console error, page error or failed request |
+| `tests/check_measures_unchanged.py` | compares the working copy with a git baseline (`origin/main` by default) and fails if any measure already in the baseline changed in the dictionary, the CSVs, the page's data blob or its menus - only the declared new measures may differ |
 | `.github/workflows/checks.yml` | runs both on every push and pull request |
 | `LICENSE` | MIT, with the data provenance note |
 
@@ -70,7 +74,10 @@ numeric parsing destroys it.
 Four groups (the `group` column of `data/measures.csv`, which spells every measure out):
 
 **High-school measures.** Census tests taken by (nearly) every student - CAASPP (2015-25,
-not given in 2020), its predecessors STAR/CST (2003-13) and CAHSEE (2002-15); course-taking
+not given in 2020; met-or-above, Level 4 and distance-from-standard readings, plus the
+mathematics Level 4 and Level 1 shares, the mathematics Level 4 share for socioeconomically
+disadvantaged and for not-disadvantaged students, and the within-school met-or-above gap
+between those two groups), its predecessors STAR/CST (2003-13) and CAHSEE (2002-15); course-taking
 - A-G completion (2017-25); self-selected college-entrance tests - AP (1999-2020), SAT
 (1999-2016 in two non-comparable scale eras, benchmarks 2017-18), ACT (average composite
 1999-2013, share scoring 21+ 1999-2020); and average high-school GPAs of the school's UC
@@ -88,7 +95,9 @@ campuses each applicant applied to (`uc_apps_per_applicant`, 1994-2025) and the 
 the school's graduates entering CSU in CSU's archived reports (`csu_asd_ftf`). The first
 is the sum of the nine campus applicant counts divided by the systemwide unduplicated
 count; in 98 school-years the campus counts fall short of the systemwide count and the
-value sits between 0.5 and 1 (the build keeps ratios from 0.5 up).
+value sits between 0.5 and 1 (the build keeps ratios from 0.5 up). A third measure is an
+admissions reading rather than a count: `ucsd_adv`, UC San Diego's admit rate for the
+school's applicants minus the rate expected from their mean GPA (1994-2025; see below).
 
 **School context.** What kind of school it is rather than how it did: the state's
 unduplicated pupil percentage (student need) and UC's LCFF+ designation (both 2017-25), the
@@ -120,6 +129,37 @@ for 2005-07 and 2009 (the count also for 2013), and again for about 240 schools 
 and about 30 in 2017, with a few dozen schools in 2006-09. Schools are joined by
 CSU's school code (the first six digits of the CDS school code) with a name check, and by
 name and city where the code is not CDS-derived; see `build/asd_nmsf_report.txt`.
+
+**CAASPP mathematics by achievement level and by economic status, 2015-25.** Five
+measures taken from two sibling repositories that re-release the state's CAASPP research
+files: from `ca-sbac-math-levels` (`data/school_levels_grade11_math.csv`), the share of
+grade-11 students at Level 4 (`caaspp_math_l4`) and at Level 1 (`caaspp_math_l1`) in
+mathematics, and the Level 4 share among socioeconomically disadvantaged students
+(`caaspp_math_l4_sed`, the state's student group 31) and among students not so classified
+(`caaspp_math_l4_notsed`, group 111); from `caaspp-economic-status`
+(`data/schools_by_economic_status.csv`), the within-school gap in met-or-above mathematics,
+`caaspp_math_gap_sed` = the not-disadvantaged share minus the disadvantaged share, in
+percentage points. Values are as the state published them (whole numbers in 2015-16, one
+decimal afterwards, two in the gap's source) and a suppressed cell (fewer than 11 students)
+stays blank, so the gap exists only where both groups are large enough to be published -
+about 1,400 schools a year, fewer in 2021. The year is the spring test year, the same
+convention as the other CAASPP measures. The Level 4 share for all students covers about
+1,400 school-years (mostly 2024-25) that the older `caaspp_math` series does not, because
+its source file carries more rows; the two agree wherever both exist.
+
+**UCSD admit rate against expectation, 1994-2025.** `ucsd_adv`, from the
+`ucsd-local-preference` repository (`data/panel_long.csv`, its measure `ucsd_adv`, which its
+dictionary labels "UCSD admit rate minus predicted (from GPA)"): the share of the school's
+freshman applicants to UC San Diego who were admitted, minus the admit rate a binomial fit
+of admits on a cubic in mean applicant GPA - estimated each year on schools outside San
+Diego and Imperial counties - predicts for the school. Positive means UCSD admitted more of
+the school's applicants than their GPAs alone would predict; the measure was built to show
+the campus's local-preference eras. The repository keys schools by UC's CEEB code; its own
+`schools.csv` maps each to a CDS code, and in 13 school-years two CEEB codes share one CDS
+school, where the two values are averaged weighted by applicants. Its pooled eras are not
+year rows and are left out. The year is the fall of admission, the same class of seniors
+the UC GPA measures describe. Schools with UCSD applicants only: about 500 a year in the
+1990s, about 1,000 by the 2020s.
 
 **National Merit semifinalists** (`nmsf`, `nmsf_rate`), counted from NMSC's California
 press-release lists for the classes of 2016, 2018, 2020 and 2022 - the four lists on
@@ -178,6 +218,11 @@ Archive; National Merit semifinalist counts are from NMSC's press releases. Scho
 matched across the UC (CEEB) and state (CDS) identifier systems with a hand-verified
 crosswalk. School context comes from the state's CUPC need collection, the enrollment counts
 published alongside CAASPP, the CDE enrollment-by-race files, the CDE public school
-directory, and American Community Survey tract estimates. Each build script documents
+directory, and American Community Survey tract estimates. The CAASPP mathematics
+achievement-level shares and the gap by economic status are taken from the
+`Hart-Hornor-Jones/ca-sbac-math-levels` and `Hart-Hornor-Jones/caaspp-economic-status`
+repositories, which re-release the state's research files; the UCSD admit-rate measure from
+`Hart-Hornor-Jones/ucsd-local-preference`, whose panel is built on UC's admissions-by-school
+data. Each build script documents
 the exact input files and every aggregation
 rule; `build/panel_report.txt` records coverage and the cross-checks run at build time.

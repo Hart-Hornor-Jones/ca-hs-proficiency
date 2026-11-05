@@ -25,9 +25,12 @@ What is asserted (all against the files as committed; nothing is rewritten):
   ranges       percentages within 0-100, GPAs within 0-5, flags in {0, 1}, test scores
                within their published scales, counts non-negative
   identities   caaspp is the mean of its ELA and Math parts; the Level 4 share never
-               exceeds met-or-exceeded; nmsf_rate = 100 * nmsf / students per grade and is
-               hidden exactly when the school has under 20 students per grade;
-               ctx_lcff switches on at an unduplicated pupil percentage of 75
+               exceeds met-or-exceeded (for ELA+Math and for Math alone); the Math Level 4
+               and Level 1 shares add to at most 102 (the state's rounded levels sum to
+               99-102) and the two economic-status Level 4 shares bracket the all-students
+               share; nmsf_rate = 100 * nmsf / students per grade and is hidden exactly
+               when the school has under 20 students per grade; ctx_lcff switches on at an
+               unduplicated pupil percentage of 75
   page data    the PANEL blob embedded in index.html carries the same schools, sizes,
                measures, year ranges, decimals and cells as the CSVs, with values equal
                to within one unit of the last decimal (see KNOWN_ROUNDING_TIES below)
@@ -51,7 +54,7 @@ import pandas as pd
 # may differ by more than one unit. Lower the number if a rebuild removes them.
 KNOWN_ROUNDING_TIES = 3332
 
-PANEL_MEASURE_COUNT = 52            # measures carried by year in panel_long / panel_wide
+PANEL_MEASURE_COUNT = 58            # measures carried by year in panel_long / panel_wide
 FIXED_ATTRIBUTES = {                # dictionary measures stored once per school in schools.csv
     "ctx_charter": "charter",
     "ctx_size": "students_per_grade",
@@ -74,6 +77,7 @@ UNIT_RANGES = {
     "GPA (a-g)": (0, 5),
     "GPA": (0, 5),
     "GPA points (difference)": (-5, 5),
+    "percentage points (difference)": (-100, 100),
     "score, 1-5": (1, 5),
     "score, 1-36": (1, 36),
     "points, 400-1600": (400, 1600),
@@ -306,6 +310,20 @@ def main():
     over = l4[l4["caaspp_l4"] > l4["caaspp"] + 0.1 + 1e-9]
     c.check(over.empty, "identities: Level 4 share never exceeds met-or-exceeded by more than rounding (0.1)",
             over[["cds14", "year", "caaspp", "caaspp_l4"]].to_dict("records"))
+    ml4 = wide.dropna(subset=["caaspp_math", "caaspp_math_l4"])
+    over = ml4[ml4["caaspp_math_l4"] > ml4["caaspp_math"] + 0.1 + 1e-9]
+    c.check(over.empty, "identities: Math Level 4 share never exceeds Math met-or-exceeded by more than rounding (0.1)",
+            over[["cds14", "year", "caaspp_math", "caaspp_math_l4"]].to_dict("records")[:5])
+    l41 = wide.dropna(subset=["caaspp_math_l4", "caaspp_math_l1"])
+    c.check(bool(((l41["caaspp_math_l4"] + l41["caaspp_math_l1"]) <= 102 + 1e-9).all())
+            and (wide["caaspp_math_l4"].notna() == wide["caaspp_math_l1"].notna()).all(),
+            "identities: Math Level 4 + Level 1 shares never exceed 102 and are present for the same school-years")
+    br = wide.dropna(subset=["caaspp_math_l4", "caaspp_math_l4_sed", "caaspp_math_l4_notsed"])
+    lo = br[["caaspp_math_l4_sed", "caaspp_math_l4_notsed"]].min(axis=1) - 1 - 1e-9
+    hi = br[["caaspp_math_l4_sed", "caaspp_math_l4_notsed"]].max(axis=1) + 1 + 1e-9
+    c.check(bool(((br["caaspp_math_l4"] >= lo) & (br["caaspp_math_l4"] <= hi)).all()),
+            "identities: the all-students Math Level 4 share lies between the two economic-status shares (within 1 point of rounding)",
+            "%d of %d outside" % (int(((br["caaspp_math_l4"] < lo) | (br["caaspp_math_l4"] > hi)).sum()), len(br)))
     nm = wide.merge(schools[["cds14", "students_per_grade"]], on="cds14", how="left")
     has_rate = nm[nm["nmsf_rate"].notna()]
     no_rate = nm[nm["nmsf"].notna() & nm["nmsf_rate"].isna()]
