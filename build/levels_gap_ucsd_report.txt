@@ -1,0 +1,59 @@
+== ca-sbac-math-levels: data/school_levels_grade11_math.csv
+rows 399799, years [np.int64(2015), np.int64(2016), np.int64(2017), np.int64(2018), np.int64(2019), np.int64(2021), np.int64(2022), np.int64(2023), np.int64(2024), np.int64(2025)], groups in file 28
+all-students rows with blank levels: 2396 (suppressed; 0 of them have 11+ students with scores)
+caaspp_math_l4          20389 values, 2602 schools, years 2015,2016,2017,2018,2019,2021,2022,2023,2024,2025; 4 school(s) not in schools.csv dropped (5 values)
+caaspp_math_l1          20389 values, 2602 schools, years 2015,2016,2017,2018,2019,2021,2022,2023,2024,2025; 4 school(s) not in schools.csv dropped (5 values)
+caaspp_math_l4_sed      18683 values, 2437 schools, years 2015,2016,2017,2018,2019,2021,2022,2023,2024,2025; 3 school(s) not in schools.csv dropped (4 values)
+caaspp_math_l4_notsed   14792 values, 2096 schools, years 2015,2016,2017,2018,2019,2021,2022,2023,2024,2025; 1 school(s) not in schools.csv dropped (1 values)
+
+== caaspp-economic-status: data/schools_by_economic_status.csv
+math school-years 19632; with both groups published 13486 (the gap is blank when either is suppressed)
+caaspp_math_gap_sed     13485 values, 1927 schools, years 2015,2016,2017,2018,2019,2021,2022,2023,2024,2025; 1 school(s) not in schools.csv dropped (1 values)
+
+== ucsd-local-preference: data/panel_long.csv, measure ucsd_adv (CEEB -> CDS via data/schools.csv)
+149864 era/constant rows left out; 24689 school-years with ucsd_adv across 1319 CEEB codes; 0 lack a CDS code
+check: ucsd_adv = ucsd_admit - ucsd_exp within 0.1 (published rounding): max |diff| 0.10 on 24689 rows
+CEEB codes sharing one CDS school in the same year: 13 school-years (26 rows), pooled with ucsd_apps as the weight
+   19647330106435 2020: CEEB 053991 apps 14 adv -0.7; CEEB 054693 apps 8 adv +33.9
+   19647330119966 2013: CEEB 054381 apps 10 adv +16.1; CEEB 054382 apps 9 adv +5.5
+   30664643030574 1996: CEEB 050063 apps 43 adv -5.9; CEEB 051324 apps 21 adv -0.6
+   30664643030574 1998: CEEB 050063 apps 55 adv -8.4; CEEB 051324 apps 30 adv -4.0
+   30664643030574 1999: CEEB 050063 apps 41 adv -19.1; CEEB 051324 apps 52 adv +3.2
+   30664643030574 2001: CEEB 050063 apps 11 adv -6.7; CEEB 051324 apps 102 adv -6.2
+   37683380107219 2014: CEEB 052885 apps 9 adv +14.2; CEEB 053903 apps 11 adv +26.3
+   37683380107219 2016: CEEB 052885 apps 20 adv -5.5; CEEB 053903 apps 20 adv -6.6
+   37683380107219 2019: CEEB 052885 apps 9 adv +6.7; CEEB 053903 apps 33 adv -12.1
+   37683380107219 2020: CEEB 052885 apps 25 adv +1.4; CEEB 053903 apps 39 adv +4.2
+   49709040101923 2020: CEEB 054044 apps 10 adv +23.0; CEEB 054850 apps 6 adv +28.7
+   49709040101923 2023: CEEB 054044 apps 17 adv +8.6; CEEB 054850 apps 12 adv +29.2
+   49709040101923 2024: CEEB 054044 apps 14 adv +15.9; CEEB 054850 apps 9 adv +9.1
+ucsd_adv                24671 values, 1305 schools, years 1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025; 2 school(s) not in schools.csv dropped (5 values)
+
+== checks
+caaspp_math_l4 <= caaspp_math (+0.1 rounding) where both exist: 0 of 18996 violate
+caaspp_math_l4 school-years without an existing caaspp_math value: 1393 (the levels file carries more school-years than the panel's met-or-above source, mostly 2024-25); caaspp_math without a Level 4 value: 0
+r(caaspp_math_l4, caaspp_l4 [ELA+Math average]) = 0.949 on 18996 school-years
+caaspp_math_l4 + caaspp_math_l1 <= 102 (the four rounded levels add to 99-102): max 100.0, 0 over 102
+pooling the disadvantaged and not-disadvantaged Level 4 shares (weight students_with_scores) reproduces the all-students share: max |diff| 0.94 points, 253 of 13946 school-years over 0.6
+caaspp_math_gap_sed vs the same gap from the levels file (pct_met of groups 111 and 31): 13485 of 13485 school-years compared, max |diff| 2.00, 843 differ by more than 0.1 (the two files round the 2015-16 figures differently)
+caaspp_math_gap_sed: mean +11.5, median +10.6, 10th-90th pct -1.9 to +27.0 points; 1891 of 13485 school-years negative
+ucsd_adv: mean +1.7, median +0.2, min -41.2, max +78.6 points over 24671 school-years
+r(ucsd_adv, gpa_ucsel_adm) = -0.12 on 18130 school-years (expected near zero: the advantage is a residual from GPA)
+
+== coverage (values = school-years)
+measure                  values  schools years
+caaspp_math_l4            20389     2602 2015-2025 (10 years; none in 2020)
+caaspp_math_l1            20389     2602 2015-2025 (10 years; none in 2020)
+caaspp_math_l4_sed        18683     2437 2015-2025 (10 years; none in 2020)
+caaspp_math_l4_notsed     14792     2096 2015-2025 (10 years; none in 2020)
+caaspp_math_gap_sed       13485     1927 2015-2025 (10 years; none in 2020)
+ucsd_adv                  24671     1305 1994-2025 (32 years)
+
+per year:
+measure                 1994  1995  1996  1997  1998  1999  2000  2001  2002  2003  2004  2005  2006  2007  2008  2009  2010  2011  2012  2013  2014  2015  2016  2017  2018  2019  2020  2021  2022  2023  2024  2025
+caaspp_math_l4                                                                                                                                        2059  2100  2067  2092  2138        1275  2140  2185  2167  2166
+caaspp_math_l1                                                                                                                                        2059  2100  2067  2092  2138        1275  2140  2185  2167  2166
+caaspp_math_l4_sed                                                                                                                                    1836  1901  1882  1929  1976        1119  1955  2041  2028  2016
+caaspp_math_l4_notsed                                                                                                                                 1588  1525  1553  1523  1575         885  1589  1541  1519  1494
+caaspp_math_gap_sed                                                                                                                                   1374  1371  1402  1397  1427         783  1451  1448  1416  1416
+ucsd_adv                 502   518   514   532   549   576   613   643   693   699   678   683   710   723   738   731   732   802   760   818   843   823   939   937   856   885   944  1010  1045  1028  1067  1080

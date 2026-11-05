@@ -1,3 +1,4 @@
 build/data/
 build/__pycache__/
 build/new_asd_nmsf_values.json
+build/new_levels_gap_ucsd_values.json
